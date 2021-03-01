@@ -1,0 +1,24 @@
+button {
+  /* reset */
+  color: inherit;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  text-shadow: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+
+  /* style */
+  background-color: grey;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+button:disabled {
+  cursor: auto;
+}
