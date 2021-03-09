@@ -1,5 +1,6 @@
 import React, { Reducer, createContext, useReducer, Dispatch } from "react";
 import { ActionMap } from "./ActionMap";
+import { data } from "./content/js-basics";
 
 enum Action {
   NEXT_CHAPTER = "NEXT_CHAPTER",
@@ -25,29 +26,13 @@ type Chapter = {
 type State = {
   chapters: Chapter[];
   current: string;
+  done: string[];
 };
 
 const initialState: State = {
-  chapters: [
-    {
-      id: "intro",
-      title: "Intro",
-    },
-    {
-      id: "data-types",
-      title: "Data-Types",
-    },
-    {
-      id: "variables",
-      title: "Variables",
-    },
-    {
-      id: "functions",
-      title: "Functions",
-    },
-  ],
-
-  current: "intro",
+  ...data,
+  current: "functions",
+  done: ["intro", "comments", "variables", "types", "operators"],
 };
 
 const reducer: Reducer<State, Actions> = (state, action) => {

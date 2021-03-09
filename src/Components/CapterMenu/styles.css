@@ -1,0 +1,104 @@
+/* whole heigth */
+.capter-menu {
+  position: relative;
+  width: 100%;
+}
+/* the gradient right */
+.capter-menu:before,
+.capter-menu:after {
+  content: "";
+  width: 1.25em;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.capter-menu:before {
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(230, 230, 230, 1),
+    rgba(230, 230, 230, 0)
+  );
+}
+.capter-menu:after {
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(230, 230, 230, 0),
+    rgba(230, 230, 230, 1)
+  );
+}
+
+/* scroll-area */
+.capter-menu__list {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  width: 100%;
+  scrollbar-width: none; /* no-scrollbar: firefox */
+}
+.capter-menu__list::-webkit-scrollbar {
+  display: none; /* no-scrollbar: Safari and Chrome */
+}
+
+/* at the end of the list we add space*/
+.capter-menu__list:before,
+.capter-menu__list:after {
+  display: block;
+  content: "";
+  width: 1.25em;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 1.25em;
+}
+
+/* don't wrap within the items */
+.capter-menu__item {
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  color: #0054a2;
+}
+
+.capter-menu__item--active,
+.capter-menu__item:hover {
+  color: #222;
+  border-color: #0054a2;
+}
+
+/* space between the items */
+.capter-menu__item + .capter-menu__item {
+  margin-left: 1.25em;
+}
+
+.capter-menu__item-icon {
+  display: inline-block;
+
+  width: 0.9rem;
+  height: 0.9rem;
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+
+  transform: translateY(-0.1rem);
+}
+
+.capter-menu__item--done .capter-menu__item-icon {
+  background-color: green;
+  color: white;
+
+  border-radius: 50%;
+
+  /* background-color: rgb(248, 248, 248); */
+  /* color: rgb(230, 230, 230); */
+}
+
+.capter-menu__item--open .capter-menu__item-icon {
+  font-size: 0.4rem;
+  margin-right: 0rem;
+  transform: translateY(-0.2rem);
+}
+
+.capter-menu__item--done button {
+  /* text-decoration: line-through; */
+  opacity: 0.5;
+}

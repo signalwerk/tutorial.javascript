@@ -12,7 +12,7 @@ button {
   font-family: inherit;
 
   /* style */
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 button:focus {

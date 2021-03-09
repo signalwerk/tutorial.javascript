@@ -1,0 +1,40 @@
+.viewer {
+  height: 0;
+  overflow: hidden;
+  padding-top: calc(100% / 16 * 11);
+  background: white;
+  position: relative;
+  border: 1px solid rgb(230, 230, 230);;
+}
+
+.viewer__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.viewer__menu {
+  height: 4rem;
+  flex-basis: 4rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+
+  display: flex;
+  align-items: center;
+}
+
+.viewer__content {
+  max-width: 80%;
+  flex-basis: 80%;
+  flex-shrink: 1;
+  flex-grow: 1;
+}

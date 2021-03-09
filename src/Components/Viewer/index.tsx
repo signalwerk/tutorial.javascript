@@ -8,10 +8,16 @@ function Viewer() {
   const { state, dispatch } = useContext(SessionContext);
 
   return (
-    <div className="Viewer">
-      <CapterMenu />
-      <br />
-      current: {state.current}
+    <div className="viewer">
+      <div className="viewer__inner">
+        <div className="viewer__menu">
+          <CapterMenu />
+        </div>
+        <div className="viewer__content">
+          <br />
+          current: {state.current}
+        </div>
+      </div>
     </div>
   );
 }

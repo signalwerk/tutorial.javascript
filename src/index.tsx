@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import "./fontello/css/fontello.css";
 import App from "./App";
 import Viewer from "./Components/Viewer";
 import reportWebVitals from "./reportWebVitals";
@@ -12,7 +13,9 @@ import { Provider as SessionProvider } from "./context/session";
 ReactDOM.render(
   <React.StrictMode>
     <SessionProvider>
-      <Viewer />
+      <div className="container">
+        <Viewer />
+      </div>
     </SessionProvider>
   </React.StrictMode>,
   document.getElementById("root")

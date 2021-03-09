@@ -1,3 +1,10 @@
+/*
+
+check 
+https://github.com/daenub/IAD2019.news/blob/master/components/header/index.js
+
+*/
+
 import React, { useContext } from "react";
 import "./styles.css";
 import {
@@ -23,11 +30,27 @@ function CapterMenu() {
 
   return (
     <div className="capter-menu">
-      menu
       <div className="capter-menu__list">
         {state.chapters.map((item) => (
-          <div className="capter-menu__item" key={item.id}>
+          <div
+            className={`capter-menu__item ${
+              state.current === item.id
+                ? "capter-menu__item--active"
+                : "capter-menu__item--inactive"
+            } ${
+              state.done.includes(item.id) && state.current !== item.id
+                ? "capter-menu__item--done"
+                : "capter-menu__item--open"
+            }`}
+            key={item.id}
+          >
             <Button onClick={(e) => handleClick(e, item.id)}>
+              {(state.done.includes(item.id) && state.current !== item.id && (
+                <span className="capter-menu__item-icon icon-ok"></span>
+              )) ||
+                (state.current !== item.id && (
+                  <span className="capter-menu__item-icon icon-play"></span>
+                ))}
               {item.title}
             </Button>
           </div>
