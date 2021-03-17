@@ -6,12 +6,16 @@ enum Action {
   NEXT_CHAPTER = "NEXT_CHAPTER",
   LAST_CHAPTER = "LAST_CHAPTER",
   SET_CHAPTER = "SET_CHAPTER",
+  SET_STEP = "SET_STEP",
 }
 
 type ActionPayload = {
   [Action.NEXT_CHAPTER]: {};
   [Action.LAST_CHAPTER]: {};
   [Action.SET_CHAPTER]: {
+    id: string;
+  };
+  [Action.SET_STEP]: {
     id: string;
   };
 };
@@ -67,6 +71,14 @@ const reducer: Reducer<State, Actions> = (state, action) => {
         current: {
           ...state.current,
           chapter: action.payload.id,
+        },
+      };
+    case Action.SET_STEP:
+      return {
+        ...state,
+        current: {
+          ...state.current,
+          step: action.payload.id,
         },
       };
     default:

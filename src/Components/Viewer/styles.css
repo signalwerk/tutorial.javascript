@@ -1,4 +1,7 @@
 .viewer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   /* height: 0;
   overflow: hidden;
   padding-top: calc(100% / 16 * 11);
@@ -20,7 +23,7 @@
   flex-direction: row;
 } */
 
-.viewer__menu {
+.viewer__chapter-menu {
   height: 4rem;
   flex-basis: 4rem;
   flex-shrink: 0;
@@ -33,8 +36,30 @@
 }
 
 .viewer__content {
-  max-width: 80%;
-  flex-basis: 80%;
-  flex-shrink: 1;
+  width: 100%;
+  display: flex;
   flex-grow: 1;
+}
+
+.viewer__step-menu {
+  width: 30%;
+  background-color: red;
+}
+
+.viewer__step {
+  width: 70%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.viewer__teach {
+  width: 100%;
+  height: 40%;
+  background-color: blue;
+}
+.viewer__learn {
+  width: 100%;
+  height: 60%;
+  background-color: blueviolet;
 }

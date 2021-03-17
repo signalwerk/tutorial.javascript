@@ -1,4 +1,3 @@
-
 export const functions = {
   steps: [
     {
@@ -11,6 +10,20 @@ export const functions = {
       tasks: [
         {
           instruction: "Schreibe selber einen einzeiligen Kommentar (`//`)",
+          match: /(\/\/)../g,
+        },
+      ],
+    },
+    {
+      id: "functions.call",
+      title: "Call",
+      intro: {
+        editor: `editor`,
+        video: "",
+      },
+      tasks: [
+        {
+          instruction: "call",
           match: /(\/\/)../g,
         },
       ],
@@ -153,9 +166,6 @@ export const intro = {
 // var b;
 // b = a;
 // ```
-
-
-
 
 export const data = {
   chapters: [
