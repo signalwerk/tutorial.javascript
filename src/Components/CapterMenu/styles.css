@@ -71,33 +71,6 @@
   margin-left: 1.25em;
 }
 
-.capter-menu__item-icon {
-  display: inline-block;
-
-  width: 0.9rem;
-  height: 0.9rem;
-  font-size: 0.7rem;
-  margin-right: 0.3rem;
-
-  transform: translateY(-0.1rem);
-}
-
-.capter-menu__item--done .capter-menu__item-icon {
-  background-color: green;
-  color: white;
-
-  border-radius: 50%;
-
-  /* background-color: rgb(248, 248, 248); */
-  /* color: rgb(230, 230, 230); */
-}
-
-.capter-menu__item--open .capter-menu__item-icon {
-  font-size: 0.4rem;
-  margin-right: 0rem;
-  transform: translateY(-0.2rem);
-}
-
 .capter-menu__item--done button {
   /* text-decoration: line-through; */
   opacity: 0.5;

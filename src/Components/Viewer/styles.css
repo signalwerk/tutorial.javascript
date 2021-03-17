@@ -1,12 +1,12 @@
 .viewer {
-  height: 0;
+  /* height: 0;
   overflow: hidden;
   padding-top: calc(100% / 16 * 11);
   background: white;
   position: relative;
-  border: 1px solid rgb(230, 230, 230);;
+  border: 1px solid rgb(230, 230, 230); */
 }
-
+/* 
 .viewer__inner {
   position: absolute;
   top: 0;
@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
-}
+} */
 
 .viewer__menu {
   height: 4rem;

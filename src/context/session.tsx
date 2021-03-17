@@ -23,22 +23,52 @@ type Chapter = {
   title: string;
 };
 
+type Step = {
+  id: string;
+  title: string;
+  intro: Intro;
+  tasks: Task[];
+};
+
+type Intro = {
+  editor: string;
+  video: string;
+};
+type Task = {
+  instruction: string;
+  match: RegExp;
+};
+
+type Current = {
+  chapter: string;
+  step: string;
+};
+
 type State = {
   chapters: Chapter[];
-  current: string;
+  current: Current;
   done: string[];
 };
 
 const initialState: State = {
   ...data,
-  current: "functions",
+  current: {
+    chapter: "functions",
+    step: "functions.intro",
+  },
   done: ["intro", "comments", "variables", "types", "operators"],
 };
 
 const reducer: Reducer<State, Actions> = (state, action) => {
   switch (action.type) {
     case Action.SET_CHAPTER:
-      return { ...state, current: action.payload.id };
+      return {
+        ...state,
+        current: {
+          ...state.current,
+          chapter: action.payload.id,
+        },
+      };
     default:
       throw new Error(`Unhandled action type: ${action.type}`);
   }

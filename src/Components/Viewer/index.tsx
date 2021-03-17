@@ -15,7 +15,9 @@ function Viewer() {
         </div>
         <div className="viewer__content">
           <br />
-          current: {state.current}
+          current chapter: {state.current.chapter}
+          <br />
+          current step: {state.current.step}
         </div>
       </div>
     </div>

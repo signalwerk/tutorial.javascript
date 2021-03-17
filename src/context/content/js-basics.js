@@ -1,40 +1,19 @@
-export const data = {
-  chapters: [
+
+export const functions = {
+  steps: [
     {
-      id: "intro",
+      id: "functions.intro",
       title: "Intro",
-    },
-    {
-      id: "comments",
-      title: "Kommentare",
-    },
-    {
-      id: "variables",
-      title: "Variablen",
-    },
-    {
-      id: "types",
-      title: "Datentypen",
-    },
-    {
-      id: "operators",
-      title: "Operatoren",
-    },
-    {
-      id: "functions",
-      title: "Funktionen",
-    },
-    {
-      id: "itterations",
-      title: "Schleifen",
-    },
-    {
-      id: "conditions",
-      title: "if/else/case",
-    },
-    {
-      id: "obj-array",
-      title: "Datentypen Advanced",
+      intro: {
+        editor: `editor`,
+        video: "",
+      },
+      tasks: [
+        {
+          instruction: "Schreibe selber einen einzeiligen Kommentar (`//`)",
+          match: /(\/\/)../g,
+        },
+      ],
     },
   ],
 };
@@ -174,3 +153,48 @@ export const intro = {
 // var b;
 // b = a;
 // ```
+
+
+
+
+export const data = {
+  chapters: [
+    {
+      id: "intro",
+      title: "Intro",
+    },
+    {
+      id: "comments",
+      title: "Kommentare",
+    },
+    {
+      id: "variables",
+      title: "Variablen",
+    },
+    {
+      id: "types",
+      title: "Datentypen",
+    },
+    {
+      id: "operators",
+      title: "Operatoren",
+    },
+    {
+      id: "functions",
+      title: "Funktionen",
+      ...functions,
+    },
+    {
+      id: "itterations",
+      title: "Schleifen",
+    },
+    {
+      id: "conditions",
+      title: "if/else/case",
+    },
+    {
+      id: "obj-array",
+      title: "Datentypen Advanced",
+    },
+  ],
+};
