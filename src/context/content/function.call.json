@@ -1,0 +1,66 @@
+[
+  {
+    "time": 0,
+    "text": "Box();dasdf"
+  },
+  {
+    "time": 2982,
+    "text": "Box();\ndasdf"
+  },
+  {
+    "time": 3652,
+    "text": "Box();\nadasdf"
+  },
+  {
+    "time": 3668,
+    "text": "Box();\nasdasdf"
+  },
+  {
+    "time": 3752,
+    "text": "Box();\nasddasdf"
+  },
+  {
+    "time": 3796,
+    "text": "Box();\nasdfdasdf"
+  },
+  {
+    "time": 4387,
+    "text": "Box();\nasdf\ndasdf"
+  },
+  {
+    "time": 4523,
+    "text": "Box();\nasdf\nadasdf"
+  },
+  {
+    "time": 4562,
+    "text": "Box();\nasdf\nasdasdf"
+  },
+  {
+    "time": 4630,
+    "text": "Box();\nasdf\nasddasdf"
+  },
+  {
+    "time": 4654,
+    "text": "Box();\nasdf\nasdfdasdf"
+  },
+  {
+    "time": 5212,
+    "text": "Box();\nasdf\nasdf\ndasdf"
+  },
+  {
+    "time": 5433,
+    "text": "Box();\nasdf\nasdf\nadasdf"
+  },
+  {
+    "time": 5514,
+    "text": "Box();\nasdf\nasdf\nasdasdf"
+  },
+  {
+    "time": 5538,
+    "text": "Box();\nasdf\nasdf\nasddasdf"
+  },
+  {
+    "time": 5567,
+    "text": "Box();\nasdf\nasdf\nasdfdasdf"
+  }
+]

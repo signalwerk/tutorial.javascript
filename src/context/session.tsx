@@ -8,7 +8,13 @@ enum Action {
   SET_CHAPTER = "SET_CHAPTER",
   SET_STEP = "SET_STEP",
   SET_EDITOR_CONTENT = "SET_EDITOR_CONTENT",
+  SET_EDITOR_SELECTION = "SET_EDITOR_SELECTION",
 }
+
+export type Selection = {
+  start: number;
+  end: number;
+};
 
 type ActionPayload = {
   [Action.NEXT_CHAPTER]: {};
@@ -22,6 +28,9 @@ type ActionPayload = {
   [Action.SET_EDITOR_CONTENT]: {
     value: string;
   };
+  [Action.SET_EDITOR_SELECTION]: {
+    value: Selection;
+  };
 };
 
 export type Actions = ActionMap<ActionPayload>[keyof ActionMap<ActionPayload>];
@@ -29,7 +38,7 @@ export type Actions = ActionMap<ActionPayload>[keyof ActionMap<ActionPayload>];
 type Chapter = {
   id: string;
   title: string;
-  steps: Step[];
+  steps?: Step[];
 };
 
 type Step = {
@@ -54,6 +63,7 @@ type Done = {
 };
 
 type Editor = {
+  selection: Selection;
   content: string;
 };
 
@@ -75,6 +85,7 @@ const initialState: State = {
     chapter: "functions",
     step: "functions.call",
     editor: {
+      selection: { start: 0, end: 0 },
       content: "Box();",
     },
   },
@@ -102,6 +113,17 @@ const reducer: Reducer<State, Actions> = (state, action) => {
           editor: {
             ...state.current.editor,
             content: action.payload.value,
+          },
+        },
+      };
+    case Action.SET_EDITOR_SELECTION:
+      return {
+        ...state,
+        current: {
+          ...state.current,
+          editor: {
+            ...state.current.editor,
+            selection: action.payload.value,
           },
         },
       };

@@ -1,0 +1,14 @@
+.admin {
+  position: fixed;
+  bottom: 10rem;
+  left: 0;
+  background-color: gray;
+  padding: 0.5rem;
+  font-size: 0.7em;
+}
+
+.admin button {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}

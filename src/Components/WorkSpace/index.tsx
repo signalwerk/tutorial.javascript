@@ -9,11 +9,13 @@ type WorkSpaceProps = {
 };
 
 type Box = {
-  x?: Number;
-  y?: Number;
-  width?: Number;
-  height?: Number;
+  x?: number;
+  y?: number;
+  width?: number;
+  height?: number;
 };
+
+type Text = string;
 
 // const boxes: Box[] = [
 //   {
@@ -30,13 +32,13 @@ type Box = {
 //   },
 // ];
 
-let boxList = [];
-let textList = [];
+let boxList: Box[] = [];
+let textList: Text[] = [];
 let renderError = "";
 
 function WorkSpace({ children, preview }: WorkSpaceProps) {
-  const [boxes, setBoxes] = useState([]);
-  const [texts, setTexts] = useState([]);
+  const [boxes, setBoxes] = useState<Box[]>([]);
+  const [texts, setTexts] = useState<Text[]>([]);
   const [code, setCode] = useState(preview);
   const [error, setError] = useState("");
 
@@ -60,7 +62,7 @@ function WorkSpace({ children, preview }: WorkSpaceProps) {
     textList = [...textList, text];
   }
 
-  const render = (code) => {
+  const render = (code: string) => {
     function runCodeWithDateFunction(code: string) {
       // return Function('"use strict";return (' + code + ")")()(Box);
 

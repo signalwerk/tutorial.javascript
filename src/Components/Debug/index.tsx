@@ -14,6 +14,7 @@ function StepMenu() {
     chapter: state.current.chapter,
     step: state.current.step,
     editor: state.current.editor.content,
+    selection: `${state.current.editor.selection.start} – ${state.current.editor.selection.end}`,
   };
 
   return (
