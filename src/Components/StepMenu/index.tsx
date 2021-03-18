@@ -36,20 +36,17 @@ function StepMenu() {
                 ? "step-menu__item--active"
                 : "step-menu__item--inactive"
             } ${
-              state.done.includes(item.id) && state.current.step !== item.id
+              state.done.step.includes(item.id) &&
+              state.current.step !== item.id
                 ? "step-menu__item--done"
                 : "step-menu__item--open"
             }`}
             key={item.id}
           >
             <Button onClick={(e) => handleClick(e, item.id)}>
-              {(state.done.includes(item.id) &&
-                state.current.step !== item.id && (
-                  <StatusIcon icon={StatusIconIcon.ok} />
-                )) ||
-                (state.current.step !== item.id && (
-                  <StatusIcon icon={StatusIconIcon.play} />
-                ))}
+              {(state.done.step.includes(item.id) && (
+                <StatusIcon icon={StatusIconIcon.ok} />
+              )) || <StatusIcon icon={StatusIconIcon.play} />}
               {item.title}
             </Button>
           </div>

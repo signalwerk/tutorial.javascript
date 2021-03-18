@@ -1,0 +1,25 @@
+.player {
+  width: 100%;
+  height: 100%;
+
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.player__editor {
+  background-color: white;
+  color: var(--color-black);
+
+  /*  */
+  height: 100%;
+}
+
+.player__text {
+  /* background-color: white; */
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.player__code {
+  height: 100%;
+}

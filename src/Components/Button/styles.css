@@ -10,6 +10,9 @@ button {
   cursor: pointer;
   font-size: inherit;
   font-family: inherit;
+  font-weight: inherit;
+
+  text-align: left;
 
   /* style */
   /* background-color: grey; */

@@ -7,6 +7,7 @@ enum Action {
   LAST_CHAPTER = "LAST_CHAPTER",
   SET_CHAPTER = "SET_CHAPTER",
   SET_STEP = "SET_STEP",
+  SET_EDITOR_CONTENT = "SET_EDITOR_CONTENT",
 }
 
 type ActionPayload = {
@@ -18,6 +19,9 @@ type ActionPayload = {
   [Action.SET_STEP]: {
     id: string;
   };
+  [Action.SET_EDITOR_CONTENT]: {
+    value: string;
+  };
 };
 
 export type Actions = ActionMap<ActionPayload>[keyof ActionMap<ActionPayload>];
@@ -25,6 +29,7 @@ export type Actions = ActionMap<ActionPayload>[keyof ActionMap<ActionPayload>];
 type Chapter = {
   id: string;
   title: string;
+  steps: Step[];
 };
 
 type Step = {
@@ -43,24 +48,40 @@ type Task = {
   match: RegExp;
 };
 
+type Done = {
+  chapter: string[];
+  step: string[];
+};
+
+type Editor = {
+  content: string;
+};
+
 type Current = {
   chapter: string;
   step: string;
+  editor: Editor;
 };
 
 type State = {
   chapters: Chapter[];
   current: Current;
-  done: string[];
+  done: Done;
 };
 
 const initialState: State = {
   ...data,
   current: {
     chapter: "functions",
-    step: "functions.intro",
+    step: "functions.call",
+    editor: {
+      content: "Box();",
+    },
   },
-  done: ["intro", "comments", "variables", "types", "operators"],
+  done: {
+    chapter: ["intro", "comments", "variables", "types", "operators"],
+    step: ["functions.intro"],
+  },
 };
 
 const reducer: Reducer<State, Actions> = (state, action) => {
@@ -71,6 +92,17 @@ const reducer: Reducer<State, Actions> = (state, action) => {
         current: {
           ...state.current,
           chapter: action.payload.id,
+        },
+      };
+    case Action.SET_EDITOR_CONTENT:
+      return {
+        ...state,
+        current: {
+          ...state.current,
+          editor: {
+            ...state.current.editor,
+            content: action.payload.value,
+          },
         },
       };
     case Action.SET_STEP:

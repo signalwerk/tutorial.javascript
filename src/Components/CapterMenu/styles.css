@@ -15,19 +15,11 @@
 
 .capter-menu:before {
   left: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(230, 230, 230, 1),
-    rgba(230, 230, 230, 0)
-  );
+  background: linear-gradient(90deg, var(--color-blue), rgba(230, 230, 230, 0));
 }
 .capter-menu:after {
   right: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(230, 230, 230, 0),
-    rgba(230, 230, 230, 1)
-  );
+  background: linear-gradient(90deg, rgba(230, 230, 230, 0), var(--color-blue));
 }
 
 /* scroll-area */
@@ -57,13 +49,13 @@
 .capter-menu__item {
   white-space: nowrap;
   border-bottom: 2px solid transparent;
-  color: #0054a2;
+  /* color: var(--color-blue); */
 }
 
 .capter-menu__item--active,
 .capter-menu__item:hover {
-  color: #222;
-  border-color: #0054a2;
+  /* color: var(--color-brown); */
+  border-color: white;
 }
 
 /* space between the items */
@@ -71,7 +63,7 @@
   margin-left: 1.25em;
 }
 
-.capter-menu__item--done button {
+.capter-menu__item--done {
   /* text-decoration: line-through; */
-  opacity: 0.5;
+  opacity: 0.7;
 }

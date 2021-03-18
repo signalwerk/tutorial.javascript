@@ -1,0 +1,8 @@
+.debug {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: gray;
+  padding: 0.5rem;
+  font-size: 0.7em;
+}

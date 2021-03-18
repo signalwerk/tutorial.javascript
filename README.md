@@ -19,6 +19,12 @@ http://extendscript-cep.gitlab.io/documentation/
 https://github.com/dhobsd/castty
 https://9vx.org/~dho/term/index.html
 
+
+## store file from browser
+* https://gist.github.com/umidjons/88fa0041e6dd583491dd83662d007d2c
+* https://gist.github.com/ryanflorence/701407
+
+
 ### freeCodeCamp
 https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/5503b54f8597b6473f8e08a39c0d0ca4f42b2590/curriculum/challenges/english/02-javascript-algorithms-and-data-structures/basic-javascript/assigning-the-value-of-one-variable-to-another.md
 

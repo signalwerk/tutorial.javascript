@@ -12,7 +12,7 @@ import {
   Action as SessionAction,
 } from "../../context/session";
 import Button from "../Button";
-import StatusIcon, { StatusIconIcon } from "../Status";
+import StatusIcon, { StatusIconIcon } from "../StatusIcon";
 
 function CapterMenu() {
   const { state, dispatch } = useContext(SessionContext);
@@ -39,19 +39,17 @@ function CapterMenu() {
                 ? "capter-menu__item--active"
                 : "capter-menu__item--inactive"
             } ${
-              state.done.includes(item.id) && state.current.chapter !== item.id
+              state.done.chapter.includes(item.id) &&
+              state.current.chapter !== item.id
                 ? "capter-menu__item--done"
                 : "capter-menu__item--open"
             }`}
             key={item.id}
           >
             <Button onClick={(e) => handleClick(e, item.id)}>
-              {(state.done.includes(item.id) && state.current.chapter !== item.id && (
+              {(state.done.chapter.includes(item.id) && (
                 <StatusIcon icon={StatusIconIcon.ok} />
-              )) ||
-                (state.current.chapter !== item.id && (
-                  <StatusIcon icon={StatusIconIcon.play} />
-                ))}
+              )) || <StatusIcon icon={StatusIconIcon.play} />}
               {item.title}
             </Button>
           </div>

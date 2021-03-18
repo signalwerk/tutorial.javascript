@@ -1,0 +1,54 @@
+.work-space {
+  display: flex;
+  height: 100%;
+}
+
+.work-space__view {
+  margin: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.work-space__view svg {
+}
+
+.work-space__file {
+  width: 70%;
+  margin: 0.75rem;
+}
+
+.work-space__canvas {
+  width: 30%;
+  margin: 0.75rem;
+  margin-left: 0;
+}
+
+.svg__text {
+  fill: white;
+  font-size: 16px;
+}
+
+.svg__rect {
+  stroke-width: 3;
+  stroke: white;
+}
+
+.svg__paper {
+  stroke-width: 5;
+}
+
+.work-space__error {
+  margin: 1rem;
+  margin-top: 2rem;
+}
+
+.work-space__debug {
+  font-size: 0.75em;
+}
+
+.work-space__console {
+  margin: 1rem;
+  margin-top: 2rem;
+  line-height: 1.15;
+}

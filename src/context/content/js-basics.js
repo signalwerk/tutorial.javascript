@@ -16,7 +16,35 @@ export const functions = {
     },
     {
       id: "functions.call",
-      title: "Call",
+      title: "Parameter",
+      intro: {
+        editor: `editor`,
+        video: "",
+      },
+      tasks: [
+        {
+          instruction: "call",
+          match: /(\/\/)../g,
+        },
+      ],
+    },
+    {
+      id: "functions.effect",
+      title: "Effekt",
+      intro: {
+        editor: `editor`,
+        video: "",
+      },
+      tasks: [
+        {
+          instruction: "call",
+          match: /(\/\/)../g,
+        },
+      ],
+    },
+    {
+      id: "functions.name",
+      title: "Naming",
       intro: {
         editor: `editor`,
         video: "",

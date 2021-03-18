@@ -6,10 +6,11 @@
   width: 0.9rem;
   height: 0.9rem;
   border-radius: 1em;
+  text-align: center;
 }
 
 .status-icon--ok {
-  background-color: green;
+  background-color: var(--color-green);
   color: white;
 }
 

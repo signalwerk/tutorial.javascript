@@ -1,0 +1,31 @@
+.window {
+  width: 100%;
+  height: 100%;
+}
+.window__inner {
+  /* width: calc(100% - 1rem);
+  height: calc(100% - 1rem); */
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+}
+
+.window__filename {
+  font-size: 0.6em;
+  border: 1px solid white;
+  padding: 0.25rem;
+  font-weight: 700;
+  padding-left: 0.75em;
+}
+
+.window__content {
+  /* width: 100%;
+  height: 100%; */
+  flex-grow: 1;
+  border: 1px solid white;
+  border-top: none;
+  /* padding: 0.5rem; */
+}
