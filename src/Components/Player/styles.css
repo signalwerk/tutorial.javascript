@@ -7,11 +7,15 @@
 }
 
 .player__editor {
-  background-color: white;
-  color: var(--color-black);
+  background-color: var(--color-black);
+  color: white;
 
   /*  */
   height: 100%;
+}
+
+.player .window__content {
+  background-color: var(--color-black);
 }
 
 .player__text {

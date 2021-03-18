@@ -20,6 +20,12 @@ const Editor = ({ id }) => {
     inputEl.current.setSelectionRange(start, end);
   }, [selection]);
 
+  useEffect(() => {
+    const start = state.current.editor.content.length;
+    inputEl.current.focus();
+    inputEl.current.setSelectionRange(start, start);
+  }, []);
+
   const handleInputChange = (e) => {
     dispatch({
       type: SessionAction.SET_EDITOR_CONTENT,
