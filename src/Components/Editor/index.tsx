@@ -45,6 +45,7 @@ const Editor = () => {
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    console.log("handle change");
     pushValue(e.target.value);
 
     // dispatch({
@@ -121,6 +122,9 @@ const Editor = () => {
         onKeyDown={handleKeyDown}
         value={state.current.editor.content}
         onSelect={handleSelection}
+        spellCheck="false"
+        autoCorrect="off"
+        autoCapitalize="off"
       />
     </div>
   );

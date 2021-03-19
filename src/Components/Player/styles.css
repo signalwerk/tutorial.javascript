@@ -27,3 +27,35 @@
 .player__code {
   height: 100%;
 }
+
+.part {
+  display: inline-block;
+  position: relative;
+}
+
+.part--mark {
+  width: 0;
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.part--mark:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.part--selected {
+  background-color: var(--color-brown);
+  color: black;
+}
