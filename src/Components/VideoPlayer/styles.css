@@ -1,0 +1,7 @@
+.video-player {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 200px;
+  height: 200px;
+}

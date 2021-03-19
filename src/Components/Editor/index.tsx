@@ -14,6 +14,8 @@ const Editor = () => {
 
   const [selection, setSelection] = useState<Selection>();
 
+  const content = state.current.editor.content;
+
   useEffect(() => {
     if (!selection) return; // prevent running on start
     const { start, end } = selection;
@@ -22,7 +24,7 @@ const Editor = () => {
   }, [selection]);
 
   useEffect(() => {
-    const start = state.current.editor.content.length;
+    const start = content.length;
     inputEl?.current?.focus();
     inputEl?.current?.setSelectionRange(start, start);
   }, []);
@@ -34,6 +36,16 @@ const Editor = () => {
         value,
       },
     });
+
+    const regex = /Box\(\s*20\s*,\s*50\s*\)/g;
+    const finished = regex.test(value);
+
+    if (finished) {
+      dispatch({
+        type: SessionAction.SET_CURRENT_STEP_FINISHED,
+        payload: {},
+      });
+    }
   };
   const pushSelection = (value: Selection) => {
     dispatch({
@@ -45,15 +57,7 @@ const Editor = () => {
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    console.log("handle change");
     pushValue(e.target.value);
-
-    // dispatch({
-    //   type: SessionAction.SET_EDITOR_CONTENT,
-    //   payload: {
-    //     value: e.target.value,
-    //   },
-    // });
   };
 
   const handleSelection = (
@@ -120,7 +124,7 @@ const Editor = () => {
         name="text"
         onChange={handleInputChange}
         onKeyDown={handleKeyDown}
-        value={state.current.editor.content}
+        value={content}
         onSelect={handleSelection}
         spellCheck="false"
         autoCorrect="off"

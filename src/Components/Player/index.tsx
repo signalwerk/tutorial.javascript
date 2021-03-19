@@ -2,14 +2,16 @@ import React, { useContext } from "react";
 import "./styles.css";
 import Window from "../Window";
 import WorkSpace from "../WorkSpace";
+import VideoPlayer from "../VideoPlayer";
 import {
   Context as SessionContext,
   Action as SessionAction,
+  Editor,
   Selection,
 } from "../../context/session";
 
 type PlayerProps = {
-  text: string;
+  editor: Editor | undefined;
   filename: string;
 };
 
@@ -142,26 +144,32 @@ const showLines = (code: string, start: number, end: number) => {
   ));
 };
 
-function Player({ text, filename }: PlayerProps) {
+function Player({ editor, filename }: PlayerProps) {
   const { state, dispatch } = useContext(SessionContext);
+
+  const pos = state.current.playPosition;
+
+  // chapter: state.current.chapter,
+  // step: state.current.step,
 
   return (
     <div className="player">
       <div className="player__code">
-        <WorkSpace preview={text}>
+        <WorkSpace preview={editor?.content || ""} hideErrors={true}>
           <Window filename={filename}>
             <div className="player__editor">
               <div className="player__text">
                 <pre>
-                  <code>{text}</code>
-                  {showLines(
-                    state.current.editor.content,
-                    state.current.editor.selection.start,
-                    state.current.editor.selection.end
-                  )}
+                  {editor &&
+                    showLines(
+                      editor.content,
+                      editor.selection.start,
+                      editor.selection.end
+                    )}
                 </pre>
               </div>
             </div>
+            <VideoPlayer />
           </Window>
         </WorkSpace>
       </div>

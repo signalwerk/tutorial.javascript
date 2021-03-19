@@ -6,6 +6,7 @@ type WorkSpaceProps = {
   preview: string;
   // filename: string;
   children: React.ReactNode;
+  hideErrors?: boolean;
 };
 
 type Box = {
@@ -36,13 +37,13 @@ let boxList: Box[] = [];
 let textList: Text[] = [];
 let renderError = "";
 
-function WorkSpace({ children, preview }: WorkSpaceProps) {
+function WorkSpace({ children, preview, hideErrors }: WorkSpaceProps) {
   const [boxes, setBoxes] = useState<Box[]>([]);
   const [texts, setTexts] = useState<Text[]>([]);
   const [code, setCode] = useState(preview);
   const [error, setError] = useState("");
 
-  function Box(x = 0, y = 0) {
+  function Box(x = 0, y = 0, width = 80, height = 80) {
     // const { x, y, width, height } = props || {};
     // console.log("run box", { x, y, width, height });
     boxList = [
@@ -50,8 +51,8 @@ function WorkSpace({ children, preview }: WorkSpaceProps) {
       {
         x: x,
         y: y,
-        width: 110,
-        height: 110,
+        width,
+        height,
       },
     ];
   }
@@ -145,7 +146,7 @@ function WorkSpace({ children, preview }: WorkSpaceProps) {
             </div>
           )}
 
-          {error && (
+          {error && !hideErrors && (
             <div className="work-space__error">
               <p>⚠️ Der Code hat im Moment noch Fehler.</p>
               <pre className="work-space__debug">

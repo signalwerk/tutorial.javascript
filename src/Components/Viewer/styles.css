@@ -78,6 +78,9 @@
   background-color: var(--color-brown);
   color: var(--color-blue);
 }
+.viewer__task--done {
+  background-color: var(--color-green);
+}
 .viewer__window {
   background-color: var(--color-black);
   color: white;

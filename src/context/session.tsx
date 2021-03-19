@@ -3,12 +3,14 @@ import { ActionMap } from "./ActionMap";
 import { data } from "./content/js-basics";
 
 enum Action {
+  SET_CURRENT_STEP_FINISHED = "SET_CURRENT_STEP_FINISHED",
   NEXT_CHAPTER = "NEXT_CHAPTER",
   LAST_CHAPTER = "LAST_CHAPTER",
   SET_CHAPTER = "SET_CHAPTER",
   SET_STEP = "SET_STEP",
   SET_EDITOR_CONTENT = "SET_EDITOR_CONTENT",
   SET_EDITOR_SELECTION = "SET_EDITOR_SELECTION",
+  SET_PLAYER_POSITION = "SET_PLAYER_POSITION",
 }
 
 export type Selection = {
@@ -17,6 +19,7 @@ export type Selection = {
 };
 
 type ActionPayload = {
+  [Action.SET_CURRENT_STEP_FINISHED]: {};
   [Action.NEXT_CHAPTER]: {};
   [Action.LAST_CHAPTER]: {};
   [Action.SET_CHAPTER]: {
@@ -30,6 +33,9 @@ type ActionPayload = {
   };
   [Action.SET_EDITOR_SELECTION]: {
     value: Selection;
+  };
+  [Action.SET_PLAYER_POSITION]: {
+    value: number;
   };
 };
 
@@ -67,7 +73,7 @@ type EditorFrame = {
   editor: Editor;
 };
 
-type Editor = {
+export type Editor = {
   selection: Selection;
   content: string;
 };
@@ -75,6 +81,7 @@ type Editor = {
 type Current = {
   chapter: string;
   step: string;
+  playPosition: number;
   editor: Editor;
 };
 
@@ -89,6 +96,7 @@ const initialState: State = {
   current: {
     chapter: "functions",
     step: "functions.call",
+    playPosition: 0,
     editor: {
       selection: { start: 0, end: 0 },
       content: "",
@@ -102,6 +110,21 @@ const initialState: State = {
 
 const reducer: Reducer<State, Actions> = (state, action) => {
   switch (action.type) {
+    case Action.SET_CURRENT_STEP_FINISHED:
+      let step = [];
+
+      if (!state.done.step.includes(state.current.step)) {
+        return {
+          ...state,
+          done: {
+            ...state.done,
+            step: [...state.done.step, state.current.step],
+          },
+        };
+      } else {
+        return state;
+      }
+
     case Action.SET_CHAPTER:
       return {
         ...state,
@@ -119,6 +142,14 @@ const reducer: Reducer<State, Actions> = (state, action) => {
             ...state.current.editor,
             content: action.payload.value,
           },
+        },
+      };
+    case Action.SET_PLAYER_POSITION:
+      return {
+        ...state,
+        current: {
+          ...state.current,
+          playPosition: action.payload.value,
         },
       };
     case Action.SET_EDITOR_SELECTION:
