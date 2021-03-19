@@ -1,0 +1,12 @@
+.version {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: gray;
+  padding: 0.25rem;
+  font-size: 0.5em;
+  opacity: 0;
+}
+.version:hover {
+  opacity: 1;
+}

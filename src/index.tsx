@@ -5,6 +5,7 @@ import "./fontello/css/fontello.css";
 import Viewer from "./Components/Viewer";
 import Debug from "./Components/Debug";
 import Admin from "./Components/Admin";
+import Version from "./Components/Version";
 import reportWebVitals from "./reportWebVitals";
 
 // setup Provider
@@ -16,8 +17,13 @@ ReactDOM.render(
     <SessionProvider>
       <div className="container">
         <Viewer />
-        <Debug />
-        <Admin />
+        {process.env.REACT_APP_DEV && (
+          <>
+            <Debug />
+            <Admin />
+          </>
+        )}
+        <Version />
       </div>
     </SessionProvider>
   </React.StrictMode>,

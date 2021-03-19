@@ -8,6 +8,10 @@ JS Basics
 Doku:
 http://extendscript-cep.gitlab.io/documentation/
 
+Live:
+https://signalwerk.github.io/tutorial.javascript/
+
+
 – Wieviel Zeit in Minunten? → as long as it takes
 – Lizenzen → MIT → CC-BY-NC 4.0
 
