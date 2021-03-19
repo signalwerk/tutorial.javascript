@@ -40,14 +40,6 @@ function VideoPlayer() {
     dispatchPos(currentTime);
     console.log(`Video current time is ${currentTime}`);
   };
-  const onSeeking = (currentTime: number) => {
-    dispatchPos(currentTime);
-    console.log(`Video onSeeking time is ${currentTime}`);
-  };
-  const onSeeked = (currentTime: number) => {
-    dispatchPos(currentTime);
-    console.log(`Video onSeeked time is ${currentTime}`);
-  };
 
   const { vjsId, vjsRef, vjsClassName } = useVideojs({
     src: "./function.call.mp4",
@@ -61,8 +53,6 @@ function VideoPlayer() {
     onPause,
     onEnd,
     onTimeUpdate,
-    onSeeking,
-    onSeeked,
   });
 
   // wrap the player in a div with a `data-vjs-player` attribute

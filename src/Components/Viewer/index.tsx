@@ -9,6 +9,25 @@ import StepMenu from "../StepMenu";
 import Player from "../Player";
 import Editor from "../Editor";
 
+/**
+ * Returns the index of the last element in the array where predicate is true, and -1
+ * otherwise.
+ * @param array The source array to search in
+ * @param predicate find calls predicate once for each element of the array, in descending
+ * order, until it finds one where predicate returns true. If such an element is found,
+ * findLastIndex immediately returns that element index. Otherwise, findLastIndex returns -1.
+ */
+export function findLastIndex<T>(
+  array: Array<T>,
+  predicate: (value: T, index: number, obj: T[]) => boolean
+): number {
+  let l = array.length;
+  while (l--) {
+    if (predicate(array[l], l, array)) return l;
+  }
+  return -1;
+}
+
 function Viewer() {
   const { state, dispatch } = useContext(SessionContext);
 
@@ -18,10 +37,16 @@ function Viewer() {
   const step = chapter?.steps?.find((item) => item.id === state.current.step);
   const pos = state.current.playPosition;
 
-  const editorPlayerStepPos =
-    step?.intro.editor.findIndex((item) => item.time >= pos * 1000) || 0;
-  const editorPlayerStep =
-    step?.intro.editor[editorPlayerStepPos === 0 ? 0 : editorPlayerStepPos - 1];
+  // const editorPlayerStepPos =
+  //   step?.intro.editor.findIndex((item) => item.time >= pos * 1000) || 0;
+
+  const editorPlayerStepPos = step
+    ? findLastIndex(step.intro.editor, (item) => item.time <= pos * 1000)
+    : 0;
+
+  console.log({ editorPlayerStepPos });
+
+  const editorPlayerStep = step?.intro.editor[editorPlayerStepPos];
 
   return (
     <div className="viewer">

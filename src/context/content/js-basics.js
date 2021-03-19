@@ -32,8 +32,8 @@ export const functions = {
       ],
     },
     {
-      id: "functions.effect",
-      title: "Effekt",
+      id: "functions.return",
+      title: "Rückgabewert",
       intro: {
         editor: [],
         video: "",
