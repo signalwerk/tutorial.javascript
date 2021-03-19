@@ -95,8 +95,8 @@ function WorkSpace({ children, preview }: WorkSpaceProps) {
         <Window filename="Vorschau">
           <div className="work-space__view">
             <svg
-              width="210"
-              height="297"
+              width="215"
+              height="302"
               viewBox="-2.5 -2.5 215 302"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

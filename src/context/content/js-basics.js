@@ -1,10 +1,12 @@
+import functionCall from "./function.call.json";
+
 export const functions = {
   steps: [
     {
       id: "functions.intro",
       title: "Intro",
       intro: {
-        editor: `editor`,
+        editor: [],
         video: "",
       },
       tasks: [
@@ -18,12 +20,13 @@ export const functions = {
       id: "functions.call",
       title: "Parameter",
       intro: {
-        editor: `editor`,
+        editor: functionCall,
         video: "",
       },
       tasks: [
         {
-          instruction: "call",
+          instruction:
+            "Rufen Sie die funktion `Box()` mit der x-Position `20` und der y-Position `50` auf.",
           match: /(\/\/)../g,
         },
       ],
@@ -32,7 +35,7 @@ export const functions = {
       id: "functions.effect",
       title: "Effekt",
       intro: {
-        editor: `editor`,
+        editor: [],
         video: "",
       },
       tasks: [
@@ -46,7 +49,7 @@ export const functions = {
       id: "functions.name",
       title: "Naming",
       intro: {
-        editor: `editor`,
+        editor: [],
         video: "",
       },
       tasks: [

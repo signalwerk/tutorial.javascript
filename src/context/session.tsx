@@ -49,7 +49,7 @@ type Step = {
 };
 
 type Intro = {
-  editor: string;
+  editor: EditorFrame[];
   video: string;
 };
 type Task = {
@@ -60,6 +60,11 @@ type Task = {
 type Done = {
   chapter: string[];
   step: string[];
+};
+
+type EditorFrame = {
+  time: number;
+  editor: Editor;
 };
 
 type Editor = {
@@ -86,7 +91,7 @@ const initialState: State = {
     step: "functions.call",
     editor: {
       selection: { start: 0, end: 0 },
-      content: "Box();",
+      content: "",
     },
   },
   done: {

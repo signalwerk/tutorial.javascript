@@ -12,3 +12,15 @@
   padding: 0.5rem;
   border-radius: 0.3rem;
 }
+
+.admin__preview-screen {
+  position: relative;
+}
+
+.admin__preview-screen svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

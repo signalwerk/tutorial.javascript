@@ -37,15 +37,17 @@ function Player({ srcBlob, audio }) {
 
   return (
     <div>
-      <button type="button" onClick={handleStore}>
-        download
-      </button>
-      <video
-        src={URL.createObjectURL(srcBlob)}
-        width={520}
-        height={480}
-        controls
-      />
+      <div>
+        <video
+          src={URL.createObjectURL(srcBlob)}
+          width={520}
+          height={293}
+          controls
+        />
+        <div>
+          <Button onClick={handleStore}>download</Button>
+        </div>
+      </div>
     </div>
   );
 }
@@ -63,10 +65,18 @@ function LiveStreamPreview({ stream }) {
     return null;
   }
 
-  return <video ref={videoPreviewRef} width={520} height={480} autoPlay />;
+  return <video ref={videoPreviewRef} width={520} height={293} autoPlay />;
 }
 
-function ScreenRecorderApp() {
+let start = 0;
+let record = [];
+
+function Admin() {
+  const { state, dispatch } = useContext(SessionContext);
+
+  const [recording, setRecording] = useState<boolean>(false);
+  const [preview, setPreview] = useState<boolean>(false);
+
   let {
     error,
     status,
@@ -86,61 +96,29 @@ function ScreenRecorderApp() {
     },
   });
 
-  return (
-    <article>
-      <h1>Screen recorder</h1>
-      {error ? `${status} ${error.message}` : status}
-      <section>
-        <button
-          type="button"
-          onClick={getMediaStream}
-          disabled={status === "ready"}
-        >
-          Start
-        </button>
-        <button type="button" onClick={clearMediaStream}>
-          Stop
-        </button>
-        <button
-          type="button"
-          onClick={startRecording}
-          disabled={status === "recording"}
-        >
-          Record
-        </button>
-        <button
-          type="button"
-          onClick={stopRecording}
-          disabled={status !== "recording"}
-        >
-          Stop
-        </button>
-      </section>
-      <LiveStreamPreview stream={liveStream} />
-      <Player srcBlob={mediaBlob} />
-    </article>
-  );
-}
-
-let start = 0;
-let record = [];
-
-function Admin() {
-  const { state, dispatch } = useContext(SessionContext);
-
-  const [recording, setRecording] = useState<boolean>(false);
-
   useEffect(() => {
     const text = state.current.editor.content;
     const now = Date.now();
 
     record.push({
       time: now - start,
-      text,
+
+      editor: {
+        content: state.current.editor.content,
+        selection: {
+          start: state.current.editor.selection.start,
+          end: state.current.editor.selection.end,
+        },
+      },
     });
-  }, [state.current.editor.content]);
+  }, [
+    state.current.editor.content,
+    state.current.editor.selection.start,
+    state.current.editor.selection.end,
+  ]);
 
   const handleStop = (event: React.MouseEvent<HTMLButtonElement>) => {
+    stopRecording();
     console.log("post");
     setRecording(false);
 
@@ -169,19 +147,71 @@ function Admin() {
   };
 
   const handleRec = (event: React.MouseEvent<HTMLButtonElement>) => {
+    startRecording();
     setRecording(true);
     start = Date.now();
     record = [];
 
     record.push({
       time: 0,
-      text: state.current.editor.content,
+
+      editor: {
+        content: state.current.editor.content,
+        selection: {
+          start: state.current.editor.selection.start,
+          end: state.current.editor.selection.end,
+        },
+      },
     });
+  };
+
+  const handleStartPreview = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setPreview(true);
+    getMediaStream();
+  };
+  const handleStopPreview = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setPreview(false);
+    clearMediaStream();
   };
 
   return (
     <div className="admin">
-      <ScreenRecorderApp />
+      <h3>Recorder</h3>
+      <p>{error ? `${status} ${error.message}` : status}</p>
+      <div className="admin__preview">
+        <div className="admin__preview-btn">
+          {(!preview && (
+            <button type="button" onClick={handleStartPreview}>
+              Preview
+            </button>
+          )) || (
+            <button type="button" onClick={handleStopPreview}>
+              Stop Preview
+            </button>
+          )}
+        </div>
+        <div className="admin__preview-screen">
+          <svg
+            width="16"
+            height="9"
+            viewBox="0 0 16 9"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8.5 0H0V9H8.5H16V0H8.5ZM8.5 0C10.9853 0 13 2.01472 13 4.5C13 6.98528 10.9853 9 8.5 9C6.01472 9 4 6.98528 4 4.5C4 2.01472 6.01472 0 8.5 0Z"
+              fill="black"
+              fill-opacity="0.7"
+            />
+          </svg>
+
+          <LiveStreamPreview stream={liveStream} />
+        </div>
+      </div>
+      <Player srcBlob={mediaBlob} />
+
       {(!recording && (
         <Button onClick={(e) => handleRec(e)}>Record</Button>
       )) || <Button onClick={(e) => handleStop(e)}>Stop</Button>}
