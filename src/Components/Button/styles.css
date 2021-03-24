@@ -1,3 +1,4 @@
+div[role="slider"],
 button {
   /* reset */
   color: inherit;
@@ -18,10 +19,12 @@ button {
   /* background-color: grey; */
 }
 
+div[role="slider"]:focus,
 button:focus {
   outline: 0 !important;
 }
 
+div[role="slider"]:disabled,
 button:disabled {
   cursor: auto;
 }

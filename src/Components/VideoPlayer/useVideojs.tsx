@@ -55,9 +55,9 @@ type Props = {
   onPause?: (currentTime?: number) => void;
   onTimeUpdate?: (currentTime: number) => void;
   onSeeking?: (currentTime: number) => void;
+  onLoadedmetadata?: (totalTime: number) => void;
   onSeeked?: (position: number, currentTime: number) => void;
   onEnd?: (currentTime?: number) => void;
-  className?: string;
 };
 
 export function useVideojs({
@@ -68,13 +68,12 @@ export function useVideojs({
   onPause,
   onTimeUpdate,
   onSeeking,
+  onLoadedmetadata,
   onSeeked,
   onEnd,
-  className,
   ...props
 }: Props) {
-  const vjsId = `vjs-${Date.now()}`;
-  const vjsRef = useRef(null);
+  const videoNodeRef = useRef(null);
 
   let player: VideoJsPlayer;
 
@@ -100,18 +99,19 @@ export function useVideojs({
   }, [src, autoplay]);
 
   const _initPlayer = () => {
-    player = videojs(vjsRef.current, props);
+    console.log("--- props", props);
+    player = videojs(videoNodeRef.current, props);
     player.src(src);
     player.autoplay(autoplay || false);
   };
 
   const _changeSrc = () => {
-    player = videojs(vjsRef.current);
+    player = videojs(videoNodeRef.current);
     player.src(src);
   };
 
   const _changeAutoplay = () => {
-    player = videojs(vjsRef.current);
+    player = videojs(videoNodeRef.current);
     player.autoplay(autoplay || false);
   };
 
@@ -158,6 +158,12 @@ export function useVideojs({
       }
     });
 
+    player.on("loadedmetadata", () => {
+      if (onLoadedmetadata) {
+        onLoadedmetadata(player.duration());
+      }
+    });
+
     player.on("seeked", () => {
       if (onSeeked) {
         const completeTime = Math.floor(player.currentTime());
@@ -181,9 +187,5 @@ export function useVideojs({
     player.off("ended");
   };
 
-  const videoClassNames = `video-js ${className} ${
-    props.bigPlayButtonCentered ? "vjs-big-play-centered" : ""
-  }`;
-
-  return { vjsRef, vjsId, vjsClassName: videoClassNames };
+  return { videoNodeRef };
 }

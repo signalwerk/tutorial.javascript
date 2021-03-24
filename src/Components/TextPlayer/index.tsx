@@ -4,7 +4,6 @@ import Window from "../Window";
 import WorkSpace from "../WorkSpace";
 import VideoPlayer from "../VideoPlayer";
 import Preview from "../Preview";
-import TextPlayer from "../TextPlayer";
 
 import {
   Context as SessionContext,
@@ -13,9 +12,8 @@ import {
   Selection,
 } from "../../context/session";
 
-type PlayerProps = {
+type TextPlayerProps = {
   editor: Editor | undefined;
-  filename: string;
 };
 
 enum PartType {
@@ -147,33 +145,19 @@ const showLines = (code: string, start: number, end: number) => {
   ));
 };
 
-function Player({ editor, filename }: PlayerProps) {
-  const { state, dispatch } = useContext(SessionContext);
-
-  const pos = state.current.playPosition;
-
-  // chapter: state.current.chapter,
-  // step: state.current.step,
-
+function TextPlayer({ editor }: TextPlayerProps) {
   return (
-    <div className="player">
-      <div className="player__title">
-        <h3>{filename}</h3>
-      </div>
-
-      <div className="player__content">
-        <div className="player__code">
-          <TextPlayer editor={editor} />
-        </div>
-        <div className="player__video">
-          <VideoPlayer />
-        </div>
-        <div className="player__preview">
-          <Preview code={editor?.content || ""} hideErrors={true} />
-        </div>
-      </div>
+    <div className="text-player">
+      <pre>
+        {editor &&
+          showLines(
+            editor.content,
+            editor.selection.start,
+            editor.selection.end
+          )}
+      </pre>
     </div>
   );
 }
 
-export default Player;
+export default TextPlayer;

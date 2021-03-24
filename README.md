@@ -19,6 +19,14 @@ https://signalwerk.github.io/tutorial.javascript/
 → https://www.npmjs.com/package/asciicast-to-svg
 
 
+## editor
+https://github.com/satya164/react-simple-code-editor#readme
+https://live.prismjs.com/
+
+## theme
+https://betterstack.dev/blog/code-highlighting-in-react-using-prismjs/
+https://react-live.netlify.app/ 
+
 ## audio and text
 https://github.com/dhobsd/castty
 https://9vx.org/~dho/term/index.html

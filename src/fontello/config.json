@@ -65,6 +65,24 @@
       "css": "fast-bw",
       "code": 59401,
       "src": "fontawesome"
+    },
+    {
+      "uid": "8pcqxtjxtvkqo3dgemy49z7fw1d8xsh9",
+      "css": "volume-off",
+      "code": 59402,
+      "src": "modernpics"
+    },
+    {
+      "uid": "ivjrs8ijaooc3a2dw4790kb2rx4l6kjh",
+      "css": "volume-down",
+      "code": 59403,
+      "src": "modernpics"
+    },
+    {
+      "uid": "rrb2e7qiu68cw7itzq0wzm2hugw1u4lu",
+      "css": "volume-up",
+      "code": 59404,
+      "src": "modernpics"
     }
   ]
 }
