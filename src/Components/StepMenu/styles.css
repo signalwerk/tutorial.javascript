@@ -1,13 +1,16 @@
 .step-menu__item {
-  border-bottom: 1px solid var(--color-gray);
+  /* border-bottom: 1px solid var(--color-gray); */
   /* border-left: 0.5rem solid var(--color-gray); */
 }
 
-.step-menu__item:hover,
+.step-menu__item:hover:not(.step-menu__item--active) {
+  color: var(--c-active);
+}
+
 .step-menu__item--active {
-  color: var(--color-blue);
-  background-color: var(--color-brown);
-  border-bottom-color: transparent;
+  color: var(--c-primary);
+  /* background-color: var(--color-brown); */
+  /* border-bottom-color: transparent; */
 }
 
 /* .step-menu__item:hover {
@@ -20,27 +23,28 @@
 }
 
 .step-menu__item--done {
-  background-color: var(--color-green);
+  opacity: 0.7;
+  /* background-color: var(--color-green); */
 }
 
 .step-menu__item button {
   width: 100%;
-  padding-left: 0.5rem;
+  padding-left: 1.25rem;
   height: 3rem;
   display: flex;
   align-items: center;
   /* justify-content: center; */
 }
 
-.step-menu__item button {
+/* .step-menu__item button {
   border-left: 0.5rem solid transparent;
 }
 
 .step-menu__item:hover button {
-  border-left-color: var(--color-blue-brown);
+  border-left-color: var(--c-active);
 }
 
 .step-menu__item--active:hover button,
 .step-menu__item--active button {
-  border-left-color: var(--color-blue);
-}
+  border-left-color: var(--c-primary);
+} */

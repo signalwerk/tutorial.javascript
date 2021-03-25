@@ -1,6 +1,9 @@
 import React, { useContext } from "react";
 import Window from "../Window";
 import WorkSpace from "../WorkSpace";
+import Callout from "../Callout";
+import StatusIcon, { StatusIconIcon } from "../StatusIcon";
+
 import "./styles.css";
 import { Context as SessionContext } from "../../context/session";
 
@@ -8,6 +11,7 @@ import CapterMenu from "../CapterMenu";
 import StepMenu from "../StepMenu";
 import Player from "../Player";
 import Editor from "../Editor";
+import Content from "../Content";
 
 /**
  * Returns the index of the last element in the array where predicate is true, and -1
@@ -59,16 +63,24 @@ function Viewer() {
         </div>
         <div className="viewer__step">
           <div className="viewer__teach">
-            <Player filename="JavaScript" editor={editorPlayerStep?.editor} />
+            <Content className="viewer__teach-inner">
+              <Player editor={editorPlayerStep?.editor} />
+            </Content>
           </div>
           <div
             className={`viewer__task viewer__task--${
               state.done.step.includes(state.current.step) ? "done" : "todo"
             }`}
           >
-            <div className="viewer__window">
-              <Window filename="Aufgabe">
+            <Content>
+              <Callout>
                 <div className="viewer__task-text">
+                  <h2>
+                    {(state.done.step.includes(state.current.step) && (
+                      <StatusIcon icon={StatusIconIcon.ok} />
+                    )) || <StatusIcon icon={StatusIconIcon.play} />}
+                    Aufgabe
+                  </h2>
                   <p>
                     <span>Rufen Sie die funktion </span>
                     <code>Box()</code>
@@ -79,15 +91,15 @@ function Viewer() {
                     <span> auf.</span>
                   </p>
                 </div>
-              </Window>
-            </div>
+              </Callout>
+            </Content>
           </div>
           <div className="viewer__learn">
-            <WorkSpace preview={state.current.editor.content}>
-              <Window filename="JavaScript">
+            <Content>
+              <WorkSpace preview={state.current.editor.content}>
                 <Editor />
-              </Window>
-            </WorkSpace>
+              </WorkSpace>
+            </Content>
           </div>
         </div>
       </div>

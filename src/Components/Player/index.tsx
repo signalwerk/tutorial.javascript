@@ -15,7 +15,6 @@ import {
 
 type PlayerProps = {
   editor: Editor | undefined;
-  filename: string;
 };
 
 enum PartType {
@@ -147,7 +146,7 @@ const showLines = (code: string, start: number, end: number) => {
   ));
 };
 
-function Player({ editor, filename }: PlayerProps) {
+function Player({ editor }: PlayerProps) {
   const { state, dispatch } = useContext(SessionContext);
 
   const pos = state.current.playPosition;
@@ -157,19 +156,15 @@ function Player({ editor, filename }: PlayerProps) {
 
   return (
     <div className="player">
-      <div className="player__title">
-        <h3>{filename}</h3>
-      </div>
-
       <div className="player__content">
         <div className="player__code">
           <TextPlayer editor={editor} />
         </div>
-        <div className="player__video">
-          <VideoPlayer />
-        </div>
         <div className="player__preview">
           <Preview code={editor?.content || ""} hideErrors={true} />
+        </div>
+        <div className="player__video">
+          <VideoPlayer />
         </div>
       </div>
     </div>

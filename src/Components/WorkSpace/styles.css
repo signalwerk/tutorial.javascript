@@ -1,6 +1,13 @@
 .work-space {
   display: flex;
-  height: 100%;
+  height: calc(100% - 1rem);
+  margin-bottom: 1rem;
+
+  background-color: white;
+  border-radius: 0.25rem;
+
+  border: 2px solid var(--c-primary);
+
 }
 
 .work-space__view {
@@ -15,7 +22,7 @@
 
 .work-space__file {
   width: 70%;
-  margin: 0.75rem;
+  margin: 1rem;
 }
 
 .work-space__canvas {

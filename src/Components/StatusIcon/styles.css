@@ -9,10 +9,10 @@
   text-align: center;
 }
 
-.status-icon--ok {
+/* .status-icon--ok {
   background-color: var(--color-green);
   color: white;
-}
+} */
 
 .status-icon--play {
   /* background-color: green; */

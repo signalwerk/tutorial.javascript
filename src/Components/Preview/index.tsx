@@ -5,6 +5,7 @@ type PreviewProps = {
   code: string;
   // filename: string;
   hideErrors?: boolean;
+  themeNetative?: boolean;
 };
 
 type Box = {
@@ -20,7 +21,7 @@ let boxList: Box[] = [];
 let textList: Text[] = [];
 let renderError = "";
 
-function Preview({ code, hideErrors }: PreviewProps) {
+function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
   const [boxes, setBoxes] = useState<Box[]>([]);
   const [texts, setTexts] = useState<Text[]>([]);
   const [error, setError] = useState("");
@@ -69,7 +70,7 @@ function Preview({ code, hideErrors }: PreviewProps) {
   }, [code]);
 
   return (
-    <div className="preview">
+    <div className={themeNetative ? "preview preview--negative" : "preview"}>
       <div className="preview__view">
         <svg
           width="215"

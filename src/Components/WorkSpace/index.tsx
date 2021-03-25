@@ -15,9 +15,7 @@ function WorkSpace({ children, preview, hideErrors }: WorkSpaceProps) {
     <div className="work-space">
       <div className="work-space__file">{children}</div>
       <div className="work-space__canvas">
-        <Window filename="Vorschau">
-          <Preview code={preview} hideErrors={hideErrors} />
-        </Window>
+        <Preview code={preview} hideErrors={hideErrors} themeNetative={true} />
       </div>
     </div>
   );
