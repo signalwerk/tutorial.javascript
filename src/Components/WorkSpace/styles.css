@@ -7,7 +7,6 @@
   border-radius: 0.25rem;
 
   border: 2px solid var(--c-primary);
-
 }
 
 .work-space__view {
@@ -22,12 +21,12 @@
 
 .work-space__file {
   width: 70%;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .work-space__canvas {
   width: 30%;
-  margin: 0.75rem;
+  margin: 2rem;
   margin-left: 0;
 }
 

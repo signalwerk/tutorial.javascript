@@ -147,4 +147,5 @@ textarea {
   border: none;
   width: 100%;
   resize: none;
+  padding: 0;
 }
