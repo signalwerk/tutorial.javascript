@@ -43,13 +43,8 @@
 }
 
 .viewer__step-menu {
-  /* border-right: 1px solid var(--color-gray); */
-
+  max-width: 20rem;
   width: 25%;
-  /* background-color: red; */
-  /* background-color: var(--color-blue); */
-  /* background-color: var(--color-brown); */
-  /* color: var(--color-black); */
   font-weight: 700;
 }
 

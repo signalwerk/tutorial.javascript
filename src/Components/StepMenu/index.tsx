@@ -5,7 +5,7 @@ import {
   Action as SessionAction,
 } from "../../context/session";
 import Button from "../Button";
-import StatusIcon, { StatusIconIcon } from "../StatusIcon";
+import StatusIcon from "../StatusIcon";
 
 function StepMenu() {
   const { state, dispatch } = useContext(SessionContext);
@@ -44,9 +44,7 @@ function StepMenu() {
             key={item.id}
           >
             <Button onClick={(e) => handleClick(e, item.id)}>
-              {(state.done.step.includes(item.id) && (
-                <StatusIcon icon={StatusIconIcon.ok} />
-              )) || <StatusIcon icon={StatusIconIcon.play} />}
+              {state.done.step.includes(item.id) && <StatusIcon />}
               {item.title}
             </Button>
           </div>

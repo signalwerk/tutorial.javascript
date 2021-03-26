@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Window from "../Window";
 import WorkSpace from "../WorkSpace";
 import Callout from "../Callout";
-import StatusIcon, { StatusIconIcon } from "../StatusIcon";
+import StatusIcon from "../StatusIcon";
 
 import "./styles.css";
 import { Context as SessionContext } from "../../context/session";
@@ -76,9 +76,9 @@ function Viewer() {
               <Callout>
                 <div className="viewer__task-text">
                   <h2>
-                    {(state.done.step.includes(state.current.step) && (
-                      <StatusIcon icon={StatusIconIcon.ok} />
-                    )) || <StatusIcon icon={StatusIconIcon.play} />}
+                    {state.done.step.includes(state.current.step) && (
+                      <StatusIcon />
+                    )}
                     Aufgabe
                   </h2>
                   <p>
