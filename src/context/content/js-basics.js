@@ -1,5 +1,3 @@
-import functionCall from "./function.call.json";
-
 export const functions = {
   steps: [
     {
@@ -12,7 +10,7 @@ export const functions = {
       tasks: [
         {
           instruction: "Schreibe selber einen einzeiligen Kommentar (`//`)",
-          match: /(\/\/)../g,
+          match: "/(//)../g",
         },
       ],
     },
@@ -20,14 +18,14 @@ export const functions = {
       id: "functions.call",
       title: "Parameter",
       intro: {
-        editor: functionCall,
+        editor: [],
         video: "",
       },
       tasks: [
         {
           instruction:
             "Rufen Sie die funktion `Box()` mit der x-Position `20` und der y-Position `50` auf.",
-          match: /(\/\/)../g,
+          match: "/(//)../g",
         },
       ],
     },
@@ -41,7 +39,7 @@ export const functions = {
       tasks: [
         {
           instruction: "call",
-          match: /(\/\/)../g,
+          match: "/(//)../g",
         },
       ],
     },
@@ -55,7 +53,7 @@ export const functions = {
       tasks: [
         {
           instruction: "call",
-          match: /(\/\/)../g,
+          match: "/(//)../g",
         },
       ],
     },
@@ -84,11 +82,11 @@ export const intro = {
       tasks: [
         {
           instruction: "Schreibe selber einen einzeiligen Kommentar (`//`)",
-          match: /(\/\/)../g,
+          match: "/(//)../g",
         },
         {
           instruction: "Schreibe einen mehrzeiligen Kommentar (`/* */`)",
-          match: /(\/\*)([^\/]{2,})(?=\*\/)/gm,
+          match: "/(/*)([^/]{2,})(?=*/)/gm",
         },
       ],
       //   hightlights: [

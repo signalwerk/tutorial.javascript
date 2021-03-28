@@ -1,0 +1,38 @@
+[
+  {
+    "id": "intro",
+    "title": "Intro"
+  },
+  {
+    "id": "comments",
+    "title": "Kommentare"
+  },
+  {
+    "id": "variables",
+    "title": "Variablen"
+  },
+  {
+    "id": "types",
+    "title": "Datentypen"
+  },
+  {
+    "id": "operators",
+    "title": "Operatoren"
+  },
+  {
+    "id": "functions",
+    "title": "Funktionen"
+  },
+  {
+    "id": "itterations",
+    "title": "Schleifen"
+  },
+  {
+    "id": "conditions",
+    "title": "if/else/case"
+  },
+  {
+    "id": "obj-array",
+    "title": "Datentypen Advanced"
+  }
+]

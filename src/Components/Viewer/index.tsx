@@ -3,9 +3,13 @@ import Window from "../Window";
 import WorkSpace from "../WorkSpace";
 import Callout from "../Callout";
 import StatusIcon from "../StatusIcon";
+import Markdown from "../Markdown";
+import useFetch from "../../util/useFetch";
+import { RouterParams } from "../../index";
+import { useParams } from "react-router-dom";
 
 import "./styles.css";
-import { Context as SessionContext } from "../../context/session";
+import { Context as SessionContext, Step } from "../../context/session";
 
 import CapterMenu from "../CapterMenu";
 import StepMenu from "../StepMenu";
@@ -13,44 +17,27 @@ import Player from "../Player";
 import Editor from "../Editor";
 import Content from "../Content";
 
-/**
- * Returns the index of the last element in the array where predicate is true, and -1
- * otherwise.
- * @param array The source array to search in
- * @param predicate find calls predicate once for each element of the array, in descending
- * order, until it finds one where predicate returns true. If such an element is found,
- * findLastIndex immediately returns that element index. Otherwise, findLastIndex returns -1.
- */
-export function findLastIndex<T>(
-  array: Array<T>,
-  predicate: (value: T, index: number, obj: T[]) => boolean
-): number {
-  let l = array.length;
-  while (l--) {
-    if (predicate(array[l], l, array)) return l;
-  }
-  return -1;
-}
-
 function Viewer() {
   const { state, dispatch } = useContext(SessionContext);
+  let { chapter, step } = useParams<RouterParams>();
 
-  const chapter = state.chapters.find(
-    (item) => item.id === state.current.chapter
-  );
-  const step = chapter?.steps?.find((item) => item.id === state.current.step);
-  const pos = state.current.playPosition;
+  // const step = chapter?.steps?.find((item) => item.id === state.current.step);
+  // const pos = state.current.playPosition;
 
   // const editorPlayerStepPos =
   //   step?.intro.editor.findIndex((item) => item.time >= pos * 1000) || 0;
 
-  const editorPlayerStepPos = step
-    ? findLastIndex(step.intro.editor, (item) => item.time <= pos * 1000)
-    : 0;
+  // const editorPlayerStepPos = step
+  //   ? findLastIndex(step.intro.editor, (item) => item.time <= pos * 1000)
+  //   : 0;
 
-  console.log({ editorPlayerStepPos });
+  // const editorPlayerStep = step?.intro.editor[editorPlayerStepPos];
 
-  const editorPlayerStep = step?.intro.editor[editorPlayerStepPos];
+  const { response: steps, loading, hasError } = useFetch<Step[]>(
+    `/api/course/js/basic/chapter/${chapter}.json`
+  );
+
+  const currentStep = steps?.find((item) => item.id === step);
 
   return (
     <div className="viewer">
@@ -59,36 +46,32 @@ function Viewer() {
       </div>
       <div className="viewer__content">
         <div className="viewer__step-menu">
-          <StepMenu />
+          <div className="viewer__step-menu-inner">
+            {steps && <StepMenu steps={steps} />}
+            {loading && <span>loading...</span>}
+            {hasError && <span>Noch kein Inhalt</span>}
+          </div>
         </div>
         <div className="viewer__step">
           <div className="viewer__teach">
             <Content className="viewer__teach-inner">
-              <Player editor={editorPlayerStep?.editor} />
+              <Player />
             </Content>
           </div>
-          <div
-            className={`viewer__task viewer__task--${
-              state.done.step.includes(state.current.step) ? "done" : "todo"
-            }`}
-          >
+          <div className="viewer__task">
             <Content>
               <Callout>
                 <div className="viewer__task-text">
                   <h2>
-                    {state.done.step.includes(state.current.step) && (
+                    {state.done.step.includes(step) && (
                       <StatusIcon />
                     )}
                     Aufgabe
                   </h2>
                   <p>
-                    <span>Rufen Sie die funktion </span>
-                    <code>Box()</code>
-                    <span> mit der x-Position </span>
-                    <code>20</code>
-                    <span> und der y-Position </span>
-                    <code>50</code>
-                    <span> auf.</span>
+                    {currentStep && (
+                      <Markdown text={currentStep.tasks[0].instruction} />
+                    )}
                   </p>
                 </div>
               </Callout>

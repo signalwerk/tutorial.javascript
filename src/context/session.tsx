@@ -41,13 +41,12 @@ type ActionPayload = {
 
 export type Actions = ActionMap<ActionPayload>[keyof ActionMap<ActionPayload>];
 
-type Chapter = {
+export type Chapter = {
   id: string;
   title: string;
-  steps?: Step[];
 };
 
-type Step = {
+export type Step = {
   id: string;
   title: string;
   intro: Intro;
@@ -55,12 +54,13 @@ type Step = {
 };
 
 type Intro = {
-  editor: EditorFrame[];
+  editor: string;
   video: string;
 };
 type Task = {
   instruction: string;
-  match: RegExp;
+  // match: RegExp;
+  match: string;
 };
 
 type Done = {
@@ -68,7 +68,7 @@ type Done = {
   step: string[];
 };
 
-type EditorFrame = {
+export type EditorFrame = {
   time: number;
   editor: Editor;
 };
@@ -79,28 +79,28 @@ export type Editor = {
 };
 
 type Current = {
-  chapter: string;
-  step: string;
+  // chapter: string;
+  // step: string;
   playPosition: number;
   editor: Editor;
 };
 
 type State = {
-  chapters: Chapter[];
+  // chapters: Chapter[];
   current: Current;
   done: Done;
 };
 
 const initialState: State = {
-  ...data,
+  // ...data,
   current: {
-    chapter: "functions",
-    step: "functions.call",
-    playPosition: 0,
-    editor: {
-      selection: { start: 0, end: 0 },
-      content: "",
-    },
+    //   chapter: "functions",
+    //   step: "functions.call",
+      playPosition: 0,
+      editor: {
+        selection: { start: 0, end: 0 },
+        content: "",
+      },
   },
   done: {
     chapter: ["intro", "comments", "variables", "types", "operators"],
@@ -110,20 +110,20 @@ const initialState: State = {
 
 const reducer: Reducer<State, Actions> = (state, action) => {
   switch (action.type) {
-    case Action.SET_CURRENT_STEP_FINISHED:
-      let step = [];
+    // case Action.SET_CURRENT_STEP_FINISHED:
+    //   let step = [];
 
-      if (!state.done.step.includes(state.current.step)) {
-        return {
-          ...state,
-          done: {
-            ...state.done,
-            step: [...state.done.step, state.current.step],
-          },
-        };
-      } else {
-        return state;
-      }
+    //   if (!state.done.step.includes(state.current.step)) {
+    //     return {
+    //       ...state,
+    //       done: {
+    //         ...state.done,
+    //         step: [...state.done.step, state.current.step],
+    //       },
+    //     };
+    //   } else {
+    //     return state;
+    //   }
 
     case Action.SET_CHAPTER:
       return {

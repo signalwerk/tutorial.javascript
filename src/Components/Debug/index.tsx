@@ -6,13 +6,16 @@ import {
 } from "../../context/session";
 import Button from "../Button";
 import StatusIcon from "../StatusIcon";
+import { useParams } from "react-router-dom";
+import { RouterParams } from "../../index";
 
 function StepMenu() {
   const { state, dispatch } = useContext(SessionContext);
+  let { chapter, step } = useParams<RouterParams>();
 
   const print = {
-    chapter: state.current.chapter,
-    step: state.current.step,
+    chapter: chapter,
+    step: step,
     editor: state.current.editor.content,
     selection: `${state.current.editor.selection.start} – ${state.current.editor.selection.end}`,
   };

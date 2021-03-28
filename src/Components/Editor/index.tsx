@@ -40,12 +40,12 @@ const Editor = () => {
     const regex = /Box\(\s*20\s*,\s*50\s*\)/g;
     const finished = regex.test(value);
 
-    if (finished) {
-      dispatch({
-        type: SessionAction.SET_CURRENT_STEP_FINISHED,
-        payload: {},
-      });
-    }
+    // if (finished) {
+    //   dispatch({
+    //     type: SessionAction.SET_CURRENT_STEP_FINISHED,
+    //     payload: {},
+    //   });
+    // }
   };
   const pushSelection = (value: Selection) => {
     dispatch({

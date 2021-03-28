@@ -6,25 +6,42 @@ import Viewer from "./Components/Viewer";
 import Debug from "./Components/Debug";
 import Admin from "./Components/Admin";
 import Version from "./Components/Version";
+import Home from "./Components/Home";
 import reportWebVitals from "./reportWebVitals";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // setup Provider
 
 import { Provider as SessionProvider } from "./context/session";
 
+export interface RouterParams {
+  chapter: string;
+  step: string;
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <SessionProvider>
-      <div className="container">
-        <Viewer />
-        {process.env.REACT_APP_DEV && (
-          <>
-            <Debug />
-            <Admin />
-          </>
-        )}
-        <Version />
-      </div>
+      <Router>
+        <div className="container">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/course/js/basic/:chapter/:step">
+              <Viewer />
+            </Route>
+          </Switch>
+
+          {process.env.REACT_APP_DEV && (
+            <>
+              <Debug />
+              <Admin />
+            </>
+          )}
+          <Version />
+        </div>
+      </Router>
     </SessionProvider>
   </React.StrictMode>,
   document.getElementById("root")

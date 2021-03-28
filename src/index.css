@@ -94,6 +94,11 @@ pre {
   margin: 0;
 }
 
+em {
+  font-style: normal;
+  font-weight: 700;
+}
+
 p,
 h1,
 h2,

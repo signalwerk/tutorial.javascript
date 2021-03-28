@@ -1,0 +1,30 @@
+[
+  {
+    "id": "overview",
+    "title": "Intro",
+    "intro": {
+      "editor": [],
+      "video": ""
+    },
+    "tasks": [
+      {
+        "instruction": "Hallo",
+        "match": "/(//)../g"
+      }
+    ]
+  },
+  {
+    "id": "function",
+    "title": "Funktion",
+    "intro": {
+      "editor": [],
+      "video": ""
+    },
+    "tasks": [
+      {
+        "instruction": "Hallo",
+        "match": "/(//)../g"
+      }
+    ]
+  }
+]

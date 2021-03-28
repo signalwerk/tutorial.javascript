@@ -54,6 +54,9 @@
   display: flex;
   flex-direction: column;
 }
+.viewer__step-menu-inner {
+  padding: 2rem;
+}
 
 .viewer__teach {
   width: 100%;
@@ -76,15 +79,6 @@
   /* background-color: var(--c-bg-1); */
   /* padding: 0.75rem;
   color: var(--color-blue); */
-}
-.viewer__task--done {
-  /* background-color: var(--color-green); */
-}
-
-.viewer__task-text {
-  /* padding: 0.75rem; */
-  /* background-color: white; */
-  /* color: var(--color-black); */
 }
 
 .viewer__task code {

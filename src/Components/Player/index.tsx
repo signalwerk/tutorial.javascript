@@ -5,17 +5,18 @@ import WorkSpace from "../WorkSpace";
 import VideoPlayer from "../VideoPlayer";
 import Preview from "../Preview";
 import TextPlayer from "../TextPlayer";
+import useFetch from "../../util/useFetch";
+import { useParams } from "react-router-dom";
+import { RouterParams } from "../../index";
 
 import {
   Context as SessionContext,
   Action as SessionAction,
   Editor,
   Selection,
+  Step,
+  EditorFrame,
 } from "../../context/session";
-
-type PlayerProps = {
-  editor: Editor | undefined;
-};
 
 enum PartType {
   TEXT = "TEXT",
@@ -146,22 +147,55 @@ const showLines = (code: string, start: number, end: number) => {
   ));
 };
 
-function Player({ editor }: PlayerProps) {
+/**
+ * Returns the index of the last element in the array where predicate is true, and -1
+ * otherwise.
+ * @param array The source array to search in
+ * @param predicate find calls predicate once for each element of the array, in descending
+ * order, until it finds one where predicate returns true. If such an element is found,
+ * findLastIndex immediately returns that element index. Otherwise, findLastIndex returns -1.
+ */
+export function findLastIndex<T>(
+  array: Array<T>,
+  predicate: (value: T, index: number, obj: T[]) => boolean
+): number {
+  let l = array.length;
+  while (l--) {
+    if (predicate(array[l], l, array)) return l;
+  }
+  return -1;
+}
+
+function Player() {
   const { state, dispatch } = useContext(SessionContext);
+  let { chapter, step } = useParams<RouterParams>();
 
   const pos = state.current.playPosition;
 
-  // chapter: state.current.chapter,
-  // step: state.current.step,
+  const { response: editorStates, loading, hasError } = useFetch<EditorFrame[]>(
+    `/api/course/js/basic/chapter/${chapter}/${step}.json`
+  );
+
+  const editorPlayerStepPos = editorStates
+    ? findLastIndex(editorStates, (item) => item.time <= pos * 1000)
+    : 0;
+
+  const editorPlayerStep = editorStates
+    ? editorStates[editorPlayerStepPos]
+    : false;
 
   return (
     <div className="player">
       <div className="player__content">
         <div className="player__code">
-          <TextPlayer editor={editor} />
+          {(!hasError && editorPlayerStep && (
+            <TextPlayer editor={editorPlayerStep.editor} />
+          )) || <span>Error beim laden des Editor-Players</span>}
         </div>
         <div className="player__preview">
-          <Preview code={editor?.content || ""} hideErrors={true} />
+          {!hasError && editorPlayerStep && (
+            <Preview code={editorPlayerStep.editor.content} hideErrors={true} />
+          )}
         </div>
         <div className="player__video">
           <VideoPlayer />

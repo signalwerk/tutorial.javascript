@@ -1,0 +1,58 @@
+[
+  {
+    "id": "intro",
+    "title": "Intro",
+    "intro": {
+      "editor": "",
+      "video": ""
+    },
+    "tasks": [
+      {
+        "instruction": "Schreibe selber einen einzeiligen Kommentar (`//`)",
+        "match": "/(//)../g"
+      }
+    ]
+  },
+  {
+    "id": "call",
+    "title": "Parameter",
+    "intro": {
+      "editor": "",
+      "video": ""
+    },
+    "tasks": [
+      {
+        "instruction": "Rufen Sie die funktion `Box()` mit der x-Position `20` und der y-Position `50` auf.",
+        "match": "/(//)../g"
+      }
+    ]
+  },
+  {
+    "id": "return",
+    "title": "Rückgabewert",
+    "intro": {
+      "editor": "",
+      "video": ""
+    },
+    "tasks": [
+      {
+        "instruction": "call",
+        "match": "/(//)../g"
+      }
+    ]
+  },
+  {
+    "id": "name",
+    "title": "Naming",
+    "intro": {
+      "editor": "",
+      "video": ""
+    },
+    "tasks": [
+      {
+        "instruction": "call",
+        "match": "/(//)../g"
+      }
+    ]
+  }
+]

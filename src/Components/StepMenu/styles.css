@@ -27,9 +27,9 @@
   /* background-color: var(--color-green); */
 }
 
-.step-menu__item button {
+.step-menu__link {
   width: 100%;
-  padding-left: 1.25rem;
+  /* padding-left: 1.25rem; */
   height: 3rem;
   display: flex;
   align-items: center;
