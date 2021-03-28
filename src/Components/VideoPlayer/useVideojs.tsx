@@ -99,7 +99,6 @@ export function useVideojs({
   }, [src, autoplay]);
 
   const _initPlayer = () => {
-    console.log("--- props", props);
     player = videojs(videoNodeRef.current, props);
     player.src(src);
     player.autoplay(autoplay || false);

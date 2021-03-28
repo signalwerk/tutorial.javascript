@@ -50,10 +50,6 @@ const showLines = (code: string, start: number, end: number) => {
   const hasCursor = start === end;
   let offset = 0;
   const lines: Line[] = code.split("\n").map((line: string) => {
-    // length = line.length;
-    // const startsWithMark =
-    console.log({ offset, start, end });
-
     let parts = null;
 
     // there is just a cursor

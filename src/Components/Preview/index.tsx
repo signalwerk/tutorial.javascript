@@ -39,8 +39,6 @@ function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
   }
 
   function print(text = "") {
-    // const { x, y, width, height } = props || {};
-    // console.log("run box", { x, y, width, height });
     textList = [...textList, text];
   }
 
@@ -55,8 +53,7 @@ function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
         console.warn(renderError);
       }
     }
-    console.log("code", code);
-    console.log(runCodeWithDateFunction(`function(Box, print){ ${code} }`));
+    runCodeWithDateFunction(`function(Box, print){ ${code} }`);
   };
 
   useEffect(() => {
@@ -81,21 +78,13 @@ function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
         >
           <rect className="svg__rect svg__paper" width="210" height="297" />
 
-          <text className="svg__text code" text-anchor="end" x="205" y="18">
+          <text className="svg__text code" textAnchor="end" x="205" y="18">
             A4
           </text>
 
-          {/* <text className="svg__text code" text-anchor="start" x="60" y="40">
-                  <tspan x="0" dy="1.2em">
-                    very long text
-                  </tspan>
-                  <tspan x="0" dy="1.2em">
-                    I would like to linebreak
-                  </tspan>
-                </text> */}
-
-          {boxes.map((item) => (
+          {boxes.map((item, index) => (
             <rect
+              key={index}
               className="svg__rect"
               x={item.x}
               y={item.y}
@@ -104,17 +93,18 @@ function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
             />
           ))}
         </svg>
-
-        {/* <pre>
-              <code>{JSON.stringify(boxes, null, 2)}</code>
-            </pre> */}
+        {/* 
+        <pre>
+          <code>{JSON.stringify(boxes, null, 2)}</code>
+        </pre>
+         */}
       </div>
 
       {texts.length > 0 && (
         <div className="preview__console code">
           <pre>
-            {texts.map((text) => (
-              <code>
+            {texts.map((text, index) => (
+              <code key={index}>
                 {text}
                 {"\n"}
               </code>

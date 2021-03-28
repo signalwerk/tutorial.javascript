@@ -17,8 +17,8 @@ const Track = ({ max, value, onChange }: TrackProps) => {
     <div className="track">
       <Range
         step={0.1}
-        min={0}
-        max={max}
+        min={0.0}
+        max={Math.round(max * 10) / 10}
         values={[value]}
         onChange={(values) => onChange(values[0])}
         renderTrack={({ props, children }) => (
@@ -29,7 +29,6 @@ const Track = ({ max, value, onChange }: TrackProps) => {
                 width: `${(100 / max) * value}%`,
               }}
             />
-
             {children}
           </div>
         )}

@@ -41,18 +41,6 @@ function StepMenu({ steps }: StepMenuProps) {
   //   (item) => item.id === state.current.chapter
   // );
 
-  const handleClick = (
-    event: React.MouseEvent<HTMLButtonElement>,
-    id: string
-  ) => {
-    dispatch({
-      type: SessionAction.SET_STEP,
-      payload: {
-        id,
-      },
-    });
-  };
-
   return (
     <div className="step-menu">
       <div className="step-menu__list">

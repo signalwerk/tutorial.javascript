@@ -19,7 +19,6 @@ server.on("request", function (req, res) {
 
     fs.writeFileSync(`./src/context/content/${post.id}.json`, post.content);
 
-    console.log(post);
     res.writeHead(200, {
       "Content-Type": "text/plain",
       "Access-Control-Allow-Origin": "*",

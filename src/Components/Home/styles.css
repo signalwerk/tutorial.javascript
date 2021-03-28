@@ -1,3 +1,42 @@
-home {
-  
+.home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__inner {
+  /* margin-top: 8rem; */
+  margin-right: auto;
+  margin-left: auto;
+  width: 92%;
+  max-width: 40rem;
+}
+
+.home__cta {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.home__btn {
+  background-color: var(--c-primary);
+  border-radius: 0.25rem;
+  color: white;
+  /* display: inline-block; */
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.4rem 0.9rem;
+  font-size: 1.7rem;
+}
+.home__btn:hover {
+  background-color: var(--color-blue);
+}
+
+.home__title {
+  font-size: 1.7rem;
+}
+
+.home__intro {
+  font-size: 1.3rem;
 }

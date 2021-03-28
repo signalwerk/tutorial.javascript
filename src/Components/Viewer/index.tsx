@@ -21,18 +21,6 @@ function Viewer() {
   const { state, dispatch } = useContext(SessionContext);
   let { chapter, step } = useParams<RouterParams>();
 
-  // const step = chapter?.steps?.find((item) => item.id === state.current.step);
-  // const pos = state.current.playPosition;
-
-  // const editorPlayerStepPos =
-  //   step?.intro.editor.findIndex((item) => item.time >= pos * 1000) || 0;
-
-  // const editorPlayerStepPos = step
-  //   ? findLastIndex(step.intro.editor, (item) => item.time <= pos * 1000)
-  //   : 0;
-
-  // const editorPlayerStep = step?.intro.editor[editorPlayerStepPos];
-
   const { response: steps, loading, hasError } = useFetch<Step[]>(
     `/api/course/js/basic/chapter/${chapter}.json`
   );
@@ -63,9 +51,7 @@ function Viewer() {
               <Callout>
                 <div className="viewer__task-text">
                   <h2>
-                    {state.done.step.includes(step) && (
-                      <StatusIcon />
-                    )}
+                    {state.done.step.includes(step) && <StatusIcon />}
                     Aufgabe
                   </h2>
                   <p>
@@ -80,7 +66,7 @@ function Viewer() {
           <div className="viewer__learn">
             <Content>
               <WorkSpace preview={state.current.editor.content}>
-                <Editor />
+                <Editor match={currentStep?.tasks[0].match}/>
               </WorkSpace>
             </Content>
           </div>

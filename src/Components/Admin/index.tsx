@@ -119,15 +119,7 @@ function Admin() {
 
   const handleStop = (event: React.MouseEvent<HTMLButtonElement>) => {
     stopRecording();
-    console.log("post");
     setRecording(false);
-
-    // dispatch({
-    //   type: SessionAction.SET_CHAPTER,
-    //   payload: {
-    //     id,
-    //   },
-    // });
 
     fetch("http://localhost:3005", {
       method: "post",
@@ -199,11 +191,11 @@ function Admin() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M8.5 0H0V9H8.5H16V0H8.5ZM8.5 0C10.9853 0 13 2.01472 13 4.5C13 6.98528 10.9853 9 8.5 9C6.01472 9 4 6.98528 4 4.5C4 2.01472 6.01472 0 8.5 0Z"
               fill="black"
-              fill-opacity="0.7"
+              fillOpacity="0.7"
             />
           </svg>
 

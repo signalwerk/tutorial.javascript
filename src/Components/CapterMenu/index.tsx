@@ -43,18 +43,6 @@ function CapterMenu() {
   const { state, dispatch } = useContext(SessionContext);
   let { chapter } = useParams<RouterParams>();
 
-  const handleClick = (
-    event: React.MouseEvent<HTMLButtonElement>,
-    id: string
-  ) => {
-    dispatch({
-      type: SessionAction.SET_CHAPTER,
-      payload: {
-        id,
-      },
-    });
-  };
-
   //<Chapter[]>
   const { response, loading, hasError } = useFetch<Chapter[]>(
     `/api/course/js/basic/chapters.json`

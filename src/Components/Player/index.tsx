@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./styles.css";
 import Window from "../Window";
 import WorkSpace from "../WorkSpace";
@@ -52,10 +52,6 @@ const showLines = (code: string, start: number, end: number) => {
   const hasCursor = start === end;
   let offset = 0;
   const lines: Line[] = code.split("\n").map((line: string) => {
-    // length = line.length;
-    // const startsWithMark =
-    console.log({ offset, start, end });
-
     let parts = null;
 
     // there is just a cursor
@@ -170,35 +166,38 @@ function Player() {
   const { state, dispatch } = useContext(SessionContext);
   let { chapter, step } = useParams<RouterParams>();
 
-  const pos = state.current.playPosition;
+  const [pos, setPos] = useState(0);
 
-  const { response: editorStates, loading, hasError } = useFetch<EditorFrame[]>(
+  // const pos = state.current.playPosition;
+
+  const { response: editorFrames, loading, hasError } = useFetch<EditorFrame[]>(
     `/api/course/js/basic/chapter/${chapter}/${step}.json`
   );
 
-  const editorPlayerStepPos = editorStates
-    ? findLastIndex(editorStates, (item) => item.time <= pos * 1000)
+  const editorFramePosPos = editorFrames
+    ? findLastIndex(editorFrames, (item) => item.time <= pos * 1000)
     : 0;
 
-  const editorPlayerStep = editorStates
-    ? editorStates[editorPlayerStepPos]
-    : false;
+  const editorFramePos = editorFrames ? editorFrames[editorFramePosPos] : false;
 
   return (
     <div className="player">
       <div className="player__content">
+        <div className="player__video">
+          <VideoPlayer
+            onTimeUpdate={(t: number) => setPos(t)}
+            src={`./movies/${chapter}/${step}.mp4`}
+          />
+        </div>
         <div className="player__code">
-          {(!hasError && editorPlayerStep && (
-            <TextPlayer editor={editorPlayerStep.editor} />
+          {(!hasError && editorFramePos && (
+            <TextPlayer editor={editorFramePos.editor} />
           )) || <span>Error beim laden des Editor-Players</span>}
         </div>
         <div className="player__preview">
-          {!hasError && editorPlayerStep && (
-            <Preview code={editorPlayerStep.editor.content} hideErrors={true} />
+          {!hasError && editorFramePos && (
+            <Preview code={editorFramePos.editor.content} hideErrors={true} />
           )}
-        </div>
-        <div className="player__video">
-          <VideoPlayer />
         </div>
       </div>
     </div>

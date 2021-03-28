@@ -13,7 +13,12 @@ import "./styles.css";
 
 import "video.js/dist/video-js.css";
 
-function VideoPlayer() {
+type VideoPlayerProps = {
+  onTimeUpdate: Function;
+  src: string;
+};
+
+function VideoPlayer({ onTimeUpdate: update, src }: VideoPlayerProps) {
   const { state, dispatch } = useContext(SessionContext);
 
   const [isPlaying, setPlaying] = useState(false);
@@ -21,43 +26,49 @@ function VideoPlayer() {
   const [duration, setDuration] = useState(0);
   const [durationFormat, setDurationFormat] = useState("");
   const [playPosition, setPlayPosition] = useState(0);
+  const [isInitial, setInitial] = useState(true);
 
   let player = useRef<VideoJsPlayer | null>(null);
 
-  const dispatchPos = (pos: number | undefined) => {
-    dispatch({
-      type: SessionAction.SET_PLAYER_POSITION,
-      payload: {
-        value: pos || 0,
-      },
-    });
+  const updatePosition = (pos: number | undefined) => {
+    update(pos || 0);
+    setPlayPosition(pos || 0);
+    // dispatch({
+    //   type: SessionAction.SET_PLAYER_POSITION,
+    //   payload: {
+    //     value: pos || 0,
+    //   },
+    // });
   };
 
+  useEffect(() => {
+    updatePosition(0);
+    setDuration(0);
+    setMute(false);
+    setPlaying(false);
+    setInitial(true);
+  }, [src]);
+
   const onPlay = (currentTime?: number) => {
-    dispatchPos(currentTime);
-    console.log("Video played at: ", currentTime);
+    updatePosition(currentTime);
   };
 
   const onPause = (currentTime?: number) => {
-    dispatchPos(currentTime);
-    console.log("Video paused at: ", currentTime);
+    updatePosition(currentTime);
   };
 
   const onEnd = (currentTime?: number) => {
     setPlaying(false);
-    dispatchPos(currentTime);
-    console.log(`Video ended at ${currentTime}`);
+    updatePosition(currentTime);
   };
 
   const onTimeUpdate = (currentTime: number) => {
     setPlayPosition(currentTime);
-    dispatchPos(currentTime);
-    console.log(`Video current time is ${currentTime}`);
+    updatePosition(currentTime);
   };
   const onLoadedmetadata = (totalTime: number) => {
-    // dispatchPos(currentTime);
+    // updatePosition(currentTime);
     setDuration(totalTime);
-    console.log(`⚠️⚠️⚠️ totalTime: ${totalTime}`);
   };
 
   const onReady = (p: VideoJsPlayer) => {
@@ -65,7 +76,7 @@ function VideoPlayer() {
   };
 
   const { videoNodeRef } = useVideojs({
-    src: "./function.call.mp4",
+    src,
     controls: false,
     autoplay: false,
     responsive: false,
@@ -98,6 +109,13 @@ function VideoPlayer() {
       } else {
         player.current.pause();
       }
+    }
+  };
+
+  const startPlayback = () => {
+    if (player.current) {
+      setInitial(false);
+      togglePlayback();
     }
   };
 
@@ -145,7 +163,7 @@ function VideoPlayer() {
         </div>
         <div className="video-player__bar">
           <div className="video-player__track">
-            {duration && (
+            {!!duration && (
               <Track
                 max={duration}
                 value={playPosition}
@@ -154,23 +172,34 @@ function VideoPlayer() {
             )}
           </div>
           <div className="video-player__control">
-            <button
-              className={`video-player__btn ${
-                isPlaying ? "icon-pause" : "icon-play"
-              }`}
-              onClick={togglePlayback}
-            ></button>
-            <button
-              className={`video-player__btn ${
-                isMuted ? "icon-volume-off" : "icon-volume-up"
-              }`}
-              onClick={toggleMute}
-            ></button>
+            {!!duration && (
+              <>
+                <button
+                  className={`video-player__btn ${
+                    isPlaying ? "icon-pause" : "icon-play"
+                  }`}
+                  onClick={togglePlayback}
+                ></button>
+                <button
+                  className={`video-player__btn ${
+                    isMuted ? "icon-volume-off" : "icon-volume-up"
+                  }`}
+                  onClick={toggleMute}
+                ></button>
+              </>
+            )}
             <div className="video-player__time">
               {playPositionFormat} | {durationFormat}
             </div>
           </div>
         </div>
+        {!!duration && isInitial && (
+          <div className="video-player__big-start">
+            <button onClick={startPlayback}>
+              <span className="icon-play"></span>
+            </button>
+          </div>
+        )}
       </div>
     </>
   );

@@ -58,7 +58,7 @@ html {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.4;
+  line-height: 1.45;
   color: var(--c-black);
   background: var(--c-bg);
 }
@@ -77,6 +77,15 @@ a {
 
 a:hover {
   /* color: inherit; */
+}
+
+.inline-link a {
+  border-bottom: 2px solid var(--c-black);
+}
+
+.inline-link a:hover {
+  /* color: var(--color-brown); */
+  border-color: var(--color-blue);
 }
 
 ::selection {
@@ -105,13 +114,13 @@ h2,
 h3 {
   margin-top: 0;
   margin-bottom: 0.4em;
-  line-height: 1.2;
 }
 
 h1,
 h2,
 h3 {
   font-weight: 700;
+  line-height: 1.2;
 }
 
 h2,

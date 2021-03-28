@@ -7,7 +7,11 @@ import {
 
 import "./styles.css";
 
-const Editor = () => {
+export type editorProps = {
+  match: string | undefined;
+};
+
+const Editor = ({ match }: editorProps) => {
   const { state, dispatch } = useContext(SessionContext);
 
   const inputEl = useRef<HTMLTextAreaElement>(null);
@@ -37,15 +41,23 @@ const Editor = () => {
       },
     });
 
-    const regex = /Box\(\s*20\s*,\s*50\s*\)/g;
-    const finished = regex.test(value);
+    if (match) {
+      const regexParts = match.match(new RegExp("^/(.*?)/([gimy]*)$"));
+      if (regexParts?.length === 3) {
+        const regex = new RegExp(regexParts[1], regexParts[2]);
 
-    // if (finished) {
-    //   dispatch({
-    //     type: SessionAction.SET_CURRENT_STEP_FINISHED,
-    //     payload: {},
-    //   });
-    // }
+        const finished = regex.test(value);
+        if (finished) {
+          console.log("----- finished");
+          // dispatch({
+          //   type: SessionAction.SET_CURRENT_STEP_FINISHED,
+          //   payload: {
+          //     // value:
+          //   },
+          // });
+        }
+      }
+    }
   };
   const pushSelection = (value: Selection) => {
     dispatch({

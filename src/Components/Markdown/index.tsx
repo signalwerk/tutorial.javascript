@@ -4,21 +4,27 @@ export type markdownProps = {
   text: string;
 };
 
-const obj2jsx = (token: mdToken) => {
+const obj2jsx = (token: mdToken, key: number) => {
   switch (token.type) {
     case mdTypes.INLINE_CODE:
-      return <code>{token.text}</code>;
+      return <code key={key}>{token.text}</code>;
       break;
     case mdTypes.EMPHASIZE:
-      return <em>{token.content.map((item) => obj2jsx(item))}</em>;
+      return (
+        <em key={key}>
+          {token.content.map((item, index) => obj2jsx(item, index))}
+        </em>
+      );
       break;
     case mdTypes.LINK:
       return (
-        <a href={token.href}>{token?.content.map((item) => obj2jsx(item))}</a>
+        <a key={key} href={token.href} target="_blank" rel="noreferrer">
+          {token?.content.map((item, index) => obj2jsx(item, index))}
+        </a>
       );
       break;
     case mdTypes.TEXT:
-      return <span>{token.text}</span>;
+      return <span key={key}>{token.text}</span>;
       break;
     default:
       return <span>⚠️ no handling</span>;
@@ -29,7 +35,9 @@ const obj2jsx = (token: mdToken) => {
 const Markdown = ({ text }: markdownProps) => {
   const tokens = md2obj(text);
   return (
-    <div className="markdown">{tokens.map((token) => obj2jsx(token))}</div>
+    <span className="markdown">
+      {tokens.map((token, index) => obj2jsx(token, index))}
+    </span>
   );
 };
 export default Markdown;
