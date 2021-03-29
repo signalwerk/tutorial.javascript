@@ -9,7 +9,7 @@ import "./styles.css";
 const Home = () => (
   <div className="home">
     <div className="home__inner">
-      <h1 className="home__title">JavaScript · Einführung</h1>
+      <h1 className="home__title">JavaScript · Basics</h1>
       <p className="home__intro inline-link">
         <Markdown
           text={`In diesem Teil des Kurses werden die Grundlagen von JavaScript erklärt. Die in InDesign verwendete Scriptsprache «ExtendScript» basiert auf JavaScript [(ECMAScript 3)](https://de.wikipedia.org/wiki/JavaScript#Versionsgeschichte_von_ECMAScript_%28ECMA-262%29)`}
