@@ -6,7 +6,11 @@
   background-color: white;
   border-radius: 0.25rem;
 
-  border: 2px solid var(--c-primary);
+  border: 2px solid var(--c-bg-1);
+}
+
+.work-space--focus {
+  border-color: var(--c-primary);
 }
 
 .work-space__view {
@@ -28,6 +32,7 @@
   width: 30%;
   margin: 2rem;
   margin-left: 0;
+  overflow: hidden;
 }
 
 .svg__text {

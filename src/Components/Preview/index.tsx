@@ -116,9 +116,9 @@ function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
       {error && !hideErrors && (
         <div className="preview__error">
           <p>⚠️ Der Code hat im Moment noch Fehler.</p>
-          <pre className="preview__debug">
+          <div className="preview__debug">
             <code>{error}</code>
-          </pre>
+          </div>
         </div>
       )}
     </div>

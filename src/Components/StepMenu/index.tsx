@@ -47,14 +47,21 @@ function StepMenu({ steps }: StepMenuProps) {
         {steps.map((item) => (
           <StepMenuItem
             key={item.id}
-            done={state.done.step.includes(item.id)}
+            done={
+              (state.progress &&
+                state.progress[chapter].steps.includes(item.id)) ||
+              false
+            }
             active={step === item.id}
           >
             <Link
               className="step-menu__link"
               to={`/course/js/basic/${chapter}/${item.id}`}
             >
-              {state.done.step.includes(item.id) && <StatusIcon />}
+              {state.progress &&
+                state.progress[chapter].steps.includes(item.id) && (
+                  <StatusIcon />
+                )}
               {item.title}
             </Link>
           </StepMenuItem>

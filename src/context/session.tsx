@@ -5,6 +5,7 @@ enum Action {
   SET_CURRENT_STEP_FINISHED = "SET_CURRENT_STEP_FINISHED",
   SET_EDITOR_CONTENT = "SET_EDITOR_CONTENT",
   SET_EDITOR_SELECTION = "SET_EDITOR_SELECTION",
+  SET_EDITOR_FOCUS = "SET_EDITOR_FOCUS",
 }
 
 export type Selection = {
@@ -13,12 +14,18 @@ export type Selection = {
 };
 
 type ActionPayload = {
-  [Action.SET_CURRENT_STEP_FINISHED]: {};
+  [Action.SET_CURRENT_STEP_FINISHED]: {
+    chapter: string;
+    step: string;
+  };
   [Action.SET_EDITOR_CONTENT]: {
     value: string;
   };
   [Action.SET_EDITOR_SELECTION]: {
     value: Selection;
+  };
+  [Action.SET_EDITOR_FOCUS]: {
+    value: boolean;
   };
 };
 
@@ -32,7 +39,6 @@ export type Chapter = {
 export type Step = {
   id: string;
   title: string;
-  // intro: Intro;
   tasks: Task[];
 };
 
@@ -41,9 +47,21 @@ type Task = {
   match: string;
 };
 
-type Done = {
-  chapter: string[];
-  step: string[];
+type ChapterProgress = {
+  done: boolean;
+  steps: string[];
+};
+type Progress = {
+  // intro?: ChapterProgress;
+  // comments?: ChapterProgress;
+  // variables?: ChapterProgress;
+  // types?: ChapterProgress;
+  // operators?: ChapterProgress;
+  // functions?: ChapterProgress;
+  // itterations?: ChapterProgress;
+  // conditions?: ChapterProgress;
+  // "advanced-types"?: ChapterProgress;
+  [key: string]: ChapterProgress; //is indexable; not a new property
 };
 
 export type EditorFrame = {
@@ -54,6 +72,7 @@ export type EditorFrame = {
 export type Editor = {
   selection: Selection;
   content: string;
+  focus: boolean;
 };
 
 type Current = {
@@ -62,7 +81,7 @@ type Current = {
 
 type State = {
   current: Current;
-  done: Done;
+  progress?: Progress;
 };
 
 const initialState: State = {
@@ -70,30 +89,47 @@ const initialState: State = {
     editor: {
       selection: { start: 0, end: 0 },
       content: "",
+      focus: false,
     },
   },
-  done: {
-    chapter: ["intro", "comments", "variables", "types", "operators"],
-    step: ["functions.intro"],
+  progress: {
+    // intro: { done: false, steps: [] },
+    // comments: { done: false, steps: [] },
+    // variables: { done: false, steps: [] },
+    // types: { done: false, steps: [] },
+    // operators: { done: false, steps: [] },
+    // functions: { done: false, steps: [] },
+    // itterations: { done: false, steps: [] },
+    // conditions: { done: false, steps: [] },
+    // "advanced-types": { done: false, steps: [] },
+
+    intro: { done: true, steps: ["overview", "function"] },
+    comments: { done: true, steps: [] },
+    variables: { done: true, steps: [] },
+    types: { done: true, steps: [] },
+    operators: { done: true, steps: [] },
+    functions: { done: false, steps: ["overview"] },
+    itterations: { done: false, steps: [] },
+    conditions: { done: false, steps: [] },
+    "advanced-types": { done: false, steps: [] },
   },
 };
 
 const reducer: Reducer<State, Actions> = (state, action) => {
   switch (action.type) {
-    // case Action.SET_CURRENT_STEP_FINISHED:
-    //   let step = [];
+    case Action.SET_CURRENT_STEP_FINISHED:
+      const { chapter, step } = action.payload;
 
-    //   if (!state.done.step.includes(state.current.step)) {
-    //     return {
-    //       ...state,
-    //       done: {
-    //         ...state.done,
-    //         step: [...state.done.step, state.current.step],
-    //       },
-    //     };
-    //   } else {
-    //     return state;
-    //   }
+      const newPorgress = state.progress || {};
+      newPorgress[chapter] = newPorgress[chapter] || { done: false, steps: [] };
+      newPorgress[chapter].steps = [...newPorgress[chapter].steps, step];
+
+      return {
+        ...state,
+        progress: {
+          ...newPorgress,
+        },
+      };
 
     case Action.SET_EDITOR_CONTENT:
       return {
@@ -119,8 +155,20 @@ const reducer: Reducer<State, Actions> = (state, action) => {
         },
       };
 
-    default:
-      throw new Error(`Unhandled action type: ${action.type}`);
+    case Action.SET_EDITOR_FOCUS:
+      return {
+        ...state,
+        current: {
+          ...state.current,
+          editor: {
+            ...state.current.editor,
+            focus: action.payload.value,
+          },
+        },
+      };
+
+    // default:
+    //   throw new Error(`Unhandled action type: ${action && action.type}`);
   }
 };
 

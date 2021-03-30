@@ -27,6 +27,9 @@ function Viewer() {
 
   const currentStep = steps?.find((item) => item.id === step);
 
+  const isSolved =
+    (state.progress && state.progress[chapter].steps.includes(step)) || false;
+
   return (
     <div className="viewer">
       <div className="viewer__chapter-menu">
@@ -48,10 +51,10 @@ function Viewer() {
           </div>
           <div className="viewer__task">
             <Content>
-              <Callout>
+              <Callout done={isSolved}>
                 <div className="viewer__task-text">
                   <h2>
-                    {state.done.step.includes(step) && <StatusIcon />}
+                    {isSolved && <StatusIcon />}
                     Aufgabe
                   </h2>
                   <p>
@@ -65,8 +68,11 @@ function Viewer() {
           </div>
           <div className="viewer__learn">
             <Content>
-              <WorkSpace preview={state.current.editor.content}>
-                <Editor match={currentStep?.tasks[0].match}/>
+              <WorkSpace
+                preview={state.current.editor.content}
+                focus={state.current.editor.focus}
+              >
+                <Editor match={currentStep?.tasks[0].match} />
               </WorkSpace>
             </Content>
           </div>

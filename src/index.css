@@ -32,6 +32,7 @@
   --c-primary: #137cbd;
   --c-black: var(--gray-1400);
   --c-active: #17a093;
+  --c-active-light: #cadcd0;
   --c-result: #ea5d26;
 }
 

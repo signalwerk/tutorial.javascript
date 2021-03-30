@@ -4,7 +4,6 @@
 }
 
 .preview__view {
-
   display: flex;
   justify-content: center;
 }
@@ -31,8 +30,10 @@
 }
 
 .preview__error {
-  margin: 1rem;
+  padding: 1rem;
+  /* margin: 1rem;
   margin-top: 2rem;
+  width: calc(100% - 2rem); */
 }
 
 .preview__debug {

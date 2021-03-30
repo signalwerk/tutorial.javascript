@@ -57,11 +57,13 @@ function CapterMenu() {
             response.map((item: Chapter) => (
               <CapterMenuItem
                 key={item.id}
-                done={state.done.chapter.includes(item.id)}
+                done={(state.progress && state.progress[chapter].done) || false}
                 active={chapter === item.id}
               >
                 <Link to={`/course/js/basic/${item.id}/overview`}>
-                  {state.done.chapter.includes(item.id) && <StatusIcon />}
+                  {state.progress && state.progress[item.id].done && (
+                    <StatusIcon />
+                  )}
                   {item.title}
                 </Link>
               </CapterMenuItem>

@@ -4,6 +4,8 @@ import {
   Action as SessionAction,
   Selection,
 } from "../../context/session";
+import { useParams } from "react-router-dom";
+import { RouterParams } from "../../index";
 
 import "./styles.css";
 
@@ -13,6 +15,7 @@ export type editorProps = {
 
 const Editor = ({ match }: editorProps) => {
   const { state, dispatch } = useContext(SessionContext);
+  let { chapter, step } = useParams<RouterParams>();
 
   const inputEl = useRef<HTMLTextAreaElement>(null);
 
@@ -48,13 +51,13 @@ const Editor = ({ match }: editorProps) => {
 
         const finished = regex.test(value);
         if (finished) {
-          console.log("----- finished");
-          // dispatch({
-          //   type: SessionAction.SET_CURRENT_STEP_FINISHED,
-          //   payload: {
-          //     // value:
-          //   },
-          // });
+          dispatch({
+            type: SessionAction.SET_CURRENT_STEP_FINISHED,
+            payload: {
+              chapter,
+              step,
+            },
+          });
         }
       }
     }
@@ -128,12 +131,32 @@ const Editor = ({ match }: editorProps) => {
     }
   };
 
+  const setFocus = () => {
+    dispatch({
+      type: SessionAction.SET_EDITOR_FOCUS,
+      payload: {
+        value: true,
+      },
+    });
+  };
+
+  const setBlur = () => {
+    dispatch({
+      type: SessionAction.SET_EDITOR_FOCUS,
+      payload: {
+        value: false,
+      },
+    });
+  };
+
   return (
     <div className="editor">
       <textarea
         className="editor__textarea"
         ref={inputEl}
         name="text"
+        onFocus={setFocus}
+        onBlur={setBlur}
         onChange={handleInputChange}
         onKeyDown={handleKeyDown}
         value={content}
