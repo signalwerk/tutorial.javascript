@@ -26,6 +26,13 @@
 
   /* --------------- */
 
+  --color-blue--0100: #f3f7f9;
+  --color-blue--0200: #c4d0d9;
+  --color-blue--0500: #1567b0;
+  --color-blue--1000: #0c1920;
+
+  /* --------------- */
+
   --c-bg: var(--gray-000);
   --c-bg-1: var(--gray-200);
   --c-bg-2: var(--gray-400);
