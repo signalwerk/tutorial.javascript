@@ -1,5 +1,8 @@
 import React from "react";
-import { md2obj, mdToken, mdTypes } from "./md";
+
+import fromMarkdown, { mdTypes, mdToken } from "mdast-util-from-span-markdown";
+const md = "Say **Hello** [World](https://example.com) in `code`! *Thanks!*";
+
 export type markdownProps = {
   text: string;
 };
@@ -7,24 +10,25 @@ export type markdownProps = {
 const obj2jsx = (token: mdToken, key: number) => {
   switch (token.type) {
     case mdTypes.INLINE_CODE:
-      return <code key={key}>{token.text}</code>;
+      return <code key={key}>{token.value}</code>;
       break;
-    case mdTypes.EMPHASIZE:
+    case mdTypes.EMPHASIS:
+    // case mdTypes.STRONG:
       return (
         <em key={key}>
-          {token.content.map((item, index) => obj2jsx(item, index))}
+          {token.children.map((item, index) => obj2jsx(item, index))}
         </em>
       );
       break;
     case mdTypes.LINK:
       return (
-        <a key={key} href={token.href} target="_blank" rel="noreferrer">
-          {token?.content.map((item, index) => obj2jsx(item, index))}
+        <a key={key} href={token.url} target="_blank" rel="noreferrer">
+          {token?.children.map((item, index) => obj2jsx(item, index))}
         </a>
       );
       break;
     case mdTypes.TEXT:
-      return <span key={key}>{token.text}</span>;
+      return <span key={key}>{token.value}</span>;
       break;
     default:
       return <span>⚠️ no handling</span>;
@@ -33,7 +37,7 @@ const obj2jsx = (token: mdToken, key: number) => {
 };
 
 const Markdown = ({ text }: markdownProps) => {
-  const tokens = md2obj(text);
+  const tokens = fromMarkdown(text);
   return (
     <span className="markdown">
       {tokens.map((token, index) => obj2jsx(token, index))}
