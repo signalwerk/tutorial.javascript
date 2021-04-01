@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
 import "./styles.css";
-import Window from "../Window";
 import Preview from "../Preview";
 
 type WorkSpaceProps = {

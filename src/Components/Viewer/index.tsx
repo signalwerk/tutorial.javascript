@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import Window from "../Window";
 import WorkSpace from "../WorkSpace";
 import Callout from "../Callout";
 import StatusIcon from "../StatusIcon";

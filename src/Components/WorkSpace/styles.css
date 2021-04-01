@@ -6,7 +6,7 @@
   background-color: white;
   border-radius: 0.25rem;
 
-  border: 2px solid var(--c-bg-1);
+  border: 2px solid var(--color-blue--0200);
 }
 
 .work-space--focus {

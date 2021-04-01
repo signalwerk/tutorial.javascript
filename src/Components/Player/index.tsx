@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import "./styles.css";
-import Window from "../Window";
 import WorkSpace from "../WorkSpace";
 import VideoPlayer from "../VideoPlayer";
 import Preview from "../Preview";

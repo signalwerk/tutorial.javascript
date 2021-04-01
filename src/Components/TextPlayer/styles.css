@@ -32,6 +32,6 @@
 }
 
 .part--selected {
-  background-color: var(--color-brown);
-  color: black;
+  background-color: var(--c-selection);
+  color: var(--c-black);
 }

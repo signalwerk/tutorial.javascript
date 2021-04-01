@@ -25,8 +25,8 @@
 }
 
 .preview--negative .svg__paper {
-  fill: var(--c-bg-1);
-  stroke: var(--c-bg-1);
+  fill: var(--color-blue--0200);
+  stroke: var(--color-blue--0200);
 }
 
 .preview__error {

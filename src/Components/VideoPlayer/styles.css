@@ -26,33 +26,22 @@
 }
 
 .video-player__bar {
-  /* height: 2rem; */
-  /* background-color: red; */
-
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
 }
 
-/* @media only screen and (min-height: 80rem) {
-  .video-player__bar {
-    width: 100%;
-  }
-} */
-
 .video-player__track {
-  /* background-color: blue; */
   margin-left: 1rem;
   margin-right: 1rem;
 }
 .video-player__control {
-  /* background-color: blue; */
   height: 2rem;
   display: flex;
   margin-left: 0.6rem;
   margin-bottom: 0.5rem;
-  color: var(--c-bg-1);
+  color: var(--color-blue--0200);
 }
 
 .video-player__btn {
@@ -64,7 +53,7 @@
 }
 
 .video-player__btn:hover {
-  color: var(--c-active);
+  color: var(--c-hover);
 }
 
 .video-player__time {
@@ -86,11 +75,10 @@
   height: 100%;
   background-color: rgba(8, 31, 43, 0.9);
   z-index: 11;
-
 }
 
 .video-player__big-start:hover {
-  color: var(--c-active);
+  color: var(--c-hover);
 }
 
 .video-player__big-start button {
