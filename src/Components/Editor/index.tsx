@@ -21,7 +21,10 @@ const Editor = ({ match }: editorProps) => {
 
   const [selection, setSelection] = useState<Selection>();
 
-  const content = state.current.editor.content;
+  // const content = state.current.editor.content;
+  const content =
+    (state.progress && state.progress[chapter]?.steps[step]?.editor?.content) ||
+    "";
 
   useEffect(() => {
     if (!selection) return; // prevent running on start
@@ -37,9 +40,13 @@ const Editor = ({ match }: editorProps) => {
   }, []);
 
   const pushValue = (value: string) => {
+    console.log("-- set value", { value });
+
     dispatch({
       type: SessionAction.SET_EDITOR_CONTENT,
       payload: {
+        chapter,
+        step,
         value,
       },
     });

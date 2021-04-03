@@ -24,10 +24,12 @@ function Viewer() {
     `/api/course/js/basic/chapter/${chapter}.json`
   );
 
-  const currentStep = steps?.find((item) => item.id === step);
+  const currentStepData = steps?.find((item) => item.id === step);
 
-  const isSolved =
-    (state.progress && state.progress[chapter].steps.includes(step)) || false;
+  const currentStepProgress =
+    state.progress && state.progress[chapter].steps[step];
+
+  const isSolved = currentStepProgress?.done;
 
   return (
     <div className="viewer">
@@ -50,15 +52,15 @@ function Viewer() {
           </div>
           <div className="viewer__task">
             <Content>
-              <Callout done={isSolved}>
+              <Callout done={isSolved || false}>
                 <div className="viewer__task-text">
                   <h2>
                     {isSolved && <StatusIcon />}
                     Aufgabe
                   </h2>
                   <p>
-                    {currentStep && (
-                      <Markdown text={currentStep.tasks[0].instruction} />
+                    {currentStepData && (
+                      <Markdown text={currentStepData.tasks[0].instruction} />
                     )}
                   </p>
                 </div>
@@ -68,10 +70,10 @@ function Viewer() {
           <div className="viewer__learn">
             <Content>
               <WorkSpace
-                preview={state.current.editor.content}
+                preview={currentStepProgress?.editor?.content || ""}
                 focus={state.current.editor.focus}
               >
-                <Editor match={currentStep?.tasks[0].match} />
+                <Editor match={currentStepData?.tasks[0].match} />
               </WorkSpace>
             </Content>
           </div>

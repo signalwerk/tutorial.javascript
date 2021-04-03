@@ -49,7 +49,8 @@ function StepMenu({ steps }: StepMenuProps) {
             key={item.id}
             done={
               (state.progress &&
-                state.progress[chapter].steps.includes(item.id)) ||
+                state.progress[chapter].steps[item.id] &&
+                state.progress[chapter].steps[item.id].done) ||
               false
             }
             active={step === item.id}
@@ -59,9 +60,8 @@ function StepMenu({ steps }: StepMenuProps) {
               to={`/course/js/basic/${chapter}/${item.id}`}
             >
               {state.progress &&
-                state.progress[chapter].steps.includes(item.id) && (
-                  <StatusIcon />
-                )}
+                state.progress[chapter].steps[item.id] &&
+                state.progress[chapter].steps[item.id].done && <StatusIcon />}
               {item.title}
             </Link>
           </StepMenuItem>

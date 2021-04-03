@@ -8,6 +8,7 @@ import Button from "../Button";
 import StatusIcon from "../StatusIcon";
 import { useParams } from "react-router-dom";
 import { RouterParams } from "../../index";
+import { get } from "lodash";
 
 function StepMenu() {
   const { state, dispatch } = useContext(SessionContext);
@@ -16,7 +17,8 @@ function StepMenu() {
   const print = {
     chapter: chapter,
     step: step,
-    editor: state.current.editor.content,
+    progress: state.progress?.functions,
+    // progress_1: get(state.progress),
     selection: `${state.current.editor.selection.start} – ${state.current.editor.selection.end}`,
   };
 

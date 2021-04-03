@@ -7,12 +7,12 @@ import Preview from "../Preview";
 import {
   Context as SessionContext,
   Action as SessionAction,
-  Editor,
+  EditorState,
   Selection,
 } from "../../context/session";
 
 type TextPlayerProps = {
-  editor: Editor | undefined;
+  editor: EditorState | undefined;
 };
 
 enum PartType {
