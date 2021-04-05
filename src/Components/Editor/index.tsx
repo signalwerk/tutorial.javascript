@@ -10,10 +10,10 @@ import { RouterParams } from "../../index";
 import "./styles.css";
 
 export type editorProps = {
-  match: string | undefined;
+  content: string ;
 };
 
-const Editor = ({ match }: editorProps) => {
+const Editor = ({ content }: editorProps) => {
   const { state, dispatch } = useContext(SessionContext);
   let { chapter, step } = useParams<RouterParams>();
 
@@ -21,10 +21,7 @@ const Editor = ({ match }: editorProps) => {
 
   const [selection, setSelection] = useState<Selection>();
 
-  // const content = state.current.editor.content;
-  const content =
-    (state.progress && state.progress[chapter]?.steps[step]?.editor?.content) ||
-    "";
+
 
   useEffect(() => {
     if (!selection) return; // prevent running on start
@@ -40,8 +37,6 @@ const Editor = ({ match }: editorProps) => {
   }, []);
 
   const pushValue = (value: string) => {
-    console.log("-- set value", { value });
-
     dispatch({
       type: SessionAction.SET_EDITOR_CONTENT,
       payload: {
@@ -50,25 +45,8 @@ const Editor = ({ match }: editorProps) => {
         value,
       },
     });
-
-    if (match) {
-      const regexParts = match.match(new RegExp("^/(.*?)/([gimy]*)$"));
-      if (regexParts?.length === 3) {
-        const regex = new RegExp(regexParts[1], regexParts[2]);
-
-        const finished = regex.test(value);
-        if (finished) {
-          dispatch({
-            type: SessionAction.SET_CURRENT_STEP_FINISHED,
-            payload: {
-              chapter,
-              step,
-            },
-          });
-        }
-      }
-    }
   };
+
   const pushSelection = (value: Selection) => {
     dispatch({
       type: SessionAction.SET_EDITOR_SELECTION,

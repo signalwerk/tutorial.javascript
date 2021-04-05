@@ -47,13 +47,13 @@ function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
       // return Function('"use strict";return (' + code + ")")()(Box);
 
       try {
-        return Function("return (" + code + ")")()(Box, print);
+        return Function("return (\n" + code + "\n)")()(Box, print);
       } catch (e) {
         renderError = e.name + ": " + e.message;
         console.warn(renderError);
       }
     }
-    runCodeWithDateFunction(`function(Box, print){ ${code} }`);
+    runCodeWithDateFunction(`function(Box, print){ \n${code}\n }`);
   };
 
   useEffect(() => {

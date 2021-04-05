@@ -55,11 +55,11 @@ function CapterMenu() {
             appState.chapters.map((item: Chapter) => (
               <CapterMenuItem
                 key={item.id}
-                done={(state.progress && state.progress[chapter].done) || false}
+                done={(state.progress && state.progress[chapter]?.done) || false}
                 active={chapter === item.id}
               >
                 <Link to={`/course/js/basic/${item.id}/overview`}>
-                  {state.progress && state.progress[item.id].done && (
+                  {state.progress && state.progress[item.id]?.done && (
                     <StatusIcon />
                   )}
                   {item.title}

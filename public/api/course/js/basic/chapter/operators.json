@@ -1,0 +1,12 @@
+[
+  {
+    "id": "overview",
+    "title": "Intro",
+    "tasks": [
+      {
+        "instruction": "Schreibe selber einen einzeiligen Kommentar (`//`)",
+        "match": "/(//)/g"
+      }
+    ]
+  }
+]

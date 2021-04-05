@@ -5,7 +5,7 @@
     "tasks": [
       {
         "instruction": "Schreibe selber einen einzeiligen Kommentar (`//`)",
-        "match": "/(//)../g"
+        "match": "/(//)/g"
       }
     ]
   },
@@ -25,7 +25,7 @@
     "tasks": [
       {
         "instruction": "call",
-        "match": "/(//)../g"
+        "match": "/(//)/g"
       }
     ]
   },
@@ -35,7 +35,7 @@
     "tasks": [
       {
         "instruction": "call",
-        "match": "/(//)../g"
+        "match": "/(//)/g"
       }
     ]
   }

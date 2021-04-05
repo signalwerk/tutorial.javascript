@@ -14,3 +14,8 @@ export const URL = {
   step: ({ chapter, step }) =>
     `/api/course/js/basic/chapter/${chapter}/${step}.json`,
 };
+
+export const ROUTE = {
+  chapterFirstStep: ({ chapter }) => `/course/js/basic/${chapter}/overview`,
+  step: ({ chapter, step }) => `/course/js/basic/${chapter}/${step}`,
+};

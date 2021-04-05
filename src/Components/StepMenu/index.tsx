@@ -8,6 +8,8 @@ import {
 } from "../../context/session";
 import { Step } from "../../context/course";
 
+import { ROUTE } from "../../util/api";
+
 import Button from "../Button";
 import StatusIcon from "../StatusIcon";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -50,19 +52,19 @@ function StepMenu({ steps }: StepMenuProps) {
             key={item.id}
             done={
               (state.progress &&
-                state.progress[chapter].steps[item.id] &&
-                state.progress[chapter].steps[item.id].done) ||
+                state.progress[chapter]?.steps[item.id] &&
+                state.progress[chapter]?.steps[item.id].done) ||
               false
             }
             active={step === item.id}
           >
             <Link
               className="step-menu__link"
-              to={`/course/js/basic/${chapter}/${item.id}`}
+              to={ROUTE.step({ chapter, step: item.id })}
             >
               {state.progress &&
-                state.progress[chapter].steps[item.id] &&
-                state.progress[chapter].steps[item.id].done && <StatusIcon />}
+                state.progress[chapter]?.steps[item.id] &&
+                state.progress[chapter]?.steps[item.id].done && <StatusIcon />}
               {item.title}
             </Link>
           </StepMenuItem>

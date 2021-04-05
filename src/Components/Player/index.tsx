@@ -14,6 +14,7 @@ import {
   Action as SessionAction,
   EditorFrame,
 } from "../../context/session";
+import { Context as CourseContext } from "../../context/course";
 
 enum PartType {
   TEXT = "TEXT",
@@ -161,6 +162,9 @@ export function findLastIndex<T>(
 
 function Player() {
   const { state, dispatch } = useContext(SessionContext);
+  const {
+    state: { lang },
+  } = useContext(CourseContext);
   let { chapter, step } = useParams<RouterParams>();
 
   const [pos, setPos] = useState(0);
@@ -189,7 +193,7 @@ function Player() {
         <div className="player__code">
           {(!hasError && editorFramePos && (
             <TextPlayer editor={editorFramePos.editor} />
-          )) || <span>Error beim laden des Editor-Players</span>}
+          )) || <span>{lang["video.error"]}</span>}
         </div>
         <div className="player__preview">
           {!hasError && editorFramePos && (

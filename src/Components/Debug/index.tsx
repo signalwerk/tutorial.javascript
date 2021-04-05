@@ -17,7 +17,7 @@ function StepMenu() {
   const print = {
     chapter: chapter,
     step: step,
-    progress: state.progress?.functions,
+    // progress: state.progress?.functions,
     // progress_1: get(state.progress),
     selection: `${state.current.editor.selection.start} – ${state.current.editor.selection.end}`,
   };
