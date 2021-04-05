@@ -34,21 +34,10 @@ type ActionPayload = {
 
 export type Actions = ActionMap<ActionPayload>[keyof ActionMap<ActionPayload>];
 
-export type Chapter = {
-  id: string;
-  title: string;
-};
-
-export type Step = {
-  id: string;
-  title: string;
-  tasks: Task[];
-};
-
-type Task = {
-  instruction: string;
-  match: string;
-};
+// type Task = {
+//   instruction: string;
+//   match: string;
+// };
 
 type ChapterProgress = {
   done: boolean;

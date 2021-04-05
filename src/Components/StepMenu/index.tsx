@@ -5,8 +5,9 @@ import { RouterParams } from "../../index";
 import {
   Context as SessionContext,
   Action as SessionAction,
-  Step,
 } from "../../context/session";
+import { Step } from "../../context/course";
+
 import Button from "../Button";
 import StatusIcon from "../StatusIcon";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";

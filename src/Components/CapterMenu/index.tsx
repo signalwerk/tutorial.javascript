@@ -10,8 +10,11 @@ import "./styles.css";
 import {
   Context as SessionContext,
   Action as SessionAction,
-  Chapter,
 } from "../../context/session";
+
+import { Context as CourseContext } from "../../context/course";
+
+import { Chapter } from "../../context/course";
 import Button from "../Button";
 import StatusIcon from "../StatusIcon";
 import useFetch from "../../util/useFetch";
@@ -40,21 +43,16 @@ function CapterMenuItem({ children, done, active }: CapterMenuItemProps) {
 }
 
 function CapterMenu() {
-  const { state, dispatch } = useContext(SessionContext);
+  const { state } = useContext(SessionContext);
+  const { state: appState } = useContext(CourseContext);
   let { chapter } = useParams<RouterParams>();
-
-  //<Chapter[]>
-  const { response, loading, hasError } = useFetch<Chapter[]>(
-    `/api/course/js/basic/chapters.json`
-  );
 
   return (
     <div className="capter-menu">
-      {!loading && (
+      {
         <div className="capter-menu__list">
-          {!hasError &&
-            response &&
-            response.map((item: Chapter) => (
+          {appState.chapters &&
+            appState.chapters.map((item: Chapter) => (
               <CapterMenuItem
                 key={item.id}
                 done={(state.progress && state.progress[chapter].done) || false}
@@ -69,7 +67,7 @@ function CapterMenu() {
               </CapterMenuItem>
             ))}
         </div>
-      )}
+      }
     </div>
   );
 }

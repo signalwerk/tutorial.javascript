@@ -7,13 +7,11 @@ import TextPlayer from "../TextPlayer";
 import useFetch from "../../util/useFetch";
 import { useParams } from "react-router-dom";
 import { RouterParams } from "../../index";
+import { URL } from "../../util/api";
 
 import {
   Context as SessionContext,
   Action as SessionAction,
-  Editor,
-  Selection,
-  Step,
   EditorFrame,
 } from "../../context/session";
 
@@ -170,7 +168,7 @@ function Player() {
   // const pos = state.current.playPosition;
 
   const { response: editorFrames, loading, hasError } = useFetch<EditorFrame[]>(
-    `/api/course/js/basic/chapter/${chapter}/${step}.json`
+    URL.step({ chapter, step })
   );
 
   const editorFramePosPos = editorFrames

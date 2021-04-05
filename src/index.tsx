@@ -13,6 +13,7 @@ import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 // setup Provider
 
 import { Provider as SessionProvider } from "./context/session";
+import { Provider as CourseProvider } from "./context/course";
 
 export interface RouterParams {
   chapter: string;
@@ -21,28 +22,30 @@ export interface RouterParams {
 
 ReactDOM.render(
   <React.StrictMode>
-    <SessionProvider>
-      <Router>
-        <div className="container">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/course/js/basic/:chapter/:step">
-              <Viewer />
-            </Route>
-          </Switch>
+    <CourseProvider>
+      <SessionProvider>
+        <Router>
+          <div className="container">
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route path="/course/js/basic/:chapter/:step">
+                <Viewer />
+              </Route>
+            </Switch>
 
-          {process.env.REACT_APP_DEV && (
-            <>
-              <Debug />
-              <Admin />
-            </>
-          )}
-          <Version />
-        </div>
-      </Router>
-    </SessionProvider>
+            {process.env.REACT_APP_DEV && (
+              <>
+                <Debug />
+                <Admin />
+              </>
+            )}
+            <Version />
+          </div>
+        </Router>
+      </SessionProvider>
+    </CourseProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -13,7 +13,7 @@ const obj2jsx = (token: mdToken, key: number) => {
       return <code key={key}>{token.value}</code>;
       break;
     case mdTypes.EMPHASIS:
-    // case mdTypes.STRONG:
+      // case mdTypes.STRONG:
       return (
         <em key={key}>
           {token.children.map((item, index) => obj2jsx(item, index))}
@@ -40,7 +40,7 @@ const Markdown = ({ text }: markdownProps) => {
   const tokens = fromMarkdown(text);
   return (
     <span className="markdown">
-      {tokens.map((token, index) => obj2jsx(token, index))}
+      {tokens && tokens.map((token, index) => obj2jsx(token, index))}
     </span>
   );
 };

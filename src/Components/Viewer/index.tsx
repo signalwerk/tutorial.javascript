@@ -8,7 +8,9 @@ import { RouterParams } from "../../index";
 import { useParams } from "react-router-dom";
 
 import "./styles.css";
-import { Context as SessionContext, Step } from "../../context/session";
+import { Context as SessionContext } from "../../context/session";
+import { Step } from "../../context/course";
+import { URL } from "../../util/api";
 
 import CapterMenu from "../CapterMenu";
 import StepMenu from "../StepMenu";
@@ -21,7 +23,7 @@ function Viewer() {
   let { chapter, step } = useParams<RouterParams>();
 
   const { response: steps, loading, hasError } = useFetch<Step[]>(
-    `/api/course/js/basic/chapter/${chapter}.json`
+    URL.chapter({ chapter })
   );
 
   const currentStepData = steps?.find((item) => item.id === step);
