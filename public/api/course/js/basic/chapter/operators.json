@@ -2,7 +2,7 @@
   {
     "id": "overview",
     "title": "Intro",
-    "tasks": [
+    "task": [
       {
         "instruction": "Schreibe selber einen einzeiligen Kommentar (`//`)",
         "match": "/(//)/g"

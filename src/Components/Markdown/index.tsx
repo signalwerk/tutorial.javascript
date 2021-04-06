@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 
 import fromMarkdown, { mdTypes, mdToken } from "mdast-util-from-span-markdown";
 const md = "Say **Hello** [World](https://example.com) in `code`! *Thanks!*";
@@ -28,7 +29,11 @@ const obj2jsx = (token: mdToken, key: number) => {
       );
       break;
     case mdTypes.TEXT:
-      return <span key={key}>{token.value}</span>;
+      return (
+        <span className="markdown__text" key={key}>
+          {token.value}
+        </span>
+      );
       break;
     default:
       return <span>⚠️ no handling</span>;

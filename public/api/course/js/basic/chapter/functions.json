@@ -2,41 +2,33 @@
   {
     "id": "overview",
     "title": "Intro",
-    "tasks": [
-      {
-        "instruction": "Schreibe selber einen einzeiligen Kommentar (`//`)",
-        "match": "/(//)/g"
-      }
-    ]
+    "task": {
+      "instruction": "Schreibe selber einen einzeiligen Kommentar (`//`)",
+      "match": "/(//)/g"
+    }
   },
   {
     "id": "call",
     "title": "Parameter",
-    "tasks": [
-      {
-        "instruction": "Rufen Sie die funktion `Box()` mit der x-Position `20` und der y-Position `50` auf.",
-        "match": "/Box\\(\\s*20\\s*,\\s*50\\s*\\)/g"
-      }
-    ]
+    "task": {
+      "instruction": "Rufen Sie die funktion `Box()` mit der x-Position `20` und der y-Position `50` auf.",
+      "match": "/Box\\(\\s*20\\s*,\\s*50\\s*\\)/g"
+    }
   },
   {
     "id": "return",
     "title": "Rückgabewert",
-    "tasks": [
-      {
-        "instruction": "call",
-        "match": "/(//)/g"
-      }
-    ]
+    "task": {
+      "instruction": "call",
+      "match": "/(//)/g"
+    }
   },
   {
     "id": "name",
     "title": "Naming",
-    "tasks": [
-      {
-        "instruction": "call",
-        "match": "/(//)/g"
-      }
-    ]
+    "task": {
+      "instruction": "call",
+      "match": "/(//)/g"
+    }
   }
 ]

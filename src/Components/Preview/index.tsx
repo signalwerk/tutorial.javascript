@@ -3,9 +3,10 @@ import "./styles.css";
 
 type PreviewProps = {
   code: string;
-  // filename: string;
+  check?: string;
   hideErrors?: boolean;
   themeNetative?: boolean;
+  solved?: Function;
 };
 
 type Box = {
@@ -21,7 +22,13 @@ let boxList: Box[] = [];
 let textList: Text[] = [];
 let renderError = "";
 
-function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
+function Preview({
+  code,
+  check,
+  hideErrors,
+  themeNetative,
+  solved,
+}: PreviewProps) {
   const [boxes, setBoxes] = useState<Box[]>([]);
   const [texts, setTexts] = useState<Text[]>([]);
   const [error, setError] = useState("");
@@ -42,18 +49,55 @@ function Preview({ code, hideErrors, themeNetative }: PreviewProps) {
     textList = [...textList, text];
   }
 
+  function hasBox(x?: number, y?: number, width?: number, height?: number) {
+    return boxList.filter((item) => {
+      let found = true;
+
+      if (x) {
+        found = item.x === x;
+      }
+      if (y) {
+        found = item.y === y;
+      }
+
+      if (width) {
+        found = item.width === width;
+      }
+
+      if (height) {
+        found = item.height === height;
+      }
+
+      return found;
+    }).length;
+  }
+
+  function complete(status: boolean) {
+    solved && solved(status);
+  }
+
   const render = (code: string) => {
     function runCodeWithDateFunction(code: string) {
       // return Function('"use strict";return (' + code + ")")()(Box);
 
       try {
-        return Function("return (\n" + code + "\n)")()(Box, print);
+        return Function("return (\n" + code + "\n)")()(
+          Box,
+          print,
+          hasBox,
+          complete
+        );
       } catch (e) {
+        complete(false);
         renderError = e.name + ": " + e.message;
         console.warn(renderError);
       }
     }
-    runCodeWithDateFunction(`function(Box, print){ \n${code}\n }`);
+    runCodeWithDateFunction(
+      `function(Box, print, hasBox, complete){ \n${code}\n${
+        check ? check : ""
+      }\n }`
+    );
   };
 
   useEffect(() => {

@@ -35,12 +35,13 @@ export type Chapter = {
 export type Step = {
   id: string;
   title: string;
-  tasks: Task[];
+  task: Task;
 };
 
 type Task = {
   instruction: string;
-  match: string;
+  match?: string;
+  check?: string;
 };
 
 type State = {

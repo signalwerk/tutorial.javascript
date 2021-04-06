@@ -83,46 +83,51 @@ function Viewer() {
     }
   }
 
+  const solved = (finished: boolean) => {
+    console.log("call solved", finished);
+
+    if (isSolved !== finished) {
+      dispatch({
+        type: SessionAction.SET_CURRENT_STEP_PROGRESS,
+        payload: {
+          chapter,
+          step,
+          value: finished,
+        },
+      });
+
+      const completeSteps = steps?.filter((item) => {
+        if (item.id === step) {
+          return finished;
+        }
+        return (
+          state.progress &&
+          state.progress[chapter]?.steps[item.id] &&
+          state.progress[chapter]?.steps[item.id].done
+        );
+      });
+
+      const isChapterComplete = completeSteps?.length === steps?.length;
+
+      dispatch({
+        type: SessionAction.SET_CURRENT_CHAPTER_PROGRESS,
+        payload: {
+          chapter,
+          value: isChapterComplete,
+        },
+      });
+    }
+  };
+
   useEffect(() => {
-    const match = currentStepData?.tasks[0].match;
+    const match = currentStepData?.task.match;
     if (match) {
       const regexParts = match.match(new RegExp("^/(.*?)/([gimy]*)$"));
       if (regexParts?.length === 3) {
         const regex = new RegExp(regexParts[1], regexParts[2]);
 
         const finished = regex.test(content);
-
-        if (isSolved !== finished) {
-          dispatch({
-            type: SessionAction.SET_CURRENT_STEP_PROGRESS,
-            payload: {
-              chapter,
-              step,
-              value: finished,
-            },
-          });
-
-          const completeSteps = steps?.filter((item) => {
-            if (item.id === step) {
-              return finished;
-            }
-            return (
-              state.progress &&
-              state.progress[chapter]?.steps[item.id] &&
-              state.progress[chapter]?.steps[item.id].done
-            );
-          });
-
-          const isChapterComplete = completeSteps?.length === steps?.length;
-
-          dispatch({
-            type: SessionAction.SET_CURRENT_CHAPTER_PROGRESS,
-            payload: {
-              chapter,
-              value: isChapterComplete,
-            },
-          });
-        }
+        solved(finished);
       }
     }
   }, [content]);
@@ -156,7 +161,7 @@ function Viewer() {
                   </h2>
                   <p>
                     {currentStepData && (
-                      <Markdown text={currentStepData.tasks[0].instruction} />
+                      <Markdown text={currentStepData.task.instruction} />
                     )}
                   </p>
                 </div>
@@ -167,6 +172,8 @@ function Viewer() {
             <Content>
               <WorkSpace
                 preview={currentStepProgress?.editor?.content || ""}
+                check={currentStepData?.task.check}
+                solved={solved}
                 focus={state.current.editor.focus}
               >
                 <Editor content={content} />

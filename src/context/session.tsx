@@ -179,7 +179,6 @@ const reducer: Reducer<State, Actions> = (state, action) => {
     case Action.SET_EDITOR_CONTENT:
       return (() => {
         const { chapter, step, value } = action.payload;
-        console.log({ chapter, step, value });
         const newPorgress = set(
           { ...state.progress } || {},
           [chapter, "steps", step, "editor", "content"],

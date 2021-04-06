@@ -1,13 +1,3 @@
-// const filler = (string, data) => {
-//   let translated = string;
-
-//   for (const [key, value] of Object.entries(data || {})) {
-//     translated = string.replace(`@${key}`, value);
-//   }
-
-//   return translated;
-// };
-
 export const URL = {
   course: `/api/course/js/basic/course.json`,
   chapter: ({ chapter }) => `/api/course/js/basic/chapter/${chapter}.json`,
