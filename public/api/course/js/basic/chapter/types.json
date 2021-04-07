@@ -11,7 +11,7 @@
     "id": "number",
     "title": "Number",
     "task": {
-      "instruction": "Gebe mit der Funktion `print()` eine Zahl mit Kommastelle aus.\n⚠️ **Achtung!** In Javascript werden Kommastellen mit dem Punkt `.` abgetrennt nicht mit einem Komma `,`.",
+      "instruction": "Gebe mit der Funktion `print()` eine Zahl mit Kommastelle aus.\n**Info:** In Javascript werden Kommastellen mit dem Punkt `.` abgetrennt nicht mit einem Komma `,`.",
       "match": "/print\\(\\s*[0-9]+\\.[0-9]+s*\\)/g"
     }
   },
