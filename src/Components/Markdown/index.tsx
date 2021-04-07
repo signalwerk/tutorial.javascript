@@ -14,7 +14,7 @@ const obj2jsx = (token: mdToken, key: number) => {
       return <code key={key}>{token.value}</code>;
       break;
     case mdTypes.EMPHASIS:
-      // case mdTypes.STRONG:
+    case mdTypes.STRONG:
       return (
         <em key={key}>
           {token.children.map((item, index) => obj2jsx(item, index))}
