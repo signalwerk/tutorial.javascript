@@ -1,6 +1,9 @@
 # tutorial.javascript
 
 
+ToDo
+---
+* Handling for CodeInterpretation and validation
 
 
 JS Basics

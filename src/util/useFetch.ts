@@ -50,10 +50,6 @@ const fetchReducer: FetchReducer = (state, action) => {
 function useFetch<T = unknown>(url: string, options?: object) {
   const previousUrl = usePrevious(url);
 
-  // const [response, setResponse] = useState<T | null>(null);
-  // const [loading, setLoading] = useState<boolean>(false);
-  // const [hasError, setHasError] = useState<boolean>(false);
-
   const [state, dispatch] = useReducer<FetchReducer<T>>(
     fetchReducer,
     initialState
@@ -95,50 +91,3 @@ function useFetch<T = unknown>(url: string, options?: object) {
 }
 
 export default useFetch;
-
-// import { useReducer, Reducer } from "react";
-// import { useCallbackOne } from "use-memo-one";
-
-// import { ApiOptions } from "./types";
-// import { fakeApi as api } from "./fakeApi";
-
-// const fetchReducer: FetchReducer = (state, action) => {
-//   switch (action.type) {
-//     case "FETCH_START": {
-//       return { data: null, isLoading: true, error: null };
-//     }
-//     case "FETCH_SUCCESS": {
-//       return { data: action.payload, isLoading: false, error: null };
-//     }
-
-//     case "FETCH_ERROR": {
-//       return { data: null, isLoading: false, error: action.payload };
-//     }
-//     default:
-//       return state;
-//   }
-// };
-
-// export const useFetch = <T>(
-//   initial: ApiOptions
-// ): [InitialState<T>, (overrides: ApiOptions) => Promise<void>] => {
-//   const [state, dispatch] = useReducer<FetchReducer<T>>(
-//     fetchReducer,
-//     initialState
-//   );
-
-//   const getFetchResult = useCallback(
-//     async (overrides: ApiOptions) => {
-//       dispatch({ type: "FETCH_START" });
-//       try {
-//         const result = await api({ ...initial, ...overrides });
-//         dispatch({ type: "FETCH_SUCCESS", payload: (result as unknown) as T });
-//       } catch (err) {
-//         dispatch({ type: "FETCH_ERROR", payload: err });
-//       }
-//     },
-//     [initial]
-//   );
-
-//   return [state, getFetchResult];
-// };
