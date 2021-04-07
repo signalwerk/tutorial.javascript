@@ -37,7 +37,7 @@
     "intro.title": "JavaScript · Basics",
     "intro.text": "In diesem Teil des Kurses werden die Grundlagen von JavaScript erklärt. Die in InDesign verwendete Scriptsprache «ExtendScript» basiert auf JavaScript [(ECMAScript 3)](https://de.wikipedia.org/wiki/JavaScript#Versionsgeschichte_von_ECMAScript_%28ECMA-262%29)",
     "intro.btn": "Kurs starten",
-    "intro.link": "/course/js/basic/functions/call",
+    "intro.link": "/course/js/basic/intro/overview",
     "step.task": "Aufgabe",
     "step.loading": "loading...",
     "step.error": "Noch kein Inhalt",
