@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
+import { TypePredicate } from "typescript";
 import "./styles.css";
 
 type PreviewProps = {
@@ -78,6 +79,10 @@ function Preview({
     }).length;
   }
 
+  function hasText(filter: (value: Text, index: number, array: Text[]) => any) {
+    return textList.filter(filter).length;
+  }
+
   function complete(status: boolean) {
     if (solved) {
       solved(status);
@@ -96,6 +101,7 @@ function Preview({
           Box,
           print,
           hasBox,
+          hasText,
           complete,
           conzole
         );
@@ -107,7 +113,7 @@ function Preview({
     }
 
     runCodeWithDateFunction(
-      `function(Box, print, hasBox, complete, console){ \n${code}\n${
+      `function(Box, print, hasBox, hasText, complete, console){ \n${code}\n${
         check ? check : ""
       }\n }`
     );
@@ -161,7 +167,7 @@ function Preview({
           <pre>
             {texts.map((text, index) => (
               <code key={index}>
-                {text}
+                {JSON.stringify(text)}
                 {"\n"}
               </code>
             ))}
