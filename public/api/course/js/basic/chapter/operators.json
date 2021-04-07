@@ -8,5 +8,25 @@
         "match": "/(//)/g"
       }
     ]
+  },
+  {
+    "id": "arithmetic-operations",
+    "title": "Arithmetische Operatoren",
+    "task": [
+      {
+        "instruction": "Schreibe selber einen einzeiligen Kommentar (`//`)",
+        "match": "/(//)/g"
+      }
+    ]
+  },
+  {
+    "id": "boolean-operations",
+    "title": "Boolesche Operatoren",
+    "task": [
+      {
+        "instruction": "Schreibe selber einen einzeiligen Kommentar (`//`)",
+        "match": "/(//)/g"
+      }
+    ]
   }
 ]

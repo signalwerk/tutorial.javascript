@@ -1,0 +1,18 @@
+[
+  {
+    "id": "array",
+    "title": "Arrays",
+    "task": {
+      "instruction": "TBD",
+      "check": "try { (test && test.toLowerCase().includes('hallo')) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+    }
+  },
+  {
+    "id": "object",
+    "title": "Objects",
+    "task": {
+      "instruction": "TBD",
+      "match": "/print\\(\\s*[0-9]+\\.[0-9]+s*\\)/g"
+    }
+  }
+]

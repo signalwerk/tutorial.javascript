@@ -1,0 +1,34 @@
+[
+  {
+    "id": "overview",
+    "title": "Intro",
+    "task": {
+      "instruction": "Definiere eine Variable mit dem Namen `test` und weise bei der Definition den String `'Hallo'` zu.",
+      "check": "try { (test && test.toLowerCase().includes('hallo')) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+    }
+  },
+  {
+    "id": "number",
+    "title": "Number",
+    "task": {
+      "instruction": "Gebe mit der Funktion `print()` eine Zahl mit Kommastelle aus.\n⚠️ **Achtung!** In Javascript werden Kommastellen mit dem Punkt `.` abgetrennt nicht mit einem Komma `,`.",
+      "match": "/print\\(\\s*[0-9]+\\.[0-9]+s*\\)/g"
+    }
+  },
+  {
+    "id": "string",
+    "title": "String",
+    "task": {
+      "instruction": "Gebe mit der Funktion `print()` einen String aus.",
+      "match": "/print\\(\\s*(['`\"]).+\\1s*\\)/g"
+    }
+  },
+  {
+    "id": "boolean",
+    "title": "Boolean",
+    "task": {
+      "instruction": "Definiere eine Variable `yay` mit dem Wert `true` und eine Variable `nay` mit dem Wert `false`.",
+      "check": "try { (yay === true && nay === false) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+    }
+  }
+]
