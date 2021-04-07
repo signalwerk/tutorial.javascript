@@ -46,9 +46,8 @@ function Viewer() {
   const { state, dispatch } = useContext(SessionContext);
   let { chapter, step } = useParams<RouterParams>();
 
-  const { response: steps, loading, hasError } = useFetch<Step[]>(
-    URL.chapter({ chapter })
-  );
+  const chapterURL = URL.chapter({ chapter });
+  const { response: steps, loading, hasError } = useFetch<Step[]>(chapterURL);
 
   const currentStepData = steps?.find((item) => item.id === step);
 
@@ -84,8 +83,6 @@ function Viewer() {
   }
 
   const solved = (finished: boolean) => {
-    console.log("call solved", finished);
-
     if (isSolved !== finished) {
       dispatch({
         type: SessionAction.SET_CURRENT_STEP_PROGRESS,
@@ -121,12 +118,13 @@ function Viewer() {
 
   useEffect(() => {
     const match = currentStepData?.task.match;
-    if (match) {
+    if (match && content) {
       const regexParts = match.match(new RegExp("^/(.*?)/([gimy]*)$"));
       if (regexParts?.length === 3) {
         const regex = new RegExp(regexParts[1], regexParts[2]);
 
         const finished = regex.test(content);
+
         solved(finished);
       }
     }
@@ -170,14 +168,16 @@ function Viewer() {
           </div>
           <div className="viewer__learn">
             <Content>
-              <WorkSpace
-                preview={currentStepProgress?.editor?.content || ""}
-                check={currentStepData?.task.check}
-                solved={solved}
-                focus={state.current.editor.focus}
-              >
-                <Editor content={content} />
-              </WorkSpace>
+              {!loading && (
+                <WorkSpace
+                  preview={currentStepProgress?.editor?.content || ""}
+                  check={currentStepData?.task.check}
+                  solved={solved}
+                  focus={state.current.editor.focus}
+                >
+                  <Editor content={content} />
+                </WorkSpace>
+              )}
             </Content>
           </div>
         </div>

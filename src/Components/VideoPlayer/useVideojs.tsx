@@ -2,17 +2,7 @@
 import { useRef, useEffect } from "react";
 import videojs, { VideoJsPlayer } from "video.js";
 
-// import usePrevious from "./usePrevious";
-
-export default function usePrevious(value: any) {
-  const ref = useRef();
-
-  useEffect(() => {
-    ref.current = value;
-  }, [value]);
-
-  return ref.current;
-}
+import usePrevious from "../../util/usePrevious";
 
 type VideoJsPlayerPluginOptions = {
   [pluginName: string]: any;

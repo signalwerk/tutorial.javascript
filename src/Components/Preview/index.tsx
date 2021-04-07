@@ -49,6 +49,12 @@ function Preview({
     textList = [...textList, text];
   }
 
+  const conzole = {
+    log: (text = "") => {
+      textList = [...textList, text];
+    },
+  };
+
   function hasBox(x?: number, y?: number, width?: number, height?: number) {
     return boxList.filter((item) => {
       let found = true;
@@ -73,10 +79,15 @@ function Preview({
   }
 
   function complete(status: boolean) {
-    solved && solved(status);
+    if (solved) {
+      solved(status);
+    }
   }
 
-  const render = (code: string) => {
+  const render = (code: string, check: string | undefined) => {
+    if (!code) {
+      return;
+    }
     function runCodeWithDateFunction(code: string) {
       // return Function('"use strict";return (' + code + ")")()(Box);
 
@@ -85,7 +96,8 @@ function Preview({
           Box,
           print,
           hasBox,
-          complete
+          complete,
+          conzole
         );
       } catch (e) {
         complete(false);
@@ -93,8 +105,9 @@ function Preview({
         console.warn(renderError);
       }
     }
+
     runCodeWithDateFunction(
-      `function(Box, print, hasBox, complete){ \n${code}\n${
+      `function(Box, print, hasBox, complete, console){ \n${code}\n${
         check ? check : ""
       }\n }`
     );
@@ -104,11 +117,11 @@ function Preview({
     boxList = [];
     textList = [];
     renderError = "";
-    render(code);
+    render(code, check);
     setBoxes(boxList);
     setTexts(textList);
     setError(renderError);
-  }, [code]);
+  }, [code, check]);
 
   return (
     <div className={themeNetative ? "preview preview--negative" : "preview"}>
@@ -143,7 +156,6 @@ function Preview({
         </pre>
          */}
       </div>
-
       {texts.length > 0 && (
         <div className="preview__console code">
           <pre>
@@ -156,7 +168,6 @@ function Preview({
           </pre>
         </div>
       )}
-
       {error && !hideErrors && (
         <div className="preview__error">
           <p>⚠️ Der Code hat im Moment noch Fehler.</p>
