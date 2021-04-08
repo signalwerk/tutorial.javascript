@@ -20,7 +20,7 @@ const Home = () => {
           <Markdown text={lang["intro.text"]} />
         </p>
         <div className="home__cta">
-          <Link className="home__btn" to="/course/js/basic/functions/call">
+          <Link className="home__btn" to={lang["intro.link"]}>
             <em>{lang["intro.btn"]}</em>
           </Link>
         </div>
