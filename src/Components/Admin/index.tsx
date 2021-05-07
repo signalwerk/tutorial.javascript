@@ -150,6 +150,8 @@ function Admin() {
         console.log("error text", e);
         // return response.json();
       });
+
+    record = [];
   };
 
   // if (status === "stopped") {
