@@ -4,7 +4,7 @@
     "title": "Intro",
     "task": {
       "instruction": "Schreibe im Editor (unten) etwas. Egal was.",
-      "match": "/./g"
+      "match": "/.+/g"
     }
   },
   {

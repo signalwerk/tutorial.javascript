@@ -1,0 +1,2302 @@
+[
+  {
+    "time": 0,
+    "editor": {
+      "content": "",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 5558,
+    "editor": {
+      "content": "v",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 5584,
+    "editor": {
+      "content": "v",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 5680,
+    "editor": {
+      "content": "va",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 5698,
+    "editor": {
+      "content": "va",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 5860,
+    "editor": {
+      "content": "var",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 5887,
+    "editor": {
+      "content": "var",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 6059,
+    "editor": {
+      "content": "var ",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 6077,
+    "editor": {
+      "content": "var ",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 10223,
+    "editor": {
+      "content": "var t",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 10244,
+    "editor": {
+      "content": "var t",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 10449,
+    "editor": {
+      "content": "var te",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 10470,
+    "editor": {
+      "content": "var te",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 10762,
+    "editor": {
+      "content": "var tes",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 10775,
+    "editor": {
+      "content": "var tes",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 10918,
+    "editor": {
+      "content": "var test",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 10930,
+    "editor": {
+      "content": "var test",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 11074,
+    "editor": {
+      "content": "var test ",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 11089,
+    "editor": {
+      "content": "var test ",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 11916,
+    "editor": {
+      "content": "var test =",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 11935,
+    "editor": {
+      "content": "var test =",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 12095,
+    "editor": {
+      "content": "var test = ",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 12111,
+    "editor": {
+      "content": "var test = ",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 12959,
+    "editor": {
+      "content": "var test = 1",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 12971,
+    "editor": {
+      "content": "var test = 1",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 13011,
+    "editor": {
+      "content": "var test = 12",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 13023,
+    "editor": {
+      "content": "var test = 12",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 14100,
+    "editor": {
+      "content": "var test = 12",
+      "selection": {
+        "start": 11,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 23426,
+    "editor": {
+      "content": "var test = 12",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 37251,
+    "editor": {
+      "content": "var test = 12.",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 37262,
+    "editor": {
+      "content": "var test = 12.",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 50889,
+    "editor": {
+      "content": "var test = 12.",
+      "selection": {
+        "start": 0,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 51051,
+    "editor": {
+      "content": "var test = 12.",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 52300,
+    "editor": {
+      "content": "\nvar test = 12.",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 52315,
+    "editor": {
+      "content": "\nvar test = 12.",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 52835,
+    "editor": {
+      "content": "\nvar test = 12.",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 54169,
+    "editor": {
+      "content": "B\nvar test = 12.",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 54186,
+    "editor": {
+      "content": "B\nvar test = 12.",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 54442,
+    "editor": {
+      "content": "Bo\nvar test = 12.",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 54455,
+    "editor": {
+      "content": "Bo\nvar test = 12.",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 54703,
+    "editor": {
+      "content": "Box\nvar test = 12.",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 54714,
+    "editor": {
+      "content": "Box\nvar test = 12.",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 55296,
+    "editor": {
+      "content": "Box(\nvar test = 12.",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 55311,
+    "editor": {
+      "content": "Box(\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 56853,
+    "editor": {
+      "content": "Box(1\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 56864,
+    "editor": {
+      "content": "Box(1\nvar test = 12.",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 57206,
+    "editor": {
+      "content": "Box(10\nvar test = 12.",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 57218,
+    "editor": {
+      "content": "Box(10\nvar test = 12.",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 57646,
+    "editor": {
+      "content": "Box(10,\nvar test = 12.",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 57655,
+    "editor": {
+      "content": "Box(10,\nvar test = 12.",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 58398,
+    "editor": {
+      "content": "Box(10,2\nvar test = 12.",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 58411,
+    "editor": {
+      "content": "Box(10,2\nvar test = 12.",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 58679,
+    "editor": {
+      "content": "Box(10,20\nvar test = 12.",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 58691,
+    "editor": {
+      "content": "Box(10,20\nvar test = 12.",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 59070,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 59080,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 59984,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 60552,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 66005,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 66426,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 66803,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 66982,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 67206,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 67802,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 68169,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 68455,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 69324,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 70285,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 70898,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 71074,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 4,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 77180,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 77514,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 78980,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 7,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 79385,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 7,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 80928,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 81272,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 6,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 83588,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 0,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 84079,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 87807,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.5",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 87820,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.5",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 87855,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 87873,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 98988,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 99191,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 99552,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 22,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 100818,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 22,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 102418,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 102850,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 103611,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 103851,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 104613,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 104621,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 104745,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\n",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 104753,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\n",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 105308,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 105393,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 106972,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nB",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 106983,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nB",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 108300,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBo",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 108311,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBo",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 108338,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 108348,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 109328,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 109339,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 110641,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(1",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 110651,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(1",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 110921,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 110930,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 111407,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 111415,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 111722,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.2",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 111731,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.2",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 111946,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 111968,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 112293,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 112302,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 112784,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,2",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 112792,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,2",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 113021,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 113029,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 113430,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 113436,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 113666,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.1",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 113673,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.1",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 114168,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 114177,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 115722,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10)",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 115729,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10)",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 121916,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10)",
+      "selection": {
+        "start": 32,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 124610,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10)",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 126004,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10)",
+      "selection": {
+        "start": 38,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 129318,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10)",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 129976,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\nBox(10.20,20.10)",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 131189,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\nBox(10.20,20.10)",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 131193,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\nBox(10.20,20.10)",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 132766,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\nBox(10.20,20.10)",
+      "selection": {
+        "start": 38,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 136078,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\nBox(10.20,20.10)",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 136219,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\nBox(10.20,20.10)",
+      "selection": {
+        "start": 44,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 136366,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\nBox(10.20,20.10)",
+      "selection": {
+        "start": 29,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 137357,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\n",
+      "selection": {
+        "start": 29,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 137362,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n\n",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 137793,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 137869,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 138180,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 138347,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 10,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 138492,
+    "editor": {
+      "content": "Box(10,20)\nvar test = 12.50\n",
+      "selection": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 138693,
+    "editor": {
+      "content": "var test = 12.50\n",
+      "selection": {
+        "start": 0,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 138698,
+    "editor": {
+      "content": "var test = 12.50\n",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 140855,
+    "editor": {
+      "content": "var test = 12.50\n",
+      "selection": {
+        "start": 11,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 146324,
+    "editor": {
+      "content": "var test = 12.50\n",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 148301,
+    "editor": {
+      "content": "var test = 12.50\n\n",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 148308,
+    "editor": {
+      "content": "var test = 12.50\n\n",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 148856,
+    "editor": {
+      "content": "var test = 12.50\n\n\n",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 148860,
+    "editor": {
+      "content": "var test = 12.50\n\n\n",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 156328,
+    "editor": {
+      "content": "var test = 12.50\n\np\n",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 156334,
+    "editor": {
+      "content": "var test = 12.50\n\np\n",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 156705,
+    "editor": {
+      "content": "var test = 12.50\n\npr\n",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 156712,
+    "editor": {
+      "content": "var test = 12.50\n\npr\n",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 156858,
+    "editor": {
+      "content": "var test = 12.50\n\npri\n",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 156864,
+    "editor": {
+      "content": "var test = 12.50\n\npri\n",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 156919,
+    "editor": {
+      "content": "var test = 12.50\n\nprin\n",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 156925,
+    "editor": {
+      "content": "var test = 12.50\n\nprin\n",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 157019,
+    "editor": {
+      "content": "var test = 12.50\n\nprint\n",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 157024,
+    "editor": {
+      "content": "var test = 12.50\n\nprint\n",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 157415,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(\n",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 157420,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 157492,
+    "editor": {
+      "content": "var test = 12.50\n\nprint()\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 157501,
+    "editor": {
+      "content": "var test = 12.50\n\nprint()\n",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 158154,
+    "editor": {
+      "content": "var test = 12.50\n\nprint()\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 177658,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(t)\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 177665,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(t)\n",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 177841,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(te)\n",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 177846,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(te)\n",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 178947,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(tex)\n",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 178952,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(tex)\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 179172,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(text)\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 179177,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(text)\n",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 180366,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(tex)\n",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 180429,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(tex)\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 180501,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(te)\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 180565,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(te)\n",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 181491,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(tes)\n",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 181497,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(tes)\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 181703,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 181710,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 182736,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 182906,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 183028,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 183165,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 183289,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 183717,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 18,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 184086,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 184266,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 184873,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 24,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 203790,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 204876,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 205439,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 206507,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 206687,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 213408,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 213577,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 29,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 213723,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 214532,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 214679,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 29,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 214803,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 18,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 215738,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\n",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 216268,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 216351,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 218018,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 218491,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 218715,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 218895,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 219041,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 219209,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 219660,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 230745,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(\"test)\n",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 230752,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(\"test)\n",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 231338,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(\"test)\n",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 232912,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(\"test)\n",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 233318,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 233372,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint(test)\n",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 233825,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test)\n",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 233831,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test)\n",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 234318,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test)\n",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 235075,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test0)\n",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 235079,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test0)\n",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 235457,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test)\n",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 235556,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test)\n",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 236052,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test')\n",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 236058,
+    "editor": {
+      "content": "var test = 12.50\n\nprint(test)\nprint('test')\n",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  }
+]

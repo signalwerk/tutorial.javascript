@@ -1,0 +1,1842 @@
+[
+  {
+    "time": 0,
+    "editor": {
+      "content": "",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 8909,
+    "editor": {
+      "content": "v",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 8928,
+    "editor": {
+      "content": "v",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 9053,
+    "editor": {
+      "content": "va",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 9075,
+    "editor": {
+      "content": "va",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 9220,
+    "editor": {
+      "content": "var",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 9235,
+    "editor": {
+      "content": "var",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 9512,
+    "editor": {
+      "content": "var ",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 9519,
+    "editor": {
+      "content": "var ",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 14800,
+    "editor": {
+      "content": "var x",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 14810,
+    "editor": {
+      "content": "var x",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 15304,
+    "editor": {
+      "content": "var x ",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 15314,
+    "editor": {
+      "content": "var x ",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 16175,
+    "editor": {
+      "content": "var x =",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 16188,
+    "editor": {
+      "content": "var x =",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 16577,
+    "editor": {
+      "content": "var x = ",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 16588,
+    "editor": {
+      "content": "var x = ",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 18446,
+    "editor": {
+      "content": "var x = 1",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 18457,
+    "editor": {
+      "content": "var x = 1",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 18659,
+    "editor": {
+      "content": "var x = 10",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 18668,
+    "editor": {
+      "content": "var x = 10",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 26221,
+    "editor": {
+      "content": "var x = 10",
+      "selection": {
+        "start": 0,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 29383,
+    "editor": {
+      "content": "var x = 10",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 29637,
+    "editor": {
+      "content": "var x = 10",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 30480,
+    "editor": {
+      "content": "var x = 10",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 31271,
+    "editor": {
+      "content": "var x = 10\n",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 31281,
+    "editor": {
+      "content": "var x = 10\n",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 31925,
+    "editor": {
+      "content": "var x = 10\nvar x = 10",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 31939,
+    "editor": {
+      "content": "var x = 10\nvar x = 10",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 32781,
+    "editor": {
+      "content": "var x = 10\nvar x = 10",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 32934,
+    "editor": {
+      "content": "var x = 10\nvar x = 10",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 33591,
+    "editor": {
+      "content": "var x = 10\nvar x = 10",
+      "selection": {
+        "start": 15,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 34445,
+    "editor": {
+      "content": "var x = 10\nvar y = 10",
+      "selection": {
+        "start": 15,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 34454,
+    "editor": {
+      "content": "var x = 10\nvar y = 10",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 35029,
+    "editor": {
+      "content": "var x = 10\nvar y = 10",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 35839,
+    "editor": {
+      "content": "var x = 10\nvar y = 10",
+      "selection": {
+        "start": 19,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 36907,
+    "editor": {
+      "content": "var x = 10\nvar y = 5",
+      "selection": {
+        "start": 19,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 36916,
+    "editor": {
+      "content": "var x = 10\nvar y = 5",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 36956,
+    "editor": {
+      "content": "var x = 10\nvar y = 50",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 36965,
+    "editor": {
+      "content": "var x = 10\nvar y = 50",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 49410,
+    "editor": {
+      "content": "var x = 10\nvar y = 50",
+      "selection": {
+        "start": 19,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 49904,
+    "editor": {
+      "content": "var x = 10\nvar y = 50",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 50285,
+    "editor": {
+      "content": "var x = 10\nvar y = 50",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 50891,
+    "editor": {
+      "content": "var x = 10\nvar y = 50",
+      "selection": {
+        "start": 15,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 51960,
+    "editor": {
+      "content": "var x = 10\nvar y = 50",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 52728,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 52737,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 52939,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\n",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 52949,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\n",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 54358,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nB",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 54373,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nB",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 54611,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBo",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 54620,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBo",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 54764,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 54775,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 55272,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 55285,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 56860,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 56876,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 57368,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x,",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 57388,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x,",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 57461,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x, ",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 57471,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x, ",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 58177,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x, y",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 58189,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x, y",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 59014,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x, y)",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 59031,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x, y)",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 66025,
+    "editor": {
+      "content": "var x = 10\nvar y = 50\n\nBox(x, y)",
+      "selection": {
+        "start": 19,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 69111,
+    "editor": {
+      "content": "var x = 10\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 19,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 69129,
+    "editor": {
+      "content": "var x = 10\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 70956,
+    "editor": {
+      "content": "var x = 10\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 8,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 71700,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 8,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 71716,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 74928,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 76018,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 79080,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 0,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 79838,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 84706,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 85287,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 88739,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 0,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 88954,
+    "editor": {
+      "content": "var x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 89459,
+    "editor": {
+      "content": "\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 89472,
+    "editor": {
+      "content": "\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 89708,
+    "editor": {
+      "content": "\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 98856,
+    "editor": {
+      "content": "/\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 98875,
+    "editor": {
+      "content": "/\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 98990,
+    "editor": {
+      "content": "//\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 99004,
+    "editor": {
+      "content": "//\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 99834,
+    "editor": {
+      "content": "// \nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 99849,
+    "editor": {
+      "content": "// \nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 101127,
+    "editor": {
+      "content": "// p\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 101137,
+    "editor": {
+      "content": "// p\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 101462,
+    "editor": {
+      "content": "// po\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 101476,
+    "editor": {
+      "content": "// po\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 101629,
+    "editor": {
+      "content": "// pos\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 101639,
+    "editor": {
+      "content": "// pos\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 102012,
+    "editor": {
+      "content": "// posi\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 102023,
+    "editor": {
+      "content": "// posi\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 102195,
+    "editor": {
+      "content": "// posit\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 102205,
+    "editor": {
+      "content": "// posit\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 102394,
+    "editor": {
+      "content": "// positi\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 102403,
+    "editor": {
+      "content": "// positi\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 102553,
+    "editor": {
+      "content": "// positio\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 102563,
+    "editor": {
+      "content": "// positio\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 102654,
+    "editor": {
+      "content": "// position\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 102666,
+    "editor": {
+      "content": "// position\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 102911,
+    "editor": {
+      "content": "// positions\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 102924,
+    "editor": {
+      "content": "// positions\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 103387,
+    "editor": {
+      "content": "// positions \nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 103409,
+    "editor": {
+      "content": "// positions \nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 104055,
+    "editor": {
+      "content": "// positions o\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 104065,
+    "editor": {
+      "content": "// positions o\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 104142,
+    "editor": {
+      "content": "// positions of\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 104154,
+    "editor": {
+      "content": "// positions of\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 104253,
+    "editor": {
+      "content": "// positions of \nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 104261,
+    "editor": {
+      "content": "// positions of \nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 104387,
+    "editor": {
+      "content": "// positions of t\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 104400,
+    "editor": {
+      "content": "// positions of t\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 104490,
+    "editor": {
+      "content": "// positions of th\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 104502,
+    "editor": {
+      "content": "// positions of th\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 104577,
+    "editor": {
+      "content": "// positions of the\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 104587,
+    "editor": {
+      "content": "// positions of the\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 104662,
+    "editor": {
+      "content": "// positions of the \nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 104673,
+    "editor": {
+      "content": "// positions of the \nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 105165,
+    "editor": {
+      "content": "// positions of the b\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 105176,
+    "editor": {
+      "content": "// positions of the b\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 105332,
+    "editor": {
+      "content": "// positions of the bo\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 105345,
+    "editor": {
+      "content": "// positions of the bo\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 105469,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 105478,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 108215,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 108379,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 108508,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\nBox(x, y)",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 108979,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n\nBox(x, y)",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 108988,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n\nBox(x, y)",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 109808,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n/\nBox(x, y)",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 109819,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n/\nBox(x, y)",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 110247,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n/ \nBox(x, y)",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 110259,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n/ \nBox(x, y)",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 110653,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n/\nBox(x, y)",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 110729,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n/\nBox(x, y)",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 111468,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n//\nBox(x, y)",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 111482,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n//\nBox(x, y)",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 111841,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// \nBox(x, y)",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 111850,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// \nBox(x, y)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 111916,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// d\nBox(x, y)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 111928,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// d\nBox(x, y)",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 112060,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// dr\nBox(x, y)",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 112071,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// dr\nBox(x, y)",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 112193,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// dra\nBox(x, y)",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 112206,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// dra\nBox(x, y)",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 112623,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 112631,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)",
+      "selection": {
+        "start": 54,
+        "end": 54
+      }
+    }
+  },
+  {
+    "time": 117038,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)",
+      "selection": {
+        "start": 0,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 117302,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)",
+      "selection": {
+        "start": 64,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 118980,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n",
+      "selection": {
+        "start": 64,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 118988,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n",
+      "selection": {
+        "start": 65,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 119138,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n",
+      "selection": {
+        "start": 65,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 119147,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n",
+      "selection": {
+        "start": 66,
+        "end": 66
+      }
+    }
+  },
+  {
+    "time": 119260,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\n",
+      "selection": {
+        "start": 66,
+        "end": 66
+      }
+    }
+  },
+  {
+    "time": 119276,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\n",
+      "selection": {
+        "start": 67,
+        "end": 67
+      }
+    }
+  },
+  {
+    "time": 120677,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx",
+      "selection": {
+        "start": 67,
+        "end": 67
+      }
+    }
+  },
+  {
+    "time": 120688,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx",
+      "selection": {
+        "start": 68,
+        "end": 68
+      }
+    }
+  },
+  {
+    "time": 121221,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx ",
+      "selection": {
+        "start": 68,
+        "end": 68
+      }
+    }
+  },
+  {
+    "time": 121232,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx ",
+      "selection": {
+        "start": 69,
+        "end": 69
+      }
+    }
+  },
+  {
+    "time": 121808,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx =",
+      "selection": {
+        "start": 69,
+        "end": 69
+      }
+    }
+  },
+  {
+    "time": 121819,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx =",
+      "selection": {
+        "start": 70,
+        "end": 70
+      }
+    }
+  },
+  {
+    "time": 122213,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = ",
+      "selection": {
+        "start": 70,
+        "end": 70
+      }
+    }
+  },
+  {
+    "time": 122226,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = ",
+      "selection": {
+        "start": 71,
+        "end": 71
+      }
+    }
+  },
+  {
+    "time": 125817,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 5",
+      "selection": {
+        "start": 71,
+        "end": 71
+      }
+    }
+  },
+  {
+    "time": 125829,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 5",
+      "selection": {
+        "start": 72,
+        "end": 72
+      }
+    }
+  },
+  {
+    "time": 125869,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50",
+      "selection": {
+        "start": 72,
+        "end": 72
+      }
+    }
+  },
+  {
+    "time": 125880,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50",
+      "selection": {
+        "start": 73,
+        "end": 73
+      }
+    }
+  },
+  {
+    "time": 127152,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50",
+      "selection": {
+        "start": 64,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 127294,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50",
+      "selection": {
+        "start": 64,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 127435,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50",
+      "selection": {
+        "start": 55,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 128049,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50",
+      "selection": {
+        "start": 73,
+        "end": 73
+      }
+    }
+  },
+  {
+    "time": 128857,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50\n",
+      "selection": {
+        "start": 73,
+        "end": 73
+      }
+    }
+  },
+  {
+    "time": 128870,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50\n",
+      "selection": {
+        "start": 74,
+        "end": 74
+      }
+    }
+  },
+  {
+    "time": 129240,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50\nBox(x, y)\n",
+      "selection": {
+        "start": 74,
+        "end": 74
+      }
+    }
+  },
+  {
+    "time": 129331,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50\nBox(x, y)\n",
+      "selection": {
+        "start": 84,
+        "end": 84
+      }
+    }
+  },
+  {
+    "time": 129938,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50\nBox(x, y)\n",
+      "selection": {
+        "start": 74,
+        "end": 74
+      }
+    }
+  },
+  {
+    "time": 130290,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50\n\nBox(x, y)\n",
+      "selection": {
+        "start": 74,
+        "end": 74
+      }
+    }
+  },
+  {
+    "time": 130354,
+    "editor": {
+      "content": "// positions of the box\nvar x = 20\nvar y = 40\n\n// draw\nBox(x, y)\n\n\nx = 50\n\nBox(x, y)\n",
+      "selection": {
+        "start": 75,
+        "end": 75
+      }
+    }
+  }
+]

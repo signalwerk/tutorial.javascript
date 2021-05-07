@@ -1,0 +1,1762 @@
+[
+  {
+    "time": 0,
+    "editor": {
+      "content": "",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 9740,
+    "editor": {
+      "content": "/",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 9749,
+    "editor": {
+      "content": "/",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 9830,
+    "editor": {
+      "content": "//",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 9836,
+    "editor": {
+      "content": "//",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 10436,
+    "editor": {
+      "content": "// ",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 10444,
+    "editor": {
+      "content": "// ",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 10691,
+    "editor": {
+      "content": "// K",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 10699,
+    "editor": {
+      "content": "// K",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 12150,
+    "editor": {
+      "content": "// Ka",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 12158,
+    "editor": {
+      "content": "// Ka",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 12602,
+    "editor": {
+      "content": "// K",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 12653,
+    "editor": {
+      "content": "// K",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 12859,
+    "editor": {
+      "content": "// Ko",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 12868,
+    "editor": {
+      "content": "// Ko",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 13013,
+    "editor": {
+      "content": "// Kom",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 13020,
+    "editor": {
+      "content": "// Kom",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 13152,
+    "editor": {
+      "content": "// Komm",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 13160,
+    "editor": {
+      "content": "// Komm",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 13256,
+    "editor": {
+      "content": "// Komme",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 13261,
+    "editor": {
+      "content": "// Komme",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 13424,
+    "editor": {
+      "content": "// Kommen",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 13432,
+    "editor": {
+      "content": "// Kommen",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 13700,
+    "editor": {
+      "content": "// Komment",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 13707,
+    "editor": {
+      "content": "// Komment",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 14051,
+    "editor": {
+      "content": "// Kommenta",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 14058,
+    "editor": {
+      "content": "// Kommenta",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 14276,
+    "editor": {
+      "content": "// Kommentar",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 14282,
+    "editor": {
+      "content": "// Kommentar",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 14814,
+    "editor": {
+      "content": "// Kommentar\n",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 14821,
+    "editor": {
+      "content": "// Kommentar\n",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 16033,
+    "editor": {
+      "content": "// Kommentar\nv",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 16043,
+    "editor": {
+      "content": "// Kommentar\nv",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 16176,
+    "editor": {
+      "content": "// Kommentar\nva",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 16184,
+    "editor": {
+      "content": "// Kommentar\nva",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 16325,
+    "editor": {
+      "content": "// Kommentar\nvar",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 16334,
+    "editor": {
+      "content": "// Kommentar\nvar",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 16528,
+    "editor": {
+      "content": "// Kommentar\nvar ",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 16537,
+    "editor": {
+      "content": "// Kommentar\nvar ",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 18391,
+    "editor": {
+      "content": "// Kommentar\nvar ",
+      "selection": {
+        "start": 13,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 18982,
+    "editor": {
+      "content": "// Kommentar\nvar ",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 22083,
+    "editor": {
+      "content": "// Kommentar\nvar t",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 22090,
+    "editor": {
+      "content": "// Kommentar\nvar t",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 22205,
+    "editor": {
+      "content": "// Kommentar\nvar te",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 22210,
+    "editor": {
+      "content": "// Kommentar\nvar te",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 22377,
+    "editor": {
+      "content": "// Kommentar\nvar tes",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 22387,
+    "editor": {
+      "content": "// Kommentar\nvar tes",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 22464,
+    "editor": {
+      "content": "// Kommentar\nvar test",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 22469,
+    "editor": {
+      "content": "// Kommentar\nvar test",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 22613,
+    "editor": {
+      "content": "// Kommentar\nvar test ",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 22621,
+    "editor": {
+      "content": "// Kommentar\nvar test ",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 23255,
+    "editor": {
+      "content": "// Kommentar\nvar test =",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 23266,
+    "editor": {
+      "content": "// Kommentar\nvar test =",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 23433,
+    "editor": {
+      "content": "// Kommentar\nvar test = ",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 23440,
+    "editor": {
+      "content": "// Kommentar\nvar test = ",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 25539,
+    "editor": {
+      "content": "// Kommentar\nvar test = 6",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 25547,
+    "editor": {
+      "content": "// Kommentar\nvar test = 6",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 26496,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 26505,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 27123,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60",
+      "selection": {
+        "start": 24,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 32357,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 34750,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 35679,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 35691,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 35991,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\n",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 35999,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\n",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 53176,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nv",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 53186,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nv",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 53384,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nva",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 53394,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nva",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 53636,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 53643,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 53839,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar ",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 53847,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar ",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 54194,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar t",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 54203,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar t",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 54555,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar te",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 54562,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar te",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 55068,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar tex",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 55076,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar tex",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 55318,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 55328,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 56345,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text ",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 56353,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text ",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 57162,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text =",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 57170,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text =",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 57729,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = ",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 57737,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = ",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 71030,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = '",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 71036,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = '",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 117128,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'H",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 117133,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'H",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 117418,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Ha",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 117426,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Ha",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 117554,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hal",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 117560,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hal",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 117680,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hall",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 117687,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hall",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 117834,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 117840,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 126489,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 126499,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 132754,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 132899,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 32,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 136898,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 40,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 140392,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 140897,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 39,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 141808,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 142607,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 142957,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 143743,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 45,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 145114,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 148388,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 40,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 155110,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 155444,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 155599,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 155745,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 155869,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 156399,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 32,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 176813,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 176952,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 177087,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 177373,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 177967,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 39,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 178832,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 39,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 179619,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 39,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 187852,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 190557,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 190565,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 190960,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\n",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 190966,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\n",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 196020,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\nt",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 196031,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\nt",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 196158,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\nte",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 196165,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\nte",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 196858,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntex",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 196868,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntex",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 197001,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 197007,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 197172,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext ",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 197182,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext ",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 197954,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext =",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 197966,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext =",
+      "selection": {
+        "start": 54,
+        "end": 54
+      }
+    }
+  },
+  {
+    "time": 198258,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = ",
+      "selection": {
+        "start": 54,
+        "end": 54
+      }
+    }
+  },
+  {
+    "time": 198266,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = ",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 201316,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 201326,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 210966,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"W",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 210974,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"W",
+      "selection": {
+        "start": 57,
+        "end": 57
+      }
+    }
+  },
+  {
+    "time": 222952,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"We",
+      "selection": {
+        "start": 57,
+        "end": 57
+      }
+    }
+  },
+  {
+    "time": 222958,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"We",
+      "selection": {
+        "start": 58,
+        "end": 58
+      }
+    }
+  },
+  {
+    "time": 223117,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Wel",
+      "selection": {
+        "start": 58,
+        "end": 58
+      }
+    }
+  },
+  {
+    "time": 223124,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Wel",
+      "selection": {
+        "start": 59,
+        "end": 59
+      }
+    }
+  },
+  {
+    "time": 223508,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt",
+      "selection": {
+        "start": 59,
+        "end": 59
+      }
+    }
+  },
+  {
+    "time": 223514,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 224456,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 224467,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 61,
+        "end": 61
+      }
+    }
+  },
+  {
+    "time": 233156,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 233488,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 56,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 238541,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 238671,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 238817,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 54,
+        "end": 54
+      }
+    }
+  },
+  {
+    "time": 238955,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 239538,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 240092,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 48,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 242579,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 55,
+        "end": 61
+      }
+    }
+  },
+  {
+    "time": 246406,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 39,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 248002,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n\ntext = \"Welt\"",
+      "selection": {
+        "start": 47,
+        "end": 61
+      }
+    }
+  },
+  {
+    "time": 248554,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 47,
+        "end": 61
+      }
+    }
+  },
+  {
+    "time": 248564,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 253142,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 253926,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 45,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 254300,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 40,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 254479,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 39,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 255931,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 257371,
+    "editor": {
+      "content": "// Kommentar\nvar test = 60\n\nvar text = 'Hallo'\n",
+      "selection": {
+        "start": 39,
+        "end": 40
+      }
+    }
+  }
+]
