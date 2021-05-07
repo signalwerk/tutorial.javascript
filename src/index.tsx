@@ -32,15 +32,16 @@ ReactDOM.render(
               </Route>
               <Route path="/course/js/basic/:chapter/:step">
                 <Viewer />
+
+                {process.env.REACT_APP_DEV && (
+                  <>
+                    <Debug />
+                    <Admin />
+                  </>
+                )}
               </Route>
             </Switch>
 
-            {process.env.REACT_APP_DEV && (
-              <>
-                <Debug />
-                <Admin />
-              </>
-            )}
             <Version />
           </div>
         </Router>

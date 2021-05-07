@@ -187,7 +187,7 @@ function Player() {
         <div className="player__video">
           <VideoPlayer
             onTimeUpdate={(t: number) => setPos(t)}
-            src={`./movies/${chapter}/${step}.mp4`}
+            src={URL.movie({ chapter, step })}
           />
         </div>
         <div className="player__code">

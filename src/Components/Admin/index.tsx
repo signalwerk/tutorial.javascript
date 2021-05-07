@@ -3,7 +3,7 @@
 // @ts-nocheck
 
 import React, { useContext, useState, useEffect } from "react";
-
+import { useParams } from "react-router-dom";
 import { saveAs } from "file-saver";
 
 import "./styles.css";
@@ -76,6 +76,7 @@ function Admin() {
 
   const [recording, setRecording] = useState<boolean>(false);
   const [preview, setPreview] = useState<boolean>(false);
+  let { chapter, step } = useParams<RouterParams>();
 
   let {
     error,
@@ -88,7 +89,19 @@ function Admin() {
     liveStream,
   } = useMediaRecorder({
     // recordScreen: true,
-    blobOptions: { type: "video/webm" },
+    blobOptions: {
+      // type: "video/webm",
+      type: "video/webm;codecs=h264",
+
+      // both for audio and video tracks
+      // bitsPerSecond: 128000,
+
+      // only for audio track
+      audioBitsPerSecond: 320000,
+
+      // only for video track
+      videoBitsPerSecond: 8000000,
+    },
     mediaStreamConstraints: {
       audio: true,
       // video: true,
@@ -124,19 +137,61 @@ function Admin() {
     fetch("http://localhost:3005", {
       method: "post",
       body: JSON.stringify({
-        id: "function.call",
+        chapter,
+        step,
         content: JSON.stringify(record, null, 2),
       }),
     })
       .then((response) => {
-        console.log("done");
+        console.log("done text");
         // return response.json();
       })
       .then((e) => {
-        console.log("error", e);
+        console.log("error text", e);
         // return response.json();
       });
   };
+
+  // if (status === "stopped") {
+  //   fetch(`http://localhost:3005/media/${chapter}/${step}`, {
+  //     method: "post",
+  //     body: mediaBlob,
+  //   })
+  //     .then((response) => {
+  //       console.log("done video");
+  //       // return response.json();
+  //     })
+  //     .then((e) => {
+  //       console.log("error video", e);
+  //       // return response.json();
+  //     });
+  // }
+
+  useEffect(() => {
+    if (status === "stopped") {
+      var reader = new FileReader();
+      reader.readAsDataURL(mediaBlob);
+      reader.onloadend = function () {
+        var base64dataURI = reader.result.toString();
+        let base64data = base64dataURI.substr(base64dataURI.indexOf(",") + 1);
+        // console.log(base64data);
+
+        fetch(`http://localhost:3005/media/${chapter}/${step}`, {
+          method: "post",
+          // body: mediaBlob,
+          body: base64data,
+        })
+          .then((response) => {
+            console.log("done video");
+            // return response.json();
+          })
+          .then((e) => {
+            console.log("error video", e);
+            // return response.json();
+          });
+      };
+    }
+  }, [status]);
 
   const handleRec = (event: React.MouseEvent<HTMLButtonElement>) => {
     startRecording();

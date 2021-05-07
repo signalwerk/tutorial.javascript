@@ -3,6 +3,8 @@ export const URL = {
   chapter: ({ chapter }) => `/api/course/js/basic/chapter/${chapter}.json`,
   step: ({ chapter, step }) =>
     `/api/course/js/basic/chapter/${chapter}/${step}.json`,
+  movie: ({ chapter, step }) =>
+    `/movies/course/js/basic/chapter/${chapter}/${step}/index.mp4`,
 };
 
 export const ROUTE = {
