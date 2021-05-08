@@ -3,6 +3,12 @@ import "./styles.css";
 import WorkSpace from "../WorkSpace";
 import VideoPlayer from "../VideoPlayer";
 import Preview from "../Preview";
+import { styles } from "../Editor/editor";
+
+import { highlight, languages } from "prismjs/components/prism-core";
+import "prismjs/components/prism-clike";
+import "prismjs/components/prism-javascript";
+import "prismjs/themes/prism.css"; //Example style, you can use another
 
 import {
   Context as SessionContext,
@@ -142,8 +148,21 @@ const showLines = (code: string, start: number, end: number) => {
 
 function TextPlayer({ editor }: TextPlayerProps) {
   return (
-    <div className="text-player">
-      <pre>
+    <div className="text-player code">
+      <pre
+        className="text-player__highlight"
+        style={{ ...styles.editor, ...styles.highlight }}
+        {...{
+          dangerouslySetInnerHTML: {
+            __html: highlight(editor.content, languages.js) + "<br />",
+          },
+        }}
+      />
+      <pre
+        className="text-player__selection"
+        style={{ ...styles.editor, ...styles.highlight }}
+        aria-hidden="true"
+      >
         {editor &&
           showLines(
             editor.content,

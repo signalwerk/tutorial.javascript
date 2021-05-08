@@ -4,8 +4,30 @@
   background-color: white;
 }
 
-.editor__textarea {
+.editor__editor {
   width: 100%;
   height: 100%;
   font-size: 1.3rem;
 }
+
+.editor__textarea-pre span {
+  background-color: transparent !important;
+}
+
+
+.editor__textarea-pre {
+  z-index: 8;
+}
+
+.editor__textarea-textarea {
+  z-index: 9;
+}
+
+.editor__textarea-textarea::selection {
+  color: var(--color-black) !important;
+
+  -webkit-text-fill-color: var(--color-black) !important;
+
+  background: var(--c-selection) !important;
+} 
+

@@ -30,9 +30,6 @@ https://live.prismjs.com/
 https://betterstack.dev/blog/code-highlighting-in-react-using-prismjs/
 https://react-live.netlify.app/ 
 
-## audio and text
-https://github.com/dhobsd/castty
-https://9vx.org/~dho/term/index.html
 
 
 ## store file from browser

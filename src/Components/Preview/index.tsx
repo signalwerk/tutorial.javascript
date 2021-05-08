@@ -108,7 +108,7 @@ function Preview({
       } catch (e) {
         complete(false);
         renderError = e.name + ": " + e.message;
-        console.warn(renderError);
+        // console.warn(renderError);
       }
     }
 

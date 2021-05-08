@@ -6,11 +6,17 @@ import {
 } from "../../context/session";
 import { useParams } from "react-router-dom";
 import { RouterParams } from "../../index";
+import SimpleEditor from "./editor";
+
+import { highlight, languages } from "prismjs/components/prism-core";
+import "prismjs/components/prism-clike";
+import "prismjs/components/prism-javascript";
+import "prismjs/themes/prism.css"; //Example style, you can use another
 
 import "./styles.css";
 
 export type editorProps = {
-  content: string ;
+  content: string;
 };
 
 const Editor = ({ content }: editorProps) => {
@@ -19,21 +25,19 @@ const Editor = ({ content }: editorProps) => {
 
   const inputEl = useRef<HTMLTextAreaElement>(null);
 
-  const [selection, setSelection] = useState<Selection>();
+  // const [selection, setSelection] = useState<Selection>();
 
-
-
-  useEffect(() => {
-    if (!selection) return; // prevent running on start
-    const { start, end } = selection;
-    inputEl?.current?.focus();
-    inputEl?.current?.setSelectionRange(start, end);
-  }, [selection]);
+  // useEffect(() => {
+  //   if (!selection) return; // prevent running on start
+  //   const { start, end } = selection;
+  //   inputEl?.current?.focus();
+  //   inputEl?.current?.setSelectionRange(start, end);
+  // }, [selection]);
 
   useEffect(() => {
     const start = content.length;
     inputEl?.current?.focus();
-    inputEl?.current?.setSelectionRange(start, start);
+    // inputEl?.current?.setSelectionRange(start, start);
   }, []);
 
   const pushValue = (value: string) => {
@@ -56,8 +60,11 @@ const Editor = ({ content }: editorProps) => {
     });
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    pushValue(e.target.value);
+  // const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+  //   pushValue(e.target.value);
+  // };
+  const handleInputChange = (val: string) => {
+    pushValue(val);
   };
 
   const handleSelection = (
@@ -65,56 +72,61 @@ const Editor = ({ content }: editorProps) => {
       | React.MouseEvent<HTMLTextAreaElement>
       | React.KeyboardEvent<HTMLTextAreaElement>
   ) => {
-    const start = inputEl?.current?.selectionStart || 0;
-    const end = inputEl?.current?.selectionEnd || start;
+    const start = e.target.selectionStart || 0;
+    const end = e.target.selectionEnd || start;
 
     pushSelection({ start, end });
-
-    // other code within selection handler as per original
-
-    // inputEl?.current?.focus();
-    // // the line below doesn't work!
-    // // inputEl?.current?.setSelectionRange(start + e.native.length, end + e.native.length)
-
-    // //this one does, but is not good practice..
-    // setTimeout(
-    //   () =>
-    //     inputEl?.current?.setSelectionRange(
-    //       start + e.native.length,
-    //       end + e.native.length
-    //     ),
-    //   10
-    // );
-    setSelection({
-      start: start,
-      end: end,
-    });
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key == "Tab") {
-      e.preventDefault();
-      const el = inputEl?.current;
-      const start = el?.selectionStart || 0;
-      const end = el?.selectionEnd || start;
+  // const handleSelection = (start: number, end: number) => {
+  //   console.log("handleSelection", start, end);
+  //   pushSelection({ start, end });
 
-      // set textarea value to: text before caret + tab + text after caret
-      const value =
-        el?.value.substring(0, start) + "\t" + el?.value.substring(end);
+  //   // other code within selection handler as per original
 
-      pushValue(value);
+  //   // inputEl?.current?.focus();
+  //   // // the line below doesn't work!
+  //   // // inputEl?.current?.setSelectionRange(start + e.native.length, end + e.native.length)
 
-      // dispatch({
-      //   type: SessionAction.SET_EDITOR_CONTENT,
-      //   payload: {
-      //     value: value,
-      //   },
-      // });
+  //   // //this one does, but is not good practice..
+  //   // setTimeout(
+  //   //   () =>
+  //   //     inputEl?.current?.setSelectionRange(
+  //   //       start + e.native.length,
+  //   //       end + e.native.length
+  //   //     ),
+  //   //   10
+  //   // );
+  //   // setSelection({
+  //   //   start: start,
+  //   //   end: end,
+  //   // });
+  // };
 
-      // put caret at right position again
-      setSelection({ start: start + 1, end: end + 1 });
-    }
-  };
+  // const handleKeyDown = (e: React.KeyboardEvent) => {
+  //   if (e.key == "Tab") {
+  //     e.preventDefault();
+  //     const el = inputEl?.current;
+  //     const start = el?.selectionStart || 0;
+  //     const end = el?.selectionEnd || start;
+
+  //     // set textarea value to: text before caret + tab + text after caret
+  //     const value =
+  //       el?.value.substring(0, start) + "\t" + el?.value.substring(end);
+
+  //     pushValue(value);
+
+  //     // dispatch({
+  //     //   type: SessionAction.SET_EDITOR_CONTENT,
+  //     //   payload: {
+  //     //     value: value,
+  //     //   },
+  //     // });
+
+  //     // put caret at right position again
+  //     setSelection({ start: start + 1, end: end + 1 });
+  //   }
+  // };
 
   const setFocus = () => {
     dispatch({
@@ -136,7 +148,7 @@ const Editor = ({ content }: editorProps) => {
 
   return (
     <div className="editor">
-      <textarea
+      {/* <textarea
         className="editor__textarea"
         ref={inputEl}
         name="text"
@@ -149,6 +161,25 @@ const Editor = ({ content }: editorProps) => {
         spellCheck="false"
         autoCorrect="off"
         autoCapitalize="off"
+      /> */}
+
+      <SimpleEditor
+        className="editor__editor code"
+        preClassName="editor__textarea-pre"
+        textareaClassName="editor__textarea-textarea"
+        onFocus={setFocus}
+        onBlur={setBlur}
+        onSelect={handleSelection}
+        onValueChange={handleInputChange}
+        onSelect={handleSelection}
+        value={content}
+        highlight={(code) => highlight(code, languages.js)}
+        style={
+          {
+            // fontFamily: '"Fira code", "Fira Mono", monospace',
+            // fontSize: 12,
+          }
+        }
       />
     </div>
   );

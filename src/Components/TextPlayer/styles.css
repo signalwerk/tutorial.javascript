@@ -1,10 +1,12 @@
 .text-player {
   font-size: 1.3rem;
+  position: relative;
 }
 
 .part {
   display: inline-block;
   position: relative;
+  color: transparent;
 }
 
 .part--mark {
@@ -34,4 +36,15 @@
 .part--selected {
   background-color: var(--c-selection);
   color: var(--c-black);
+}
+
+.text-player__selection,
+.text-player__highlight {
+  position: absolute !important;
+  left: 0;
+  top: 0;
+}
+
+.text-player__highlight span {
+  background-color: transparent !important;
 }

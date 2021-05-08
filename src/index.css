@@ -71,12 +71,14 @@ a:hover {
 ::selection {
   background: var(--c-selection);
   color: white;
+
   text-shadow: none;
 }
 
+pre,
 .code,
 code {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Source Code Pro", '"Fira code", "Fira Mono", monospace';
 }
 
 pre {
