@@ -1,10 +1,17 @@
+import pkg from "../../package.json";
+
+const base = process.env.REACT_APP_DEV
+  ? `${pkg.homepage}`
+  : `${process.env.PUBLIC_URL}`;
+
 export const URL = {
-  course: `/api/course/js/basic/course.json`,
-  chapter: ({ chapter }) => `/api/course/js/basic/chapter/${chapter}.json`,
+  course: `${base}/api/course/js/basic/course.json`,
+  chapter: ({ chapter }) =>
+    `${base}/api/course/js/basic/chapter/${chapter}.json`,
   step: ({ chapter, step }) =>
-    `/api/course/js/basic/chapter/${chapter}/${step}.json`,
+    `${base}/api/course/js/basic/chapter/${chapter}/${step}.json`,
   movie: ({ chapter, step }) =>
-    `/movies/course/js/basic/chapter/${chapter}/${step}/index.mp4`,
+    `https://www.escep.ch/videos/convert/course/js/basic/chapter/${chapter}/${step}/playlist.m3u8`,
 };
 
 export const ROUTE = {
