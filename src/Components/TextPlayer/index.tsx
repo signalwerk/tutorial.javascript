@@ -1,8 +1,4 @@
-import React, { useContext } from "react";
 import "./styles.css";
-import WorkSpace from "../WorkSpace";
-import VideoPlayer from "../VideoPlayer";
-import Preview from "../Preview";
 import { styles } from "../Editor/editor";
 
 import { highlight, languages } from "prismjs/components/prism-core";
@@ -10,12 +6,7 @@ import "prismjs/components/prism-clike";
 import "prismjs/components/prism-javascript";
 import "prismjs/themes/prism.css"; //Example style, you can use another
 
-import {
-  Context as SessionContext,
-  Action as SessionAction,
-  EditorState,
-  Selection,
-} from "../../context/session";
+import { EditorState } from "../../context/session";
 
 type TextPlayerProps = {
   editor: EditorState | undefined;
@@ -38,13 +29,10 @@ const showPart = (part: Part) => {
   switch (part.type) {
     case PartType.TEXT:
       return <span className="part part--text">{part.value}</span>;
-      break;
     case PartType.MARK:
       return <span className="part part--mark">&#x200B;</span>;
-      break;
     case PartType.TEXT_SELECTED:
       return <span className="part part--selected">{part.value}</span>;
-      break;
     default:
   }
 };

@@ -1,17 +1,11 @@
 import React, { useContext } from "react";
-import "./styles.css";
-import {
-  Context as SessionContext,
-  Action as SessionAction,
-} from "../../context/session";
-import Button from "../Button";
-import StatusIcon from "../StatusIcon";
 import { useParams } from "react-router-dom";
+import { Context as SessionContext } from "../../context/session";
 import { RouterParams } from "../../index";
-import { get } from "lodash";
+import "./styles.css";
 
 function StepMenu() {
-  const { state, dispatch } = useContext(SessionContext);
+  const { state } = useContext(SessionContext);
   let { chapter, step } = useParams<RouterParams>();
 
   const print = {

@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Markdown from "../Markdown";
-
-import Content from "../Content";
 import { Context as CourseContext } from "../../context/course";
 
 import "./styles.css";

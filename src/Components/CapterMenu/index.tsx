@@ -9,18 +9,15 @@ import React, { useContext } from "react";
 import "./styles.css";
 import {
   Context as SessionContext,
-  Action as SessionAction,
 } from "../../context/session";
 
 import { Context as CourseContext } from "../../context/course";
 
 import { Chapter } from "../../context/course";
-import Button from "../Button";
 import StatusIcon from "../StatusIcon";
-import useFetch from "../../util/useFetch";
 import { useParams } from "react-router-dom";
 import { RouterParams } from "../../index";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 type CapterMenuItemProps = {
   children: React.ReactNode;

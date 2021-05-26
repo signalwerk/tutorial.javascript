@@ -1,17 +1,12 @@
-import React, { useContext, useRef, useState, useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import videojs, { VideoJsPlayer } from "video.js";
+import "video.js/dist/video-js.css";
 // import LineControl from "../LineControl";
 import Track from "../Track";
-
-import { useVideojs } from "./useVideojs";
-import {
-  Context as SessionContext,
-  Action as SessionAction,
-  Selection,
-} from "../../context/session";
 import "./styles.css";
+import { useVideojs } from "./useVideojs";
 
-import "video.js/dist/video-js.css";
+
 
 type VideoPlayerProps = {
   onTimeUpdate: Function;
@@ -19,8 +14,6 @@ type VideoPlayerProps = {
 };
 
 function VideoPlayer({ onTimeUpdate: update, src }: VideoPlayerProps) {
-  const { state, dispatch } = useContext(SessionContext);
-
   const [isPlaying, setPlaying] = useState(false);
   const [isMuted, setMute] = useState(false);
   const [duration, setDuration] = useState(0);

@@ -1,18 +1,16 @@
-import React, { useContext, useRef, useState, useEffect } from "react";
-import {
-  Context as SessionContext,
-  Action as SessionAction,
-  Selection,
-} from "../../context/session";
-import { useParams } from "react-router-dom";
-import { RouterParams } from "../../index";
-import SimpleEditor from "./editor";
-
-import { highlight, languages } from "prismjs/components/prism-core";
 import "prismjs/components/prism-clike";
+import { highlight, languages } from "prismjs/components/prism-core";
 import "prismjs/components/prism-javascript";
 import "prismjs/themes/prism.css"; //Example style, you can use another
-
+import React, { useContext, useEffect, useRef } from "react";
+import { useParams } from "react-router-dom";
+import {
+  Action as SessionAction,
+  Context as SessionContext,
+  Selection,
+} from "../../context/session";
+import { RouterParams } from "../../index";
+import SimpleEditor from "./editor";
 import "./styles.css";
 
 export type editorProps = {
@@ -20,24 +18,13 @@ export type editorProps = {
 };
 
 const Editor = ({ content }: editorProps) => {
-  const { state, dispatch } = useContext(SessionContext);
+  const { dispatch } = useContext(SessionContext);
   let { chapter, step } = useParams<RouterParams>();
 
   const inputEl = useRef<HTMLTextAreaElement>(null);
 
-  // const [selection, setSelection] = useState<Selection>();
-
-  // useEffect(() => {
-  //   if (!selection) return; // prevent running on start
-  //   const { start, end } = selection;
-  //   inputEl?.current?.focus();
-  //   inputEl?.current?.setSelectionRange(start, end);
-  // }, [selection]);
-
   useEffect(() => {
-    const start = content.length;
     inputEl?.current?.focus();
-    // inputEl?.current?.setSelectionRange(start, start);
   }, []);
 
   const pushValue = (value: string) => {
@@ -148,21 +135,6 @@ const Editor = ({ content }: editorProps) => {
 
   return (
     <div className="editor">
-      {/* <textarea
-        className="editor__textarea"
-        ref={inputEl}
-        name="text"
-        onFocus={setFocus}
-        onBlur={setBlur}
-        onChange={handleInputChange}
-        onKeyDown={handleKeyDown}
-        value={content}
-        onSelect={handleSelection}
-        spellCheck="false"
-        autoCorrect="off"
-        autoCapitalize="off"
-      /> */}
-
       <SimpleEditor
         className="editor__editor code"
         preClassName="editor__textarea-pre"
@@ -171,7 +143,6 @@ const Editor = ({ content }: editorProps) => {
         onBlur={setBlur}
         onSelect={handleSelection}
         onValueChange={handleInputChange}
-        onSelect={handleSelection}
         value={content}
         highlight={(code) => highlight(code, languages.js)}
         style={

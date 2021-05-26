@@ -2,25 +2,19 @@
 
 // @ts-nocheck
 
-import React, { useContext, useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import { saveAs } from "file-saver";
-
-import "./styles.css";
-import {
-  Context as SessionContext,
-  Action as SessionAction,
-} from "../../context/session";
-import Button from "../Button";
-import StatusIcon from "../StatusIcon";
-
 // function createGist(opts) {
 //   ChromeSamples.log('Posting request to GitHub API...');
-
 // }
-
 // import React from "react";
 import useMediaRecorder from "@wmik/use-media-recorder";
+import { saveAs } from "file-saver";
+import React, { useContext, useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { Context as SessionContext } from "../../context/session";
+import Button from "../Button";
+import "./styles.css";
+
+
 
 function Player({ srcBlob, audio }) {
   if (!srcBlob) {
@@ -72,7 +66,7 @@ let start = 0;
 let record = [];
 
 function Admin() {
-  const { state, dispatch } = useContext(SessionContext);
+  const { state } = useContext(SessionContext);
 
   const [recording, setRecording] = useState<boolean>(false);
   const [preview, setPreview] = useState<boolean>(false);
@@ -110,7 +104,6 @@ function Admin() {
   });
 
   useEffect(() => {
-    const text = state.current.editor.content;
     const now = Date.now();
 
     record.push({

@@ -1,5 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
-import { TypePredicate } from "typescript";
+import React, { useState, useEffect } from "react";
 import "./styles.css";
 
 type PreviewProps = {

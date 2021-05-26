@@ -1,4 +1,4 @@
-import React, { useContext, MouseEvent, useState } from "react";
+
 import { Range } from "react-range";
 import "./styles.css";
 

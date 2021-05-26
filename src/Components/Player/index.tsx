@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import "./styles.css";
-import WorkSpace from "../WorkSpace";
 import VideoPlayer from "../VideoPlayer";
 import Preview from "../Preview";
 import TextPlayer from "../TextPlayer";
@@ -9,137 +8,8 @@ import { useParams } from "react-router-dom";
 import { RouterParams } from "../../index";
 import { URL } from "../../util/api";
 
-import {
-  Context as SessionContext,
-  Action as SessionAction,
-  EditorFrame,
-} from "../../context/session";
+import { EditorFrame } from "../../context/session";
 import { Context as CourseContext } from "../../context/course";
-
-enum PartType {
-  TEXT = "TEXT",
-  MARK = "MARK",
-  TEXT_SELECTED = "TEXT_SELECTED",
-}
-
-type Part = {
-  type: PartType;
-  value: string;
-};
-
-type Line = Part[];
-
-const showPart = (part: Part) => {
-  switch (part.type) {
-    case PartType.TEXT:
-      return <span className="part part--text">{part.value}</span>;
-      break;
-    case PartType.MARK:
-      return <span className="part part--mark">&#x200B;</span>;
-      break;
-    case PartType.TEXT_SELECTED:
-      return <span className="part part--selected">{part.value}</span>;
-      break;
-    default:
-  }
-};
-
-// const splitAt = index => x => [x.slice(0, index), x.slice(index)]
-
-const showLines = (code: string, start: number, end: number) => {
-  const hasCursor = start === end;
-  let offset = 0;
-  const lines: Line[] = code.split("\n").map((line: string) => {
-    let parts = null;
-
-    // there is just a cursor
-    if (hasCursor) {
-      // the cursor is in this line
-      if (start >= offset && end <= offset + line.length) {
-        parts = [
-          {
-            type: PartType.TEXT,
-            value: line.slice(0, start - offset),
-          },
-          {
-            type: PartType.MARK,
-            value: "",
-          },
-          {
-            type: PartType.TEXT,
-            value: line.slice(end - offset),
-          },
-        ];
-      }
-      // no cursor in this line
-      else {
-        parts = [
-          {
-            type: PartType.TEXT,
-            value: line,
-          },
-        ];
-      }
-    }
-    // there is a selection
-    else {
-      // selection start of line
-      if (start <= offset && end > offset) {
-        parts = [
-          {
-            type: PartType.TEXT_SELECTED,
-            value: line.slice(0, end - offset),
-          },
-          {
-            type: PartType.TEXT,
-            value: line.slice(end - offset),
-          },
-        ];
-      }
-      // selection in line
-      else if (start >= offset && start < offset + line.length) {
-        parts = [
-          {
-            type: PartType.TEXT,
-            value: line.slice(0, start - offset),
-          },
-          {
-            type: PartType.TEXT_SELECTED,
-            value: line.slice(start - offset, end - offset),
-          },
-          {
-            type: PartType.TEXT,
-            value: line.slice(end - offset, line.length),
-          },
-        ];
-      }
-      // selection in other line
-      else {
-        parts = [
-          {
-            type: PartType.TEXT,
-            value: line,
-          },
-        ];
-      }
-    }
-
-    offset += line.length + 1;
-    return parts;
-  });
-
-  return lines.map((line: Line, lineIndex: number) => (
-    <div key={`line_${lineIndex}`}>
-      <code>
-        {line.map((part, partIndex: number) => (
-          <span key={`line_${lineIndex}_part_${partIndex}`}>
-            {showPart(part)}
-          </span>
-        ))}
-      </code>
-    </div>
-  ));
-};
 
 /**
  * Returns the index of the last element in the array where predicate is true, and -1
@@ -161,7 +31,6 @@ export function findLastIndex<T>(
 }
 
 function Player() {
-  const { state, dispatch } = useContext(SessionContext);
   const {
     state: { lang },
   } = useContext(CourseContext);
@@ -171,7 +40,7 @@ function Player() {
 
   // const pos = state.current.playPosition;
 
-  const { response: editorFrames, loading, hasError } = useFetch<EditorFrame[]>(
+  const { response: editorFrames, hasError } = useFetch<EditorFrame[]>(
     URL.step({ chapter, step })
   );
 

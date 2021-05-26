@@ -2,17 +2,12 @@ import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import "./styles.css";
 import { RouterParams } from "../../index";
-import {
-  Context as SessionContext,
-  Action as SessionAction,
-} from "../../context/session";
+import { Context as SessionContext } from "../../context/session";
 import { Step } from "../../context/course";
 
 import { ROUTE } from "../../util/api";
-
-import Button from "../Button";
 import StatusIcon from "../StatusIcon";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 type StepMenuProps = {
   steps: Step[];
@@ -37,7 +32,7 @@ function StepMenuItem({ children, done, active }: StepMenuItemProps) {
 }
 
 function StepMenu({ steps }: StepMenuProps) {
-  const { state, dispatch } = useContext(SessionContext);
+  const { state } = useContext(SessionContext);
   let { step, chapter } = useParams<RouterParams>();
 
   // const chapter = state.chapters.find(

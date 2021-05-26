@@ -6,7 +6,6 @@ import React, {
   useEffect,
 } from "react";
 import { ActionMap } from "./ActionMap";
-import { set } from "lodash";
 import { URL } from "../util/api";
 
 enum Action {

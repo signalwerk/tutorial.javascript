@@ -8,7 +8,7 @@ import Admin from "./Components/Admin";
 import Version from "./Components/Version";
 import Home from "./Components/Home";
 import reportWebVitals from "./reportWebVitals";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 // setup Provider
 
