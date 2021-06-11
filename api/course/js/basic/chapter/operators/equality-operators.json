@@ -1,0 +1,2542 @@
+[
+  {
+    "time": 0,
+    "editor": {
+      "content": "",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 6141,
+    "editor": {
+      "content": "p",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 6177,
+    "editor": {
+      "content": "p",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 6227,
+    "editor": {
+      "content": "pr",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 6248,
+    "editor": {
+      "content": "pr",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 6334,
+    "editor": {
+      "content": "pri",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 6365,
+    "editor": {
+      "content": "pri",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 6408,
+    "editor": {
+      "content": "prin",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 6427,
+    "editor": {
+      "content": "prin",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 6500,
+    "editor": {
+      "content": "print",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 6521,
+    "editor": {
+      "content": "print",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 6979,
+    "editor": {
+      "content": "print(",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 6998,
+    "editor": {
+      "content": "print(",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 13146,
+    "editor": {
+      "content": "print( ",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 13167,
+    "editor": {
+      "content": "print( ",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 13601,
+    "editor": {
+      "content": "print( =",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 13628,
+    "editor": {
+      "content": "print( =",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 13782,
+    "editor": {
+      "content": "print( ==",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 13802,
+    "editor": {
+      "content": "print( ==",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 15255,
+    "editor": {
+      "content": "print( == ",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 15274,
+    "editor": {
+      "content": "print( == ",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 15800,
+    "editor": {
+      "content": "print( == )",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 15818,
+    "editor": {
+      "content": "print( == )",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 16364,
+    "editor": {
+      "content": "print( == )",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 16518,
+    "editor": {
+      "content": "print( == )",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 16676,
+    "editor": {
+      "content": "print( == )",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 16826,
+    "editor": {
+      "content": "print( == )",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 16902,
+    "editor": {
+      "content": "print( == )",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 19707,
+    "editor": {
+      "content": "print(3 == )",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 19728,
+    "editor": {
+      "content": "print(3 == )",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 20498,
+    "editor": {
+      "content": "print(3 == )",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 21168,
+    "editor": {
+      "content": "print(3 == )",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 24802,
+    "editor": {
+      "content": "print(3 == 3)",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 24821,
+    "editor": {
+      "content": "print(3 == 3)",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 42139,
+    "editor": {
+      "content": "print(3 == 3)",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 42879,
+    "editor": {
+      "content": "print(3 == 3)\n",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 42891,
+    "editor": {
+      "content": "print(3 == 3)\n",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 43569,
+    "editor": {
+      "content": "print(3 == 3)\np",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 43588,
+    "editor": {
+      "content": "print(3 == 3)\np",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 43727,
+    "editor": {
+      "content": "print(3 == 3)\npr",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 43740,
+    "editor": {
+      "content": "print(3 == 3)\npr",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 43843,
+    "editor": {
+      "content": "print(3 == 3)\npri",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 43859,
+    "editor": {
+      "content": "print(3 == 3)\npri",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 43933,
+    "editor": {
+      "content": "print(3 == 3)\nprin",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 43955,
+    "editor": {
+      "content": "print(3 == 3)\nprin",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 44003,
+    "editor": {
+      "content": "print(3 == 3)\nprint",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 44027,
+    "editor": {
+      "content": "print(3 == 3)\nprint",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 44836,
+    "editor": {
+      "content": "print(3 == 3)\nprint(",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 44853,
+    "editor": {
+      "content": "print(3 == 3)\nprint(",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 45985,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 46005,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 46649,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 ",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 46668,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 ",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 47698,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 =",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 47714,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 =",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 48014,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 ==",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 48033,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 ==",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 48762,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == ",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 48777,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == ",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 49891,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == 3",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 49909,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == 3",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 50350,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 50389,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 66781,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 8,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 71277,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 71647,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 0,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 71880,
+    "editor": {
+      "content": "print(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 72174,
+    "editor": {
+      "content": "\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 72184,
+    "editor": {
+      "content": "\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 72455,
+    "editor": {
+      "content": "\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 72933,
+    "editor": {
+      "content": "v\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 72954,
+    "editor": {
+      "content": "v\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 73053,
+    "editor": {
+      "content": "va\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 73063,
+    "editor": {
+      "content": "va\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 73165,
+    "editor": {
+      "content": "var\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 73175,
+    "editor": {
+      "content": "var\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 73267,
+    "editor": {
+      "content": "var \nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 73276,
+    "editor": {
+      "content": "var \nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 74479,
+    "editor": {
+      "content": "var x\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 74499,
+    "editor": {
+      "content": "var x\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 74736,
+    "editor": {
+      "content": "var x \nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 74746,
+    "editor": {
+      "content": "var x \nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 75099,
+    "editor": {
+      "content": "var x =\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 75107,
+    "editor": {
+      "content": "var x =\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 75289,
+    "editor": {
+      "content": "var x = \nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 75299,
+    "editor": {
+      "content": "var x = \nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 76517,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 76527,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 77507,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 8,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 77638,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 4,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 77832,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 0,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 85077,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 16,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 87440,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 88452,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 18,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 89273,
+    "editor": {
+      "content": "var x = 3\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 89958,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 90011,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 91418,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 91800,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 92362,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 92520,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 93207,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(2 == 3)",
+      "selection": {
+        "start": 31,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 94253,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 == 3)",
+      "selection": {
+        "start": 31,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 94264,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 == 3)",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 95288,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 == 3)",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 96627,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 96632,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 101917,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 102351,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 103354,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 104252,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 105647,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 106153,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 108220,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 113333,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 113669,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 132619,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 132772,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 133637,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 134178,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 134414,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 134628,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 135023,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 135393,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 135696,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 136361,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 136742,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == 3)\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 138602,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3)\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 138608,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3)\nprint(3 === 3)",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 139341,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3)\nprint(3 === 3)",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 140333,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 140339,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 144049,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 144202,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 144328,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 144483,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 144585,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 144843,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 145225,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 145642,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 147839,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 148005,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 148162,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 148307,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 148456,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 148590,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 148949,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 149322,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 149497,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 149636,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 154132,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 154342,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 154496,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 154694,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 154833,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 155036,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 155410,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 155846,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 156184,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 156475,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 157072,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 157320,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 157567,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 157861,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 158242,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 158410,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 158894,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 159096,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 159265,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 159704,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 159918,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 160087,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 176361,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 176706,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 178042,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 178739,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 179563,
+    "editor": {
+      "content": "var x = 3\n\nprint(t == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 179569,
+    "editor": {
+      "content": "var x = 3\n\nprint(t == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 179754,
+    "editor": {
+      "content": "var x = 3\n\nprint(tr == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 179759,
+    "editor": {
+      "content": "var x = 3\n\nprint(tr == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 179911,
+    "editor": {
+      "content": "var x = 3\n\nprint(tru == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 179915,
+    "editor": {
+      "content": "var x = 3\n\nprint(tru == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 179978,
+    "editor": {
+      "content": "var x = 3\n\nprint(true == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 179987,
+    "editor": {
+      "content": "var x = 3\n\nprint(true == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 190384,
+    "editor": {
+      "content": "var x = 3\n\nprint(true == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 191555,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 191564,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 196487,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 198090,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 198575,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 198788,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 199362,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 35,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 199586,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 35,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 199755,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 35,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 200712,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 201128,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === 3)",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 202367,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3)",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 202372,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3)",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 203062,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3)",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 204188,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 204197,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 219723,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 35,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 225671,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 226613,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 40,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 228426,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 229267,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 235982,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 26,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 236353,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 10,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 238197,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 242631,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 == '3')\nprint(3 === '3')",
+      "selection": {
+        "start": 11,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 244917,
+    "editor": {
+      "content": "var x = 3\n\np",
+      "selection": {
+        "start": 11,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 244926,
+    "editor": {
+      "content": "var x = 3\n\np",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 245197,
+    "editor": {
+      "content": "var x = 3\n\npi",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 245203,
+    "editor": {
+      "content": "var x = 3\n\npi",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 245658,
+    "editor": {
+      "content": "var x = 3\n\npin",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 245662,
+    "editor": {
+      "content": "var x = 3\n\npin",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 246018,
+    "editor": {
+      "content": "var x = 3\n\npint",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 246024,
+    "editor": {
+      "content": "var x = 3\n\npint",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 246514,
+    "editor": {
+      "content": "var x = 3\n\npinte",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 246519,
+    "editor": {
+      "content": "var x = 3\n\npinte",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 247334,
+    "editor": {
+      "content": "var x = 3\n\npint",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 247399,
+    "editor": {
+      "content": "var x = 3\n\npint",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 248087,
+    "editor": {
+      "content": "var x = 3\n\npin",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 248130,
+    "editor": {
+      "content": "var x = 3\n\npin",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 248211,
+    "editor": {
+      "content": "var x = 3\n\npi",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 248287,
+    "editor": {
+      "content": "var x = 3\n\npi",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 248605,
+    "editor": {
+      "content": "var x = 3\n\np",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 248659,
+    "editor": {
+      "content": "var x = 3\n\np",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 248701,
+    "editor": {
+      "content": "var x = 3\n\npr",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 248706,
+    "editor": {
+      "content": "var x = 3\n\npr",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 248864,
+    "editor": {
+      "content": "var x = 3\n\npri",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 248870,
+    "editor": {
+      "content": "var x = 3\n\npri",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 248978,
+    "editor": {
+      "content": "var x = 3\n\nprin",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 248982,
+    "editor": {
+      "content": "var x = 3\n\nprin",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 249156,
+    "editor": {
+      "content": "var x = 3\n\nprint",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 249162,
+    "editor": {
+      "content": "var x = 3\n\nprint",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 249732,
+    "editor": {
+      "content": "var x = 3\n\nprint(",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 249738,
+    "editor": {
+      "content": "var x = 3\n\nprint(",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 251792,
+    "editor": {
+      "content": "var x = 3\n\nprint(3",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 251798,
+    "editor": {
+      "content": "var x = 3\n\nprint(3",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 252126,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 ",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 252130,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 ",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 252465,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 =",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 252471,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 =",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 252725,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 ==",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 252731,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 ==",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 253319,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 ===",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 253324,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 ===",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 254085,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 === ",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 254089,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 === ",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 254378,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 === 4",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 254384,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 === 4",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 255343,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 === 4)",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 255350,
+    "editor": {
+      "content": "var x = 3\n\nprint(3 === 4)",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  }
+]

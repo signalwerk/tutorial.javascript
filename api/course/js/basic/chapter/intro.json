@@ -1,0 +1,26 @@
+[
+  {
+    "id": "overview",
+    "title": "Intro",
+    "task": {
+      "instruction": "Schreibe im Editor (unten) etwas. Egal was.",
+      "match": "/.+/g"
+    }
+  },
+  {
+    "id": "commments",
+    "title": "Kommentare",
+    "task": {
+      "instruction": "Schreibe im Editor einen einzeiligen Kommentar mit etwas Text (starte mit `//`).",
+      "match": "/(//)../g"
+    }
+  },
+  {
+    "id": "function",
+    "title": "Funktion",
+    "task": {
+      "instruction": "Rufe die funktion `Box()` mit der x-Position `20` und der y-Position `50` auf.",
+      "match": "/Box\\(\\s*20\\s*,\\s*50\\s*\\)/g"
+    }
+  }
+]

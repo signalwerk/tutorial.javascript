@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "https://www.escep.ch/basics/static/css/main.22db62d9.chunk.css",
+    "main.js": "https://www.escep.ch/basics/static/js/main.2162b0b7.chunk.js",
+    "main.js.map": "https://www.escep.ch/basics/static/js/main.2162b0b7.chunk.js.map",
+    "runtime-main.js": "https://www.escep.ch/basics/static/js/runtime-main.778545c7.js",
+    "runtime-main.js.map": "https://www.escep.ch/basics/static/js/runtime-main.778545c7.js.map",
+    "static/css/2.fd943081.chunk.css": "https://www.escep.ch/basics/static/css/2.fd943081.chunk.css",
+    "static/js/2.a055b755.chunk.js": "https://www.escep.ch/basics/static/js/2.a055b755.chunk.js",
+    "static/js/2.a055b755.chunk.js.map": "https://www.escep.ch/basics/static/js/2.a055b755.chunk.js.map",
+    "static/js/3.ed56bf5e.chunk.js": "https://www.escep.ch/basics/static/js/3.ed56bf5e.chunk.js",
+    "static/js/3.ed56bf5e.chunk.js.map": "https://www.escep.ch/basics/static/js/3.ed56bf5e.chunk.js.map",
+    "index.html": "https://www.escep.ch/basics/index.html",
+    "static/css/2.fd943081.chunk.css.map": "https://www.escep.ch/basics/static/css/2.fd943081.chunk.css.map",
+    "static/css/main.22db62d9.chunk.css.map": "https://www.escep.ch/basics/static/css/main.22db62d9.chunk.css.map",
+    "static/js/2.a055b755.chunk.js.LICENSE.txt": "https://www.escep.ch/basics/static/js/2.a055b755.chunk.js.LICENSE.txt",
+    "static/media/fontello.css": "https://www.escep.ch/basics/static/media/fontello.b3b52712.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.778545c7.js",
+    "static/css/2.fd943081.chunk.css",
+    "static/js/2.a055b755.chunk.js",
+    "static/css/main.22db62d9.chunk.css",
+    "static/js/main.2162b0b7.chunk.js"
+  ]
+}

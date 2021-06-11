@@ -1,0 +1,34 @@
+[
+  {
+    "id": "overview",
+    "title": "Intro",
+    "task": {
+      "instruction": "Definiere eine Variable mit dem Namen `test` und weise bei der Definition den Wert `5` zu.",
+      "check": "try { (test === 5) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+    }
+  },
+  {
+    "id": "assign",
+    "title": "Zuweisung",
+    "task": {
+      "instruction": "Definiere eine Variable `x` mit dem Wert `10`. Weise dann der Variable den neuen Wert `20` zu.",
+      "check": "try { (x === 20 ) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+    }
+  },
+  {
+    "id": "multiple",
+    "title": "Mehrere Variablen",
+    "task": {
+      "instruction": "Definiere eine Variable `x` mit dem Wert `10` und eine Variable `y` mit dem Wert `20`.",
+      "check": "try { (x === 10 && y === 20 ) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+    }
+  },
+  {
+    "id": "use",
+    "title": "Verwendung",
+    "task": {
+      "instruction": "Definiere eine Variable `x` mit dem Wert `30` und eine Variable `y` mit dem Wert `10`. \nVerwende dann die beiden Variablen um eine `Box` zu zeichnen.",
+      "check": "try { (x === 30 && y === 10 && hasBox(30, 10)) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+    }
+  }
+]
