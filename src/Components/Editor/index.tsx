@@ -10,7 +10,7 @@ import {
   Selection,
 } from "../../context/session";
 import { RouterParams } from "../../index";
-import SimpleEditor from "./editor";
+import SimpleEditor, { styles } from "./editor";
 import "./styles.css";
 
 export type editorProps = {
@@ -152,6 +152,19 @@ const Editor = ({ content }: editorProps) => {
           }
         }
       />
+
+      <div className="editor__solution">
+        <div className="editor__solution-show">Lösung anschauen</div>
+        <div className="editor__solution-text editor__editor code">
+          <pre
+            className="editor__textarea-pre"
+            aria-hidden="true"
+            style={{ ...styles.editor, ...styles.highlight }}
+          >
+            <div dangerouslySetInnerHTML={{ __html: highlight(content, languages.js) }} />
+          </pre>
+        </div>
+      </div>
     </div>
   );
 };

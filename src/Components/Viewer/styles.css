@@ -53,6 +53,10 @@
   margin-bottom: 1rem;
 }
 
+.callout--done .viewer__task-text .markdown {
+  opacity: 0.8;
+}
+
 .viewer__task code {
   background-color: rgb(58, 58, 58);
   color: white;

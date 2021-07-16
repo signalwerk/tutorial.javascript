@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
+import "./stopExecutionOntimeout";
+import { addInfiniteLoopProtection } from "./addInfiniteLoopProtection";
 import "./styles.css";
 
 type PreviewProps = {
   code: string;
   check?: string;
+  match?: string;
   hideErrors?: boolean;
   themeNetative?: boolean;
   solved?: Function;
@@ -25,6 +28,7 @@ let renderError = "";
 function Preview({
   code,
   check,
+  match,
   hideErrors,
   themeNetative,
   solved,
@@ -56,30 +60,51 @@ function Preview({
   };
 
   function hasBox(x?: number, y?: number, width?: number, height?: number) {
+    console.log("hasBox", boxList);
     return boxList.filter((item) => {
       let found = true;
 
       if (x) {
-        found = item.x === x;
+        found = item.x === x && found;
       }
       if (y) {
-        found = item.y === y;
+        found = item.y === y && found;
       }
-
       if (width) {
-        found = item.width === width;
+        found = item.width === width && found;
       }
-
       if (height) {
-        found = item.height === height;
+        found = item.height === height && found;
       }
 
       return found;
     }).length;
   }
 
-  function hasText(filter: (value: Text, index: number, array: Text[]) => any) {
-    return textList.filter(filter).length;
+  function getBoxList() {
+    console.log("getBoxList", boxList);
+    return boxList;
+  }
+  function hasText(filter: any) {
+    console.log("hasText", textList);
+
+    if (typeof filter === "function") {
+      return textList.filter(filter).length;
+    } else {
+      return textList.filter((item) => item === filter).length;
+    }
+  }
+
+  function codeTester(code: string) {
+    return (regex: RegExp) => {
+      console.log("codeTester", regex.test(code), code, regex);
+      return regex.test(code);
+    };
+  }
+
+  function getTextList() {
+    console.log("getTextList", textList);
+    return textList;
   }
 
   function complete(status: boolean) {
@@ -90,19 +115,39 @@ function Preview({
 
   const render = (code: string, check: string | undefined) => {
     if (!code) {
+      solved && solved(false);
       return;
     }
-    function runCodeWithDateFunction(code: string) {
+    function runCodeWithDateFunction(sanitizedCode: string) {
       // return Function('"use strict";return (' + code + ")")()(Box);
 
+      let execCode = `
+return (
+  function(Box, print, hasBox, getBoxList, hasText, getTextList, complete, console, codeTester){ 
+
+    ${sanitizedCode}
+
+    ${
+      check
+        ? `try { ( ${check} ) ? complete(true) : complete(false) } catch(e) { complete(false) }`
+        : ""
+    }
+  }
+)`;
+
+      console.log({ execCode });
       try {
-        return Function("return (\n" + code + "\n)")()(
+        // eslint-disable-next-line
+        Function(execCode)()(
           Box,
           print,
           hasBox,
+          getBoxList,
           hasText,
+          getTextList,
           complete,
-          conzole
+          conzole,
+          codeTester(code)
         );
       } catch (e) {
         complete(false);
@@ -111,11 +156,39 @@ function Preview({
       }
     }
 
-    runCodeWithDateFunction(
-      `function(Box, print, hasBox, hasText, complete, console){ \n${code}\n${
-        check ? check : ""
-      }\n }`
-    );
+    let sanitizedCode = "";
+    try {
+      sanitizedCode = addInfiniteLoopProtection(code, { count: 500 });
+    } catch (e) {
+      var line = 1;
+      console.log("-- error", e);
+      renderError = e.name + ": " + e.message;
+
+      try {
+        line = e.lineNumber;
+      } catch (err) {
+        // go on with line number 1
+      }
+
+      console.log({
+        code,
+        error: e.description,
+        line: line,
+      });
+    }
+
+    // console.log({ execCode });
+
+    // runCodeWithDateFunction(`\n${execCode}\n${check ? check : ""}\n`);
+
+    // console.log({ end: "now" });
+
+    // runCodeWithDateFunction(
+    //   `function(Box, print, hasBox, getBoxList, hasText, getTextList, complete, console){ \n${execCode}\n${
+    //     check ? check : ""
+    //   }\n }`
+    // );
+    runCodeWithDateFunction(sanitizedCode);
   };
 
   useEffect(() => {

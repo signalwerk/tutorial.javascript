@@ -116,19 +116,19 @@ function Viewer() {
     }
   };
 
-  useEffect(() => {
-    const match = currentStepData?.task.match;
-    if (match && content) {
-      const regexParts = match.match(new RegExp("^/(.*?)/([gimy]*)$"));
-      if (regexParts?.length === 3) {
-        const regex = new RegExp(regexParts[1], regexParts[2]);
+  // useEffect(() => {
+  //   const match = currentStepData?.task.match;
+  //   if (match && content) {
+  //     const regexParts = match.match(new RegExp("^/(.*?)/([gimy]*)$"));
+  //     if (regexParts?.length === 3) {
+  //       const regex = new RegExp(regexParts[1], regexParts[2]);
 
-        const finished = regex.test(content);
+  //       const finished = regex.test(content);
 
-        solved(finished);
-      }
-    }
-  }, [content]);
+  //       solved(finished);
+  //     }
+  //   }
+  // }, [content]);
 
   return (
     <div className="viewer">

@@ -38,6 +38,22 @@ const exec = util.promisify(require("child_process").exec);
 var server = http.createServer().listen(3005);
 let data = [];
 
+var jsonPath = (post, mode = "private") => {
+  const prefix = mode === "private" ? "__temp/public/" : "public/";
+  return `./${prefix}api/course/js/basic/chapter/${post.chapter}`;
+};
+var jsonFile = (post, mode = "private") => {
+  return `${jsonPath(post, mode)}/${post.step}.json`;
+};
+
+var moviePath = ({ chapter, step }, mode = "private") => {
+  const prefix = mode === "private" ? "__temp/public/" : "movies/original/";
+  return `./${prefix}course/js/basic/chapter/${chapter}/${step}`;
+};
+var movieFile = ({ chapter, step }, mode = "private") => {
+  return `${moviePath({ chapter, step }, mode)}/index`;
+};
+
 server.on("request", function async(req, res) {
   if (req.method == "POST") {
     data = [];
@@ -62,10 +78,8 @@ server.on("request", function async(req, res) {
 
       var post = JSON.parse(body);
 
-      const path = `./public/api/course/js/basic/chapter/${post.chapter}`;
-      fs.mkdirSync(path, { recursive: true });
-
-      fs.writeFileSync(`${path}/${post.step}.json`, post.content);
+      fs.mkdirSync(jsonPath(post), { recursive: true });
+      fs.writeFileSync(jsonFile(post), post.content);
     } else {
       console.log("write movie");
 
@@ -76,17 +90,48 @@ server.on("request", function async(req, res) {
 
       const [chapter, step] = reqUrl.split("/").slice(-2);
 
-      const path = `./public/movies/course/js/basic/chapter/${chapter}/${step}`;
-      const movieFile = `${path}/index`;
-      fs.mkdirSync(path, { recursive: true });
+      fs.mkdirSync(moviePath({ chapter, step }), { recursive: true });
 
       fs.writeFileSync(
-        `${movieFile}.webm`,
+        `${movieFile({ chapter, step })}.webm`,
         buff
         // body
       );
 
-      const cmd = `ffmpeg -i ${movieFile}.webm -c:v libx264 -crf 23 -filter:v "scale=-2:400, crop=400:400" -c:a aac -y ${movieFile}.mp4`;
+      const cmd = `
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
+rm -rf ${jsonFile({ chapter, step }, "public")} 
+mkdir -p ${jsonPath({ chapter, step }, "public")} 
+mv ${jsonFile({ chapter, step })} ${jsonFile({ chapter, step }, "public")} 
+
+ffmpeg -i ${movieFile({
+        chapter,
+        step,
+      })}.webm -c:v libx264 -crf 23 -filter:v "scale=-2:400, crop=400:400" -c:a aac -y ${movieFile(
+        { chapter, step }
+      )}.mp4
+
+rm -rf ${moviePath({ chapter, step }, "public")} 
+mkdir -p ${moviePath({ chapter, step }, "public")} 
+mv ${movieFile({ chapter, step })}.webm ${movieFile(
+        { chapter, step },
+        "public"
+      )}.webm 
+
+mv ${movieFile({ chapter, step })}.mp4 ${movieFile(
+        { chapter, step },
+        "public"
+      )}.mp4 
+
+rm -rf ${moviePath({ chapter, step }, "public").replace("original", "convert")} 
+bash ./convert/create-vod-hls.sh "${movieFile({ chapter, step }, "public")}.mp4"  ${moviePath({ chapter, step }, "public").replace("original", "convert")} 
+
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
+`;
 
       console.log(cmd);
 

@@ -11,7 +11,9 @@ export const URL = {
   step: ({ chapter, step }) =>
     `${base}/api/course/js/basic/chapter/${chapter}/${step}.json`,
   movie: ({ chapter, step }) =>
-    `https://www.escep.ch/videos/convert/course/js/basic/chapter/${chapter}/${step}/playlist.m3u8`,
+    process.env.REACT_APP_DEV
+      ? `/movies/convert/course/js/basic/chapter/${chapter}/${step}/playlist.m3u8`
+      : `https://www.escep.ch/videos/convert/course/js/basic/chapter/${chapter}/${step}/playlist.m3u8`,
 };
 
 export const ROUTE = {

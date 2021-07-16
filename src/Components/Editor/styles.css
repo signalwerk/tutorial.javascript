@@ -2,6 +2,34 @@
   width: 100%;
   height: 100%;
   background-color: white;
+  position: relative;
+}
+
+.editor__solution {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--color-blue--0200);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  z-index: 999;
+}
+
+.editor__solution .editor__editor {
+  font-size: 0.9rem;
+}
+
+.editor__solution:hover .editor__solution-show {
+  display: none;
+}
+
+.editor__solution-text {
+  display: none;
+}
+
+.editor__solution:hover .editor__solution-text {
+  display: block;
+  padding: 0.5rem 0.2rem;
 }
 
 .editor__editor {
@@ -13,7 +41,6 @@
 .editor__textarea-pre span {
   background-color: transparent !important;
 }
-
 
 .editor__textarea-pre {
   z-index: 8;
@@ -29,5 +56,4 @@
   -webkit-text-fill-color: var(--color-black) !important;
 
   background: var(--c-selection) !important;
-} 
-
+}
