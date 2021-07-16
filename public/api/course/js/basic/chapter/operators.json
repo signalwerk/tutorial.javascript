@@ -1,10 +1,10 @@
 [
   {
     "id": "overview",
-    "title": "Intro",
+    "title": "Einleitung",
     "task": {
       "instruction": "Gebe mit `print` das Ergebnis von `1` ÷ `3` aus.\n **Info:** In JavaScript wird für Division das Zeichen `/` verwendet.",
-      "check": "try { (hasText((item) => item.toFixed(3) === (1 / 3).toFixed(3) )) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+      "check": "hasText((item) => item.toFixed(3) === (1 / 3).toFixed(3) )"
     }
   },
   {
@@ -12,7 +12,7 @@
     "title": "Arithmetische Operatoren",
     "task": {
       "instruction": "Gebe mit `print` das Ergebnis von `(` `12` + `1` `)` × `5` aus.\n **Info:** In JavaScript wird für Multiplikation das Zeichen `*` verwendet.",
-      "check": "try { (hasText((item) => item.toFixed(3) === ((12 + 1) * 5).toFixed(3) )) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+      "check": "hasText((item) => item.toFixed(3) === ((12 + 1) * 5).toFixed(3) )"
     }
   },
   {
@@ -20,7 +20,7 @@
     "title": "Vergleichsoperator",
     "task": {
       "instruction": "Mache eine Prüfung ob `8` ≤ `5` und gib das Ergebnis mit `print` aus.\n **Info:** In JavaScript wird für «kleiner als oder gleich» das Zeichen `<=` verwendet.",
-      "check": "try { (hasText((item) => item  === false )) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+      "check": "codeTester(/<=/) && hasText(false)"
     }
   },
   {
@@ -28,7 +28,7 @@
     "title": "Gleichheitsoperatoren",
     "task": {
       "instruction": "Vergleiche die Zahl `5` und der String `'5'` einmal mit `===` und einmal mit `==`. Gebe das Ergebnis jeweils mit `print` aus.",
-      "check": "try { ( hasText((item) => item  === false ) && hasText((item) => item  === true ) ) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+      "check": "codeTester(/===/) && hasText(false) && hasText(true)"
     }
   }
 ]

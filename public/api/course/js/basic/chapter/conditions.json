@@ -1,0 +1,18 @@
+[
+  {
+    "id": "overview",
+    "title": "Einleitung",
+    "task": {
+      "instruction": "Schreibe eine Funktion mit dem Namen `test(wert)` wenn der `wert` grösser als 10 ist, dann rufe die Funktion `Box(wert, 20)` auf. Teste die Funktion mit `test(20)` und `test(5)`.",
+      "check": "typeof test === 'function' && hasBox(20, 20)"
+    }
+  },
+  {
+    "id": "if-else",
+    "title": "if/else",
+    "task": {
+      "instruction": "Schreibe eine Funktion mit dem Namen `test(wert)` wenn der `wert` grösser als 15 ist, dann rufe die Funktion `Box(wert, 50)` auf sonst `print(\"Hallo\")`. Teste die Funktion mit `test(20)` und `test(5)`.",
+      "check": "typeof test === 'function' && hasBox(20, 50) && hasText('Hallo')"
+    }
+  }
+]

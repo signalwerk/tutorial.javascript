@@ -1,0 +1,18 @@
+[
+  {
+    "id": "overview",
+    "title": "Einleitung",
+    "task": {
+      "instruction": "Zeichne mit einer `for`-Schleife mindestens zehn Boxen mit der Funktion `Box`. Wenn du magst, übergebe doch den counter als Box-Parameter (Beispiel: `Box(i * 5, i * 5)`). ",
+      "check": "getBoxList().length > 9"
+    }
+  },
+  {
+    "id": "complex-for",
+    "title": "Verschachtelte Schleife",
+    "task": {
+      "instruction": "Schreibe zwei verschachtelte Schleifen mit jeweils mindestens 10 Durchläufen und zeichne ein Raster mit `Box()`. Um die Box kleiner zu bekommen kannst du die Breite und Höhe der Box mit angeben: `Box(x, y, breite, höhe)` also zu Beispiel: `Box(5, 5, 8, 8)`",
+      "check": "getBoxList().length > 99"
+    }
+  }
+]
