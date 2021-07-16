@@ -16,22 +16,21 @@
 }
 
 .callout__next {
-  font-size: 1.5rem;
   background-color: var(--c-primary);
   color: white;
   position: absolute;
-  right: 30%;
+  right: 0%;
   top: 100%;
-  transform: translateY(2rem);
-  width: 12rem;
-  height: 12rem;
+  transform: translate(1rem, -1rem);
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   z-index: 9999;
 }
 
 .callout__next-icon {
   position: absolute;
-  font-size: 4.5rem;
+  font-size: 4rem;
   left: 50%;
   top: 0.5rem;
   transform: translate(-50%, 0);
@@ -43,8 +42,7 @@
   bottom: 1.5rem;
   transform: translate(-50%, 0);
   color: white;
-  font-size: 1.2rem;
-
+  font-size: 0.9rem;
 }
 
 a:hover .callout__next {
