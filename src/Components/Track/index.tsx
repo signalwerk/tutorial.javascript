@@ -1,4 +1,3 @@
-
 import { Range } from "react-range";
 import "./styles.css";
 

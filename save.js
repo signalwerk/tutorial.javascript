@@ -64,7 +64,7 @@ server.on("request", function async(req, res) {
 
       let post = JSON.parse(body);
 
-      console.log({post})
+      console.log({ post });
       const path = `./public/api/course/js/basic/chapter/${post.chapter}.json`;
 
       const currentJSON = fs.readFileSync(path, "utf8");

@@ -161,7 +161,11 @@ const Editor = ({ content }: editorProps) => {
             aria-hidden="true"
             style={{ ...styles.editor, ...styles.highlight }}
           >
-            <div dangerouslySetInnerHTML={{ __html: highlight(content, languages.js) }} />
+            <div
+              dangerouslySetInnerHTML={{
+                __html: highlight(content, languages.js),
+              }}
+            />
           </pre>
         </div>
       </div>

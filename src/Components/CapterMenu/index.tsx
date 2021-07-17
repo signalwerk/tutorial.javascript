@@ -7,9 +7,7 @@ https://github.com/daenub/IAD2019.news/blob/master/components/header/index.js
 
 import React, { useContext } from "react";
 import "./styles.css";
-import {
-  Context as SessionContext,
-} from "../../context/session";
+import { Context as SessionContext } from "../../context/session";
 
 import { Context as CourseContext } from "../../context/course";
 
@@ -52,7 +50,9 @@ function CapterMenu() {
             appState.chapters.map((item: Chapter) => (
               <CapterMenuItem
                 key={item.id}
-                done={(state.progress && state.progress[chapter]?.done) || false}
+                done={
+                  (state.progress && state.progress[chapter]?.done) || false
+                }
                 active={chapter === item.id}
               >
                 <Link to={`/course/js/basic/${item.id}/overview`}>

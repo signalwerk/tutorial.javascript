@@ -6,8 +6,6 @@ import Track from "../Track";
 import "./styles.css";
 import { useVideojs } from "./useVideojs";
 
-
-
 type VideoPlayerProps = {
   onTimeUpdate: Function;
   src: string;
