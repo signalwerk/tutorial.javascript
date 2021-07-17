@@ -4,7 +4,8 @@
     "title": "Einleitung",
     "task": {
       "instruction": "Schreibe eine Funktion mit dem Naman `test` welche dann `Box(20, 30)` aufruft. Führe die Funktion `test()` aus.",
-      "check": "typeof test === 'function' && hasBox(20, 30)"
+      "check": "typeof test === 'function' && hasBox(20, 30)",
+      "solution": "function test() {\n  Box(20, 30)\n}\n\ntest()"
     }
   },
   {
@@ -12,7 +13,8 @@
     "title": "Parameter",
     "task": {
       "instruction": "Eine Funktion `test` nimmt den Parameter `x` engegen. Die Funktion führt dann `Box(x, 30)` aus. Rufe die Funktion einemal mt `test(10)` und einmal `test(30)` aus.",
-      "check": "typeof test === 'function' && test.length === 1 && hasBox(10, 30) && hasBox(30, 30)"
+      "check": "typeof test === 'function' && test.length === 1 && hasBox(10, 30) && hasBox(30, 30)",
+      "solution": "function test(x) {\n  Box(x, 30)\n}\n\ntest(10)\ntest(30)"
     }
   },
   {
@@ -20,7 +22,8 @@
     "title": "Rückgabewert",
     "task": {
       "instruction": "Definiere eine Funktion `double(wert)`. Die Funktion gib den übergabenen Wert doppelt (× 2) zurück. Rufe dann `print(double(2))` und `print(double(4))` auf.",
-      "check": "typeof double === 'function' && double.length === 1 && hasText(item => item === 4) && hasText(item => item === 8)"
+      "check": "typeof double === 'function' && double.length === 1 && hasText(item => item === 4) && hasText(item => item === 8)",
+      "solution": "function double(wert) {\n  return wert * 2\n}\n\nprint(double(2))\nprint(double(4))"
     }
   }
 ]

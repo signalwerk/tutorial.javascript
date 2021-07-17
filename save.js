@@ -2,27 +2,6 @@
 
 
 
-ffmpeg -i index.webm -c copy index.mp4
-
-ffmpeg -i ./index.webm -c:v libx264 -crf 18 -filter:v "scale=-2:400, crop=400:400" -c:a aac index.mp4
-
-
-to stop creat react app from refresh wen writing:
-
-https://stackoverflow.com/a/65099810/1184829
-
-
-
-You can open the file node_modules\react-scripts\config\webpackDevServer.config.js and change the watchOptions.ignored setting to include the public folder like this:
-
-```js
-watchOptions: {
-  ignored: [ ignoredFiles(paths.appSrc), paths.appPublic ]
-},
-```
-
-Of course this is only temporary as reinstall/updates to node_modules will remove this.
-
 */
 
 var http = require("http");
@@ -76,11 +55,31 @@ server.on("request", function async(req, res) {
     if (reqUrl === "/") {
       console.log("write json");
 
-      var post = JSON.parse(body);
+      let post = JSON.parse(body);
 
       fs.mkdirSync(jsonPath(post), { recursive: true });
       fs.writeFileSync(jsonFile(post), post.content);
+    } else if (reqUrl === "/solution") {
+      console.log("--solution");
+
+      let post = JSON.parse(body);
+
+      console.log({post})
+      const path = `./public/api/course/js/basic/chapter/${post.chapter}.json`;
+
+      const currentJSON = fs.readFileSync(path, "utf8");
+
+      let current = JSON.parse(currentJSON).map((item) => ({
+        ...item,
+        task: {
+          ...item.task,
+          solution: item.id === post.step ? post.content : item.task.solution,
+        },
+      }));
+
+      fs.writeFileSync(path, JSON.stringify(current, null, 2));
     } else {
+      return;
       console.log("write movie");
 
       // console.log("Request completed, " + body.length + " bytes received");
@@ -126,7 +125,13 @@ mv ${movieFile({ chapter, step })}.mp4 ${movieFile(
       )}.mp4 
 
 rm -rf ${moviePath({ chapter, step }, "public").replace("original", "convert")} 
-bash ./convert/create-vod-hls.sh "${movieFile({ chapter, step }, "public")}.mp4"  ${moviePath({ chapter, step }, "public").replace("original", "convert")} 
+bash ./convert/create-vod-hls.sh "${movieFile(
+        { chapter, step },
+        "public"
+      )}.mp4"  ${moviePath({ chapter, step }, "public").replace(
+        "original",
+        "convert"
+      )} 
 
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
@@ -134,44 +139,6 @@ bash ./convert/create-vod-hls.sh "${movieFile({ chapter, step }, "public")}.mp4"
 `;
 
       console.log(cmd);
-
-      // exec(cmd, (err, stdout, stderr) => {
-      //   if (err) {
-      //     //some err occurred
-      //     console.error(err);
-      //     console.log(cmd);
-      //   } else {
-      //     // the *entire* stdout and stderr (buffered)
-      //     // console.log(`stdout: ${stdout}`);
-      //     // console.log(`stderr: ${stderr}`);
-      //     console.log("file converted");
-      //   }
-      // });
-
-      // async function ffmpeg() {
-      //   try {
-      //     const { stdout, stderr } = await exec(cmd);
-      //     console.log("stdout:", stdout);
-      //     console.log("stderr:", stderr);
-      //     console.log("file conversion exit");
-      //   } catch (err) {
-      //     console.error(err);
-      //   }
-      // }
-
-      // ffmpeg();
-
-      // const child = spawn(cmd);
-      // // use child.stdout.setEncoding('utf8'); if you want text chunks
-      // child.stdout.on("data", (chunk) => {
-      //   // data from the standard output is here as buffers
-      //   console.log(chunk);
-      // });
-      // // since these are streams, you can pipe them elsewhere
-      // // child.stderr.pipe(dest);
-      // child.on("close", (code) => {
-      //   console.log(`child process exited with code ${code}`);
-      // });
     }
 
     res.writeHead(200, {

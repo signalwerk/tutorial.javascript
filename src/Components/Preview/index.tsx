@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./stopExecutionOntimeout";
 import { addInfiniteLoopProtection } from "./addInfiniteLoopProtection";
 import "./styles.css";
 
@@ -60,7 +59,6 @@ function Preview({
   };
 
   function hasBox(x?: number, y?: number, width?: number, height?: number) {
-    console.log("hasBox", boxList);
     return boxList.filter((item) => {
       let found = true;
 
@@ -82,12 +80,9 @@ function Preview({
   }
 
   function getBoxList() {
-    console.log("getBoxList", boxList);
     return boxList;
   }
   function hasText(filter: any) {
-    console.log("hasText", textList);
-
     if (typeof filter === "function") {
       return textList.filter(filter).length;
     } else {
@@ -97,13 +92,11 @@ function Preview({
 
   function codeTester(code: string) {
     return (regex: RegExp) => {
-      console.log("codeTester", regex.test(code), code, regex);
       return regex.test(code);
     };
   }
 
   function getTextList() {
-    console.log("getTextList", textList);
     return textList;
   }
 
@@ -119,8 +112,6 @@ function Preview({
       return;
     }
     function runCodeWithDateFunction(sanitizedCode: string) {
-      // return Function('"use strict";return (' + code + ")")()(Box);
-
       let execCode = `
 return (
   function(Box, print, hasBox, getBoxList, hasText, getTextList, complete, console, codeTester){ 
@@ -135,7 +126,6 @@ return (
   }
 )`;
 
-      console.log({ execCode });
       try {
         // eslint-disable-next-line
         Function(execCode)()(
@@ -152,7 +142,6 @@ return (
       } catch (e) {
         complete(false);
         renderError = e.name + ": " + e.message;
-        // console.warn(renderError);
       }
     }
 
@@ -177,17 +166,6 @@ return (
       });
     }
 
-    // console.log({ execCode });
-
-    // runCodeWithDateFunction(`\n${execCode}\n${check ? check : ""}\n`);
-
-    // console.log({ end: "now" });
-
-    // runCodeWithDateFunction(
-    //   `function(Box, print, hasBox, getBoxList, hasText, getTextList, complete, console){ \n${execCode}\n${
-    //     check ? check : ""
-    //   }\n }`
-    // );
     runCodeWithDateFunction(sanitizedCode);
   };
 

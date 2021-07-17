@@ -6,10 +6,10 @@ Tutorial to learn JavaScript for InDesign-Developers. This is [ECMAScript 3](htt
 
 
 ## Develop
-three server
+To save videos direct out of the browser you have to start three parts
 ```sh
-node save.js
-npm run start
-python3 -m http.server 8013
+node save.js                # saves files
+npm run start               # app
+python3 -m http.server 8013 # serve files              
 ```
 

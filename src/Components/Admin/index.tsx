@@ -14,8 +14,6 @@ import { Context as SessionContext } from "../../context/session";
 import Button from "../Button";
 import "./styles.css";
 
-
-
 function Player({ srcBlob, audio }) {
   if (!srcBlob) {
     return null;
@@ -175,15 +173,10 @@ function Admin() {
           method: "post",
           // body: mediaBlob,
           body: base64data,
-        })
-          .then((response) => {
-            console.log("done video");
-            // return response.json();
-          })
-          .then((e) => {
-            console.log("error video", e);
-            // return response.json();
-          });
+        }).then((response) => {
+          console.log("done video");
+          // return response.json();
+        });
       };
     }
   }, [status]);
@@ -205,6 +198,29 @@ function Admin() {
         },
       },
     });
+  };
+
+  const handleStoreSave = (event: React.MouseEvent<HTMLButtonElement>) => {
+    const content =
+      (state.progress &&
+        state.progress[chapter]?.steps[step]?.editor?.content) ||
+      "";
+    fetch("http://localhost:3005/solution", {
+      method: "post",
+      body: JSON.stringify({
+        chapter,
+        step,
+        content: content.trim(),
+      }),
+    })
+      .then((response) => {
+        console.log("done solution");
+        // return response.json();
+      })
+      .then((e) => {
+        console.log("error solution", e);
+        // return response.json();
+      });
   };
 
   const handleStartPreview = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -257,6 +273,12 @@ function Admin() {
       {(!recording && (
         <Button onClick={(e) => handleRec(e)}>Record</Button>
       )) || <Button onClick={(e) => handleStop(e)}>Stop</Button>}
+
+      <div>
+        <button type="button" onClick={handleStoreSave}>
+          write solution
+        </button>
+      </div>
     </div>
   );
 }
