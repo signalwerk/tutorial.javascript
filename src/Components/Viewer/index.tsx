@@ -175,7 +175,10 @@ function Viewer() {
                   solved={solved}
                   focus={state.current.editor.focus}
                 >
-                  <Editor content={content} />
+                  <Editor
+                    content={content}
+                    solution={currentStepData.task.solution}
+                  />
                 </WorkSpace>
               )}
             </Content>

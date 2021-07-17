@@ -15,9 +15,10 @@ import "./styles.css";
 
 export type editorProps = {
   content: string;
+  solution?: string;
 };
 
-const Editor = ({ content }: editorProps) => {
+const Editor = ({ content, solution }: editorProps) => {
   const { dispatch } = useContext(SessionContext);
   let { chapter, step } = useParams<RouterParams>();
 
@@ -153,22 +154,24 @@ const Editor = ({ content }: editorProps) => {
         }
       />
 
-      <div className="editor__solution">
-        <div className="editor__solution-show">Lösung anschauen</div>
-        <div className="editor__solution-text editor__editor code">
-          <pre
-            className="editor__textarea-pre"
-            aria-hidden="true"
-            style={{ ...styles.editor, ...styles.highlight }}
-          >
-            <div
-              dangerouslySetInnerHTML={{
-                __html: highlight(content, languages.js),
-              }}
-            />
-          </pre>
+      {solution && (
+        <div className="editor__solution">
+          <div className="editor__solution-show">Lösung anschauen</div>
+          <div className="editor__solution-text editor__editor code">
+            <pre
+              className="editor__textarea-pre"
+              aria-hidden="true"
+              style={{ ...styles.editor, ...styles.highlight }}
+            >
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: highlight(solution, languages.js),
+                }}
+              />
+            </pre>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

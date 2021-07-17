@@ -41,6 +41,7 @@ type Task = {
   instruction: string;
   match?: string;
   check?: string;
+  solution?: string;
 };
 
 type State = {
@@ -122,11 +123,6 @@ const Provider: React.FC = ({ children }) => {
           });
         }
       });
-    //   .catch(() => {
-    //     setResponse(null);
-    //     setHasError(true);
-    //     setLoading(false);
-    //   });
   }, [URL.course]);
 
   return (
