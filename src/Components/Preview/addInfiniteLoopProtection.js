@@ -1,5 +1,9 @@
+// reference:
 // https://gist.github.com/chriscoyier/b805fe91cc832fc97a3af671051e501f
+// https://github.com/chinchang/web-maker/blob/master/src/utils.js
+
 var esprima = require("esprima");
+
 /**
  * Adds timed limit on the loops found in the passed code.
  * Contributed by Ariya Hidayat!

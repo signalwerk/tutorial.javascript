@@ -42,9 +42,6 @@ server.on("request", function async(req, res) {
     data.push(chunk);
   });
 
-  // const buffer = Buffer.from(res, 'utf8');
-  // fs.writeFileSync('/some/path', buffer);
-
   req.on("end", function async() {
     // Parse the request url
     const reqUrl = url.parse(req.url).pathname;
@@ -79,13 +76,9 @@ server.on("request", function async(req, res) {
 
       fs.writeFileSync(path, JSON.stringify(current, null, 2));
     } else {
-      return;
       console.log("write movie");
 
-      // console.log("Request completed, " + body.length + " bytes received");
-
       let buff = new Buffer(body, "base64");
-      // fs.writeFileSync('stack-abuse-logo-out.png', buff);
 
       const [chapter, step] = reqUrl.split("/").slice(-2);
 
@@ -100,6 +93,7 @@ server.on("request", function async(req, res) {
       const cmd = `
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
+## processing of the recordings:
 
 rm -rf ${jsonFile({ chapter, step }, "public")} 
 mkdir -p ${jsonPath({ chapter, step }, "public")} 

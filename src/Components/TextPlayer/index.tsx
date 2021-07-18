@@ -122,7 +122,7 @@ const showLines = (code: string, start: number, end: number) => {
   });
 
   return lines.map((line: Line, lineIndex: number) => (
-    <div key={`line_${lineIndex}`}>
+    <div className="text-player__line" key={`line_${lineIndex}`}>
       <code>
         {line.map((part, partIndex: number) => (
           <span key={`line_${lineIndex}_part_${partIndex}`}>
