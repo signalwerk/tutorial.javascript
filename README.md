@@ -14,6 +14,12 @@ npm run start                # app
 python3 -m http.server 8013  # serve files
 ```
 
+## Convert the movies
+
+```sh
+sh convert/create-all-hls.sh
+```
+
 ## License
 
 - Content: [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
