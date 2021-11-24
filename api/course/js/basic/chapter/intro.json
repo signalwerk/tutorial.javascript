@@ -4,7 +4,7 @@
     "title": "Einleitung",
     "task": {
       "instruction": "Schreibe im Editor (unten) eine beliebige Zahl. Wie wärs mit `42`?",
-      "check": "(codeTester(/42/) && print('The answer to life.')) || codeTester(/.+/)",
+      "check": "codeTester(/.+/)",
       "solution": "13"
     }
   },
