@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://js-tutorial.signalwerk.ch/static/css/main.6d0f7b26.chunk.css",
-    "main.js": "https://js-tutorial.signalwerk.ch/static/js/main.5e0ff11e.chunk.js",
-    "main.js.map": "https://js-tutorial.signalwerk.ch/static/js/main.5e0ff11e.chunk.js.map",
+    "main.js": "https://js-tutorial.signalwerk.ch/static/js/main.e30cbdb5.chunk.js",
+    "main.js.map": "https://js-tutorial.signalwerk.ch/static/js/main.e30cbdb5.chunk.js.map",
     "runtime-main.js": "https://js-tutorial.signalwerk.ch/static/js/runtime-main.0982d31a.js",
     "runtime-main.js.map": "https://js-tutorial.signalwerk.ch/static/js/runtime-main.0982d31a.js.map",
     "static/css/2.fd943081.chunk.css": "https://js-tutorial.signalwerk.ch/static/css/2.fd943081.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.fd943081.chunk.css",
     "static/js/2.4f79d3d3.chunk.js",
     "static/css/main.6d0f7b26.chunk.css",
-    "static/js/main.5e0ff11e.chunk.js"
+    "static/js/main.e30cbdb5.chunk.js"
   ]
 }
