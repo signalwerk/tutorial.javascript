@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "https://www.escep.ch/basics/static/css/main.866241f8.chunk.css",
-    "main.js": "https://www.escep.ch/basics/static/js/main.411ee4a0.chunk.js",
-    "main.js.map": "https://www.escep.ch/basics/static/js/main.411ee4a0.chunk.js.map",
-    "runtime-main.js": "https://www.escep.ch/basics/static/js/runtime-main.f5e15988.js",
-    "runtime-main.js.map": "https://www.escep.ch/basics/static/js/runtime-main.f5e15988.js.map",
-    "static/css/2.fd943081.chunk.css": "https://www.escep.ch/basics/static/css/2.fd943081.chunk.css",
-    "static/js/2.4f79d3d3.chunk.js": "https://www.escep.ch/basics/static/js/2.4f79d3d3.chunk.js",
-    "static/js/2.4f79d3d3.chunk.js.map": "https://www.escep.ch/basics/static/js/2.4f79d3d3.chunk.js.map",
-    "static/js/3.74c72b19.chunk.js": "https://www.escep.ch/basics/static/js/3.74c72b19.chunk.js",
-    "static/js/3.74c72b19.chunk.js.map": "https://www.escep.ch/basics/static/js/3.74c72b19.chunk.js.map",
-    "index.html": "https://www.escep.ch/basics/index.html",
-    "static/css/2.fd943081.chunk.css.map": "https://www.escep.ch/basics/static/css/2.fd943081.chunk.css.map",
-    "static/css/main.866241f8.chunk.css.map": "https://www.escep.ch/basics/static/css/main.866241f8.chunk.css.map",
-    "static/js/2.4f79d3d3.chunk.js.LICENSE.txt": "https://www.escep.ch/basics/static/js/2.4f79d3d3.chunk.js.LICENSE.txt",
-    "static/media/fontello.css": "https://www.escep.ch/basics/static/media/fontello.b3b52712.eot"
+    "main.css": "https://js-tutorial.signalwerk.ch/static/css/main.6d0f7b26.chunk.css",
+    "main.js": "https://js-tutorial.signalwerk.ch/static/js/main.5e0ff11e.chunk.js",
+    "main.js.map": "https://js-tutorial.signalwerk.ch/static/js/main.5e0ff11e.chunk.js.map",
+    "runtime-main.js": "https://js-tutorial.signalwerk.ch/static/js/runtime-main.0982d31a.js",
+    "runtime-main.js.map": "https://js-tutorial.signalwerk.ch/static/js/runtime-main.0982d31a.js.map",
+    "static/css/2.fd943081.chunk.css": "https://js-tutorial.signalwerk.ch/static/css/2.fd943081.chunk.css",
+    "static/js/2.4f79d3d3.chunk.js": "https://js-tutorial.signalwerk.ch/static/js/2.4f79d3d3.chunk.js",
+    "static/js/2.4f79d3d3.chunk.js.map": "https://js-tutorial.signalwerk.ch/static/js/2.4f79d3d3.chunk.js.map",
+    "static/js/3.74c72b19.chunk.js": "https://js-tutorial.signalwerk.ch/static/js/3.74c72b19.chunk.js",
+    "static/js/3.74c72b19.chunk.js.map": "https://js-tutorial.signalwerk.ch/static/js/3.74c72b19.chunk.js.map",
+    "index.html": "https://js-tutorial.signalwerk.ch/index.html",
+    "static/css/2.fd943081.chunk.css.map": "https://js-tutorial.signalwerk.ch/static/css/2.fd943081.chunk.css.map",
+    "static/css/main.6d0f7b26.chunk.css.map": "https://js-tutorial.signalwerk.ch/static/css/main.6d0f7b26.chunk.css.map",
+    "static/js/2.4f79d3d3.chunk.js.LICENSE.txt": "https://js-tutorial.signalwerk.ch/static/js/2.4f79d3d3.chunk.js.LICENSE.txt",
+    "static/media/fontello.css": "https://js-tutorial.signalwerk.ch/static/media/fontello.b3b52712.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5e15988.js",
+    "static/js/runtime-main.0982d31a.js",
     "static/css/2.fd943081.chunk.css",
     "static/js/2.4f79d3d3.chunk.js",
-    "static/css/main.866241f8.chunk.css",
-    "static/js/main.411ee4a0.chunk.js"
+    "static/css/main.6d0f7b26.chunk.css",
+    "static/js/main.5e0ff11e.chunk.js"
   ]
 }
