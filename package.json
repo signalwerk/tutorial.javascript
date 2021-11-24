@@ -31,7 +31,8 @@
   "scripts": {
     "start": "REACT_APP_BUILD_TIME=$(date +%s) REACT_APP_DEV=TRUE react-scripts start",
     "present": "REACT_APP_BUILD_TIME=$(date +%s) react-scripts start",
-    "build": "PUBLIC_URL=https://www.escep.ch/basics REACT_APP_BUILD_TIME=$(date +%s) react-scripts build",
+    "build-id": "PUBLIC_URL=https://www.escep.ch/basics REACT_APP_BUILD_TIME=$(date +%s) react-scripts build",
+    "build": "PUBLIC_URL=https://js-tutorial.signalwerk.ch REACT_APP_BUILD_TIME=$(date +%s) react-scripts build",
     "lint:fix": "eslint --fix --ext .ts,.tsx,.jsx,js --ignore-path .gitignore .",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
