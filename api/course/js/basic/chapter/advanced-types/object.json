@@ -1,0 +1,2932 @@
+[
+  {
+    "time": 0,
+    "editor": {
+      "content": "",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 35083,
+    "editor": {
+      "content": "v",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 35123,
+    "editor": {
+      "content": "v",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 35402,
+    "editor": {
+      "content": "va",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 35421,
+    "editor": {
+      "content": "va",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 35713,
+    "editor": {
+      "content": "var",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 35732,
+    "editor": {
+      "content": "var",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 36203,
+    "editor": {
+      "content": "var ",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 36219,
+    "editor": {
+      "content": "var ",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 38456,
+    "editor": {
+      "content": "var c",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 38481,
+    "editor": {
+      "content": "var c",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 38737,
+    "editor": {
+      "content": "var co",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 38759,
+    "editor": {
+      "content": "var co",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 38964,
+    "editor": {
+      "content": "var coo",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 38996,
+    "editor": {
+      "content": "var coo",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 39114,
+    "editor": {
+      "content": "var coor",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 39133,
+    "editor": {
+      "content": "var coor",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 39366,
+    "editor": {
+      "content": "var coord",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 39378,
+    "editor": {
+      "content": "var coord",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 39690,
+    "editor": {
+      "content": "var coordi",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 39706,
+    "editor": {
+      "content": "var coordi",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 39948,
+    "editor": {
+      "content": "var coordin",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 39963,
+    "editor": {
+      "content": "var coordin",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 40049,
+    "editor": {
+      "content": "var coordina",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 40065,
+    "editor": {
+      "content": "var coordina",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 40202,
+    "editor": {
+      "content": "var coordinat",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 40213,
+    "editor": {
+      "content": "var coordinat",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 40335,
+    "editor": {
+      "content": "var coordinate",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 40351,
+    "editor": {
+      "content": "var coordinate",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 41268,
+    "editor": {
+      "content": "var coordinate ",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 41281,
+    "editor": {
+      "content": "var coordinate ",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 41857,
+    "editor": {
+      "content": "var coordinate =",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 41878,
+    "editor": {
+      "content": "var coordinate =",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 42111,
+    "editor": {
+      "content": "var coordinate = ",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 42131,
+    "editor": {
+      "content": "var coordinate = ",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 54087,
+    "editor": {
+      "content": "var coordinate = {",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 54103,
+    "editor": {
+      "content": "var coordinate = {",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 55634,
+    "editor": {
+      "content": "var coordinate = { ",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 55650,
+    "editor": {
+      "content": "var coordinate = { ",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 56733,
+    "editor": {
+      "content": "var coordinate = { }",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 56752,
+    "editor": {
+      "content": "var coordinate = { }",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 59717,
+    "editor": {
+      "content": "var coordinate = { }",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 61988,
+    "editor": {
+      "content": "var coordinate = { }",
+      "selection": {
+        "start": 18,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 63567,
+    "editor": {
+      "content": "var coordinate = { }",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 74792,
+    "editor": {
+      "content": "var coordinate = { x}",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 74817,
+    "editor": {
+      "content": "var coordinate = { x}",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 76681,
+    "editor": {
+      "content": "var coordinate = { x:}",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 76706,
+    "editor": {
+      "content": "var coordinate = { x:}",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 77279,
+    "editor": {
+      "content": "var coordinate = { x: }",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 77290,
+    "editor": {
+      "content": "var coordinate = { x: }",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 78756,
+    "editor": {
+      "content": "var coordinate = { x: 1}",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 78772,
+    "editor": {
+      "content": "var coordinate = { x: 1}",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 79126,
+    "editor": {
+      "content": "var coordinate = { x: 10}",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 79143,
+    "editor": {
+      "content": "var coordinate = { x: 10}",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 86257,
+    "editor": {
+      "content": "var coordinate = { x: 10}",
+      "selection": {
+        "start": 17,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 86914,
+    "editor": {
+      "content": "var coordinate = { x: 10}",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 87486,
+    "editor": {
+      "content": "var coordinate = { x: 10}",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 87655,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 87670,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 89717,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 19,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 90125,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 91532,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 20,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 92317,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 94931,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 19,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 96442,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 96606,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 24,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 97232,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 97389,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 22,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 98553,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 101215,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 19,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 103127,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 103271,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 22,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 104659,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 105395,
+    "editor": {
+      "content": "var coordinate = { x: 10 }",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 111833,
+    "editor": {
+      "content": "var coordinate = { x: 10, }",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 111846,
+    "editor": {
+      "content": "var coordinate = { x: 10, }",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 114835,
+    "editor": {
+      "content": "var coordinate = { x: 10,  }",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 114850,
+    "editor": {
+      "content": "var coordinate = { x: 10,  }",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 116661,
+    "editor": {
+      "content": "var coordinate = { x: 10, y }",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 116675,
+    "editor": {
+      "content": "var coordinate = { x: 10, y }",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 118034,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: }",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 118053,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: }",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 119441,
+    "editor": {
+      "content": "var coordinate = { x: 10, y:  }",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 119458,
+    "editor": {
+      "content": "var coordinate = { x: 10, y:  }",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 120237,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 2 }",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 120256,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 2 }",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 120436,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 120457,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 124360,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 124541,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 4,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 126173,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 17,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 127680,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 32,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 132278,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 19,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 134646,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 135688,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 19,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 136267,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 137241,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 20,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 138233,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 138418,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 22,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 142462,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 24,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 146376,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 26,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 148128,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 148279,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 29,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 149930,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 151768,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 151781,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 152007,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\n",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 152015,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\n",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 156079,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nB",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 156097,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nB",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 156407,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBo",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 156424,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBo",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 157592,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 157610,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 158395,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 158412,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 158446,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox()",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 158458,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox()",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 159669,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox()",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 160902,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(c)",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 160929,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(c)",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 161075,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(co)",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 161087,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(co)",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 161212,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coo)",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 161226,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coo)",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 161580,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coor)",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 161598,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coor)",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 161852,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coord)",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 161863,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coord)",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 162040,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordi)",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 162065,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordi)",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 162128,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordin)",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 162140,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordin)",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 162438,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordina)",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 162458,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordina)",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 162475,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinat)",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 162490,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinat)",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 163169,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate)",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 163184,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate)",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 163631,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.)",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 163645,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 166395,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 166470,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate)",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 167026,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[)",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 167038,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 167053,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[])",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 167067,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[])",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 167809,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[])",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 169974,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[1])",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 169992,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[1])",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 170870,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[1])",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 171391,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[1])",
+      "selection": {
+        "start": 51,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 171561,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[1])",
+      "selection": {
+        "start": 50,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 172422,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate[1])",
+      "selection": {
+        "start": 49,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 174511,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.)",
+      "selection": {
+        "start": 49,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 174539,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 174675,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 174686,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x)",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 176990,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 177543,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x)",
+      "selection": {
+        "start": 49,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 178494,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 178690,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x)",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 180131,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x,)",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 180146,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x,)",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 180165,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, )",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 180173,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, )",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 180679,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, c)",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 180692,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, c)",
+      "selection": {
+        "start": 54,
+        "end": 54
+      }
+    }
+  },
+  {
+    "time": 180852,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, co)",
+      "selection": {
+        "start": 54,
+        "end": 54
+      }
+    }
+  },
+  {
+    "time": 180862,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, co)",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 181626,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, cor)",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 181638,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, cor)",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 182381,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, co)",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 182431,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, co)",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 182609,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coo)",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 182622,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coo)",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 182748,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coor)",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 182758,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coor)",
+      "selection": {
+        "start": 57,
+        "end": 57
+      }
+    }
+  },
+  {
+    "time": 183015,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coord)",
+      "selection": {
+        "start": 57,
+        "end": 57
+      }
+    }
+  },
+  {
+    "time": 183028,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coord)",
+      "selection": {
+        "start": 58,
+        "end": 58
+      }
+    }
+  },
+  {
+    "time": 183134,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordi)",
+      "selection": {
+        "start": 58,
+        "end": 58
+      }
+    }
+  },
+  {
+    "time": 183154,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordi)",
+      "selection": {
+        "start": 59,
+        "end": 59
+      }
+    }
+  },
+  {
+    "time": 183221,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordin)",
+      "selection": {
+        "start": 59,
+        "end": 59
+      }
+    }
+  },
+  {
+    "time": 183231,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordin)",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 183348,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordina)",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 183363,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordina)",
+      "selection": {
+        "start": 61,
+        "end": 61
+      }
+    }
+  },
+  {
+    "time": 183469,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinat)",
+      "selection": {
+        "start": 61,
+        "end": 61
+      }
+    }
+  },
+  {
+    "time": 183483,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinat)",
+      "selection": {
+        "start": 62,
+        "end": 62
+      }
+    }
+  },
+  {
+    "time": 183655,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinate)",
+      "selection": {
+        "start": 62,
+        "end": 62
+      }
+    }
+  },
+  {
+    "time": 183668,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinate)",
+      "selection": {
+        "start": 63,
+        "end": 63
+      }
+    }
+  },
+  {
+    "time": 183909,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinate.)",
+      "selection": {
+        "start": 63,
+        "end": 63
+      }
+    }
+  },
+  {
+    "time": 183921,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinate.)",
+      "selection": {
+        "start": 64,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 185453,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 64,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 185463,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 65,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 190809,
+    "editor": {
+      "content": "var coordinate = { x: 10, y: 20 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 23,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 191666,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 20 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 23,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 191687,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 20 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 193042,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 20 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 195094,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 20 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 29,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 195242,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 29,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 195329,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 197778,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 23,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 200315,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 37,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 200875,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 64,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 201561,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 66,
+        "end": 66
+      }
+    }
+  },
+  {
+    "time": 207747,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 0,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 219591,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 220724,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 49,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 223036,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 54,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 224728,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40 }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 225930,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 225943,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 225996,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40,  }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 226007,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40,  }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 226651,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, n }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 226666,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, n }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 226800,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, na }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 226813,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, na }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 226931,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, nam }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 226947,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, nam }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 227061,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 227072,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 227868,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 37,
+        "end": 37
+      }
+    }
+  },
+  {
+    "time": 227883,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 228092,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name:  }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 228099,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name:  }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 233096,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 233103,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 239629,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"h }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 239637,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"h }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 239755,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"ha }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 239760,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"ha }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 239914,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hal }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 239921,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hal }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 240048,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hall }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 240055,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hall }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 240191,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 240198,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 240844,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 240856,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 242305,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 81,
+        "end": 81
+      }
+    }
+  },
+  {
+    "time": 246025,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 50,
+        "end": 81
+      }
+    }
+  },
+  {
+    "time": 248739,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 66,
+        "end": 66
+      }
+    }
+  },
+  {
+    "time": 250223,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 80,
+        "end": 80
+      }
+    }
+  },
+  {
+    "time": 250763,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)",
+      "selection": {
+        "start": 81,
+        "end": 81
+      }
+    }
+  },
+  {
+    "time": 251704,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n",
+      "selection": {
+        "start": 81,
+        "end": 81
+      }
+    }
+  },
+  {
+    "time": 251713,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n",
+      "selection": {
+        "start": 82,
+        "end": 82
+      }
+    }
+  },
+  {
+    "time": 251841,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\n",
+      "selection": {
+        "start": 82,
+        "end": 82
+      }
+    }
+  },
+  {
+    "time": 251849,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\n",
+      "selection": {
+        "start": 83,
+        "end": 83
+      }
+    }
+  },
+  {
+    "time": 252705,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\np",
+      "selection": {
+        "start": 83,
+        "end": 83
+      }
+    }
+  },
+  {
+    "time": 252713,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\np",
+      "selection": {
+        "start": 84,
+        "end": 84
+      }
+    }
+  },
+  {
+    "time": 252855,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\npr",
+      "selection": {
+        "start": 84,
+        "end": 84
+      }
+    }
+  },
+  {
+    "time": 252861,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\npr",
+      "selection": {
+        "start": 85,
+        "end": 85
+      }
+    }
+  },
+  {
+    "time": 252908,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\npri",
+      "selection": {
+        "start": 85,
+        "end": 85
+      }
+    }
+  },
+  {
+    "time": 252916,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\npri",
+      "selection": {
+        "start": 86,
+        "end": 86
+      }
+    }
+  },
+  {
+    "time": 252986,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprin",
+      "selection": {
+        "start": 86,
+        "end": 86
+      }
+    }
+  },
+  {
+    "time": 252995,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprin",
+      "selection": {
+        "start": 87,
+        "end": 87
+      }
+    }
+  },
+  {
+    "time": 253122,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint",
+      "selection": {
+        "start": 87,
+        "end": 87
+      }
+    }
+  },
+  {
+    "time": 253133,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint",
+      "selection": {
+        "start": 88,
+        "end": 88
+      }
+    }
+  },
+  {
+    "time": 253867,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(",
+      "selection": {
+        "start": 88,
+        "end": 88
+      }
+    }
+  },
+  {
+    "time": 253885,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(",
+      "selection": {
+        "start": 89,
+        "end": 89
+      }
+    }
+  },
+  {
+    "time": 255792,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(c",
+      "selection": {
+        "start": 89,
+        "end": 89
+      }
+    }
+  },
+  {
+    "time": 255804,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(c",
+      "selection": {
+        "start": 90,
+        "end": 90
+      }
+    }
+  },
+  {
+    "time": 255897,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(co",
+      "selection": {
+        "start": 90,
+        "end": 90
+      }
+    }
+  },
+  {
+    "time": 255906,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(co",
+      "selection": {
+        "start": 91,
+        "end": 91
+      }
+    }
+  },
+  {
+    "time": 257001,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coo",
+      "selection": {
+        "start": 91,
+        "end": 91
+      }
+    }
+  },
+  {
+    "time": 257010,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coo",
+      "selection": {
+        "start": 92,
+        "end": 92
+      }
+    }
+  },
+  {
+    "time": 257171,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coor",
+      "selection": {
+        "start": 92,
+        "end": 92
+      }
+    }
+  },
+  {
+    "time": 257179,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coor",
+      "selection": {
+        "start": 93,
+        "end": 93
+      }
+    }
+  },
+  {
+    "time": 257410,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coord",
+      "selection": {
+        "start": 93,
+        "end": 93
+      }
+    }
+  },
+  {
+    "time": 257418,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coord",
+      "selection": {
+        "start": 94,
+        "end": 94
+      }
+    }
+  },
+  {
+    "time": 257543,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordi",
+      "selection": {
+        "start": 94,
+        "end": 94
+      }
+    }
+  },
+  {
+    "time": 257551,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordi",
+      "selection": {
+        "start": 95,
+        "end": 95
+      }
+    }
+  },
+  {
+    "time": 257624,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordin",
+      "selection": {
+        "start": 95,
+        "end": 95
+      }
+    }
+  },
+  {
+    "time": 257632,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordin",
+      "selection": {
+        "start": 96,
+        "end": 96
+      }
+    }
+  },
+  {
+    "time": 257755,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordina",
+      "selection": {
+        "start": 96,
+        "end": 96
+      }
+    }
+  },
+  {
+    "time": 257765,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordina",
+      "selection": {
+        "start": 97,
+        "end": 97
+      }
+    }
+  },
+  {
+    "time": 257933,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinat",
+      "selection": {
+        "start": 97,
+        "end": 97
+      }
+    }
+  },
+  {
+    "time": 257941,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinat",
+      "selection": {
+        "start": 98,
+        "end": 98
+      }
+    }
+  },
+  {
+    "time": 258127,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate",
+      "selection": {
+        "start": 98,
+        "end": 98
+      }
+    }
+  },
+  {
+    "time": 258142,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate",
+      "selection": {
+        "start": 99,
+        "end": 99
+      }
+    }
+  },
+  {
+    "time": 258541,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.",
+      "selection": {
+        "start": 99,
+        "end": 99
+      }
+    }
+  },
+  {
+    "time": 258548,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.",
+      "selection": {
+        "start": 100,
+        "end": 100
+      }
+    }
+  },
+  {
+    "time": 263527,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.n",
+      "selection": {
+        "start": 100,
+        "end": 100
+      }
+    }
+  },
+  {
+    "time": 263534,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.n",
+      "selection": {
+        "start": 101,
+        "end": 101
+      }
+    }
+  },
+  {
+    "time": 263731,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.na",
+      "selection": {
+        "start": 101,
+        "end": 101
+      }
+    }
+  },
+  {
+    "time": 263741,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.na",
+      "selection": {
+        "start": 102,
+        "end": 102
+      }
+    }
+  },
+  {
+    "time": 263981,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.nam",
+      "selection": {
+        "start": 102,
+        "end": 102
+      }
+    }
+  },
+  {
+    "time": 263989,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.nam",
+      "selection": {
+        "start": 103,
+        "end": 103
+      }
+    }
+  },
+  {
+    "time": 264135,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.name",
+      "selection": {
+        "start": 103,
+        "end": 103
+      }
+    }
+  },
+  {
+    "time": 264142,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.name",
+      "selection": {
+        "start": 104,
+        "end": 104
+      }
+    }
+  },
+  {
+    "time": 264674,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.name)",
+      "selection": {
+        "start": 104,
+        "end": 104
+      }
+    }
+  },
+  {
+    "time": 264685,
+    "editor": {
+      "content": "var coordinate = { x: 16, y: 40, name: \"hallo\" }\n\nBox(coordinate.x, coordinate.y)\n\nprint(coordinate.name)",
+      "selection": {
+        "start": 105,
+        "end": 105
+      }
+    }
+  }
+]

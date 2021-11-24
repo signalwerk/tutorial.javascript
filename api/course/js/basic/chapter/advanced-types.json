@@ -1,18 +1,29 @@
 [
   {
-    "id": "array",
+    "id": "overview",
     "title": "Arrays",
     "task": {
-      "instruction": "TBD",
-      "check": "try { (test && test.toLowerCase().includes('hallo')) ? complete(true) : complete(false) } catch(e) { complete(false) }"
+      "instruction": "Schreibe ein Array mit den Werten `2, 3, 5, 8, 13` in die Variable `fibos`. Gebe dann mit `print()` die vierte Zahl (8) aus dem Array aus.",
+      "check": "fibos && fibos.length === 5 && hasText(8)",
+      "solution": "var fibos = [2, 3, 5, 8, 13]\n\nprint(fibos[3])"
+    }
+  },
+  {
+    "id": "array",
+    "title": "Arrays itterieren",
+    "task": {
+      "instruction": "Schreibe ein Array mit den Werten `20, 30, 50, 80, 130` in die Variable `fibos`. Zeichne dan mit der Hilfe einer `for`-Schleife fünf Boxen mit der `x`-Position aus dem Array `Box(x, 20, 10, 10)`",
+      "check": "fibos && fibos.length === 5 && getBoxList().length === 5 && hasBox(20, 20) && hasBox(30, 20) && hasBox(50, 20) && hasBox(80, 20) && hasBox(130, 20)",
+      "solution": "var fibos = [20, 30, 50, 80, 130]\n\nfor (var i = 0; i < fibos.length; i = i + 1) {\n  Box(fibos[i], 20, 10, 10)\n}"
     }
   },
   {
     "id": "object",
     "title": "Objects",
     "task": {
-      "instruction": "TBD",
-      "match": "/print\\(\\s*[0-9]+\\.[0-9]+s*\\)/g"
+      "instruction": "Definiere eine variable `punkt` als Objekt mit den attributen `x` und `y`. Zeichne danach eine `Box` mit den Koordinaten aus der Variable `punkt`.",
+      "check": "punkt &&  hasBox(punkt.x, punkt.y)",
+      "solution": "var punkt = { x: 10, y: 20 }\n\nBox(punkt.x, punkt.y)"
     }
   }
 ]

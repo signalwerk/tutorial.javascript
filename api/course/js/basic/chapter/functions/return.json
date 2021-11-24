@@ -1,0 +1,2172 @@
+[
+  {
+    "time": 0,
+    "editor": {
+      "content": "",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 9088,
+    "editor": {
+      "content": "f",
+      "selection": {
+        "start": 0,
+        "end": 0
+      }
+    }
+  },
+  {
+    "time": 9108,
+    "editor": {
+      "content": "f",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 9184,
+    "editor": {
+      "content": "fu",
+      "selection": {
+        "start": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "time": 9200,
+    "editor": {
+      "content": "fu",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 9366,
+    "editor": {
+      "content": "fun",
+      "selection": {
+        "start": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "time": 9382,
+    "editor": {
+      "content": "fun",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 9444,
+    "editor": {
+      "content": "func",
+      "selection": {
+        "start": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "time": 9461,
+    "editor": {
+      "content": "func",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 9652,
+    "editor": {
+      "content": "funct",
+      "selection": {
+        "start": 4,
+        "end": 4
+      }
+    }
+  },
+  {
+    "time": 9663,
+    "editor": {
+      "content": "funct",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 9696,
+    "editor": {
+      "content": "functi",
+      "selection": {
+        "start": 5,
+        "end": 5
+      }
+    }
+  },
+  {
+    "time": 9711,
+    "editor": {
+      "content": "functi",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 9792,
+    "editor": {
+      "content": "functio",
+      "selection": {
+        "start": 6,
+        "end": 6
+      }
+    }
+  },
+  {
+    "time": 9809,
+    "editor": {
+      "content": "functio",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 9862,
+    "editor": {
+      "content": "function",
+      "selection": {
+        "start": 7,
+        "end": 7
+      }
+    }
+  },
+  {
+    "time": 9874,
+    "editor": {
+      "content": "function",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 10565,
+    "editor": {
+      "content": "function ",
+      "selection": {
+        "start": 8,
+        "end": 8
+      }
+    }
+  },
+  {
+    "time": 10580,
+    "editor": {
+      "content": "function ",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 13572,
+    "editor": {
+      "content": "function e",
+      "selection": {
+        "start": 9,
+        "end": 9
+      }
+    }
+  },
+  {
+    "time": 13590,
+    "editor": {
+      "content": "function e",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 14056,
+    "editor": {
+      "content": "function ec",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 14065,
+    "editor": {
+      "content": "function ec",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 14305,
+    "editor": {
+      "content": "function ech",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 14315,
+    "editor": {
+      "content": "function ech",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 14907,
+    "editor": {
+      "content": "function echo",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 14916,
+    "editor": {
+      "content": "function echo",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 15424,
+    "editor": {
+      "content": "function echo(",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 15435,
+    "editor": {
+      "content": "function echo(",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 15673,
+    "editor": {
+      "content": "function echo()",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 15682,
+    "editor": {
+      "content": "function echo()",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 16442,
+    "editor": {
+      "content": "function echo()",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 19562,
+    "editor": {
+      "content": "function echo(w)",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 19572,
+    "editor": {
+      "content": "function echo(w)",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 19666,
+    "editor": {
+      "content": "function echo(we)",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 19677,
+    "editor": {
+      "content": "function echo(we)",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 19781,
+    "editor": {
+      "content": "function echo(wer)",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 19788,
+    "editor": {
+      "content": "function echo(wer)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 20035,
+    "editor": {
+      "content": "function echo(wert)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 20045,
+    "editor": {
+      "content": "function echo(wert)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 20745,
+    "editor": {
+      "content": "function echo(wert)",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 21448,
+    "editor": {
+      "content": "function echo(wert) ",
+      "selection": {
+        "start": 19,
+        "end": 19
+      }
+    }
+  },
+  {
+    "time": 21461,
+    "editor": {
+      "content": "function echo(wert) ",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 22073,
+    "editor": {
+      "content": "function echo(wert) {",
+      "selection": {
+        "start": 20,
+        "end": 20
+      }
+    }
+  },
+  {
+    "time": 22088,
+    "editor": {
+      "content": "function echo(wert) {",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 22582,
+    "editor": {
+      "content": "function echo(wert) {\n",
+      "selection": {
+        "start": 21,
+        "end": 21
+      }
+    }
+  },
+  {
+    "time": 22596,
+    "editor": {
+      "content": "function echo(wert) {\n",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 22703,
+    "editor": {
+      "content": "function echo(wert) {\n\n",
+      "selection": {
+        "start": 22,
+        "end": 22
+      }
+    }
+  },
+  {
+    "time": 22712,
+    "editor": {
+      "content": "function echo(wert) {\n\n",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 22840,
+    "editor": {
+      "content": "function echo(wert) {\n\n\n",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 22851,
+    "editor": {
+      "content": "function echo(wert) {\n\n\n",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 23785,
+    "editor": {
+      "content": "function echo(wert) {\n\n\n}",
+      "selection": {
+        "start": 24,
+        "end": 24
+      }
+    }
+  },
+  {
+    "time": 23795,
+    "editor": {
+      "content": "function echo(wert) {\n\n\n}",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 27072,
+    "editor": {
+      "content": "function echo(wert) {\n\n\n}",
+      "selection": {
+        "start": 20,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 30145,
+    "editor": {
+      "content": "function echo(wert) {\n\n\n}",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 30302,
+    "editor": {
+      "content": "function echo(wert) {\n\n\n}",
+      "selection": {
+        "start": 14,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 33700,
+    "editor": {
+      "content": "function echo(wert) {\n\n\n}",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 37510,
+    "editor": {
+      "content": "function echo(wert) {\n\n  \n}",
+      "selection": {
+        "start": 23,
+        "end": 23
+      }
+    }
+  },
+  {
+    "time": 37522,
+    "editor": {
+      "content": "function echo(wert) {\n\n  \n}",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 45237,
+    "editor": {
+      "content": "function echo(wert) {\n\n  r\n}",
+      "selection": {
+        "start": 25,
+        "end": 25
+      }
+    }
+  },
+  {
+    "time": 45254,
+    "editor": {
+      "content": "function echo(wert) {\n\n  r\n}",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 46487,
+    "editor": {
+      "content": "function echo(wert) {\n\n  re\n}",
+      "selection": {
+        "start": 26,
+        "end": 26
+      }
+    }
+  },
+  {
+    "time": 46499,
+    "editor": {
+      "content": "function echo(wert) {\n\n  re\n}",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 49158,
+    "editor": {
+      "content": "function echo(wert) {\n\n  ret\n}",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 49167,
+    "editor": {
+      "content": "function echo(wert) {\n\n  ret\n}",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 49311,
+    "editor": {
+      "content": "function echo(wert) {\n\n  retu\n}",
+      "selection": {
+        "start": 28,
+        "end": 28
+      }
+    }
+  },
+  {
+    "time": 49322,
+    "editor": {
+      "content": "function echo(wert) {\n\n  retu\n}",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 49423,
+    "editor": {
+      "content": "function echo(wert) {\n\n  retur\n}",
+      "selection": {
+        "start": 29,
+        "end": 29
+      }
+    }
+  },
+  {
+    "time": 49434,
+    "editor": {
+      "content": "function echo(wert) {\n\n  retur\n}",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 49579,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return\n}",
+      "selection": {
+        "start": 30,
+        "end": 30
+      }
+    }
+  },
+  {
+    "time": 49586,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return\n}",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 49837,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return \n}",
+      "selection": {
+        "start": 31,
+        "end": 31
+      }
+    }
+  },
+  {
+    "time": 49847,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return \n}",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 53022,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return w\n}",
+      "selection": {
+        "start": 32,
+        "end": 32
+      }
+    }
+  },
+  {
+    "time": 53033,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return w\n}",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 53176,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return we\n}",
+      "selection": {
+        "start": 33,
+        "end": 33
+      }
+    }
+  },
+  {
+    "time": 53185,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return we\n}",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 53297,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wer\n}",
+      "selection": {
+        "start": 34,
+        "end": 34
+      }
+    }
+  },
+  {
+    "time": 53307,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wer\n}",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 53512,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}",
+      "selection": {
+        "start": 35,
+        "end": 35
+      }
+    }
+  },
+  {
+    "time": 53521,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}",
+      "selection": {
+        "start": 36,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 59798,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 59972,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}",
+      "selection": {
+        "start": 9,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 61098,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 61287,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}",
+      "selection": {
+        "start": 14,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 63045,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}",
+      "selection": {
+        "start": 23,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 63904,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 65103,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n",
+      "selection": {
+        "start": 38,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 65114,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 65287,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\n",
+      "selection": {
+        "start": 39,
+        "end": 39
+      }
+    }
+  },
+  {
+    "time": 65298,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\n",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 71255,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nv",
+      "selection": {
+        "start": 40,
+        "end": 40
+      }
+    }
+  },
+  {
+    "time": 71269,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nv",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 73967,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nva",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 73979,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nva",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 74200,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 74211,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 74419,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar ",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 74426,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar ",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 74674,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar h",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 74684,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar h",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 74748,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar ha",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 74761,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar ha",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 74940,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hal",
+      "selection": {
+        "start": 46,
+        "end": 46
+      }
+    }
+  },
+  {
+    "time": 74995,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hal",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 75066,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hall",
+      "selection": {
+        "start": 47,
+        "end": 47
+      }
+    }
+  },
+  {
+    "time": 75075,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hall",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 75234,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo",
+      "selection": {
+        "start": 48,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 75241,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 75434,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo ",
+      "selection": {
+        "start": 49,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 75445,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo ",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 76382,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo =",
+      "selection": {
+        "start": 50,
+        "end": 50
+      }
+    }
+  },
+  {
+    "time": 76394,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo =",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 76953,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = ",
+      "selection": {
+        "start": 51,
+        "end": 51
+      }
+    }
+  },
+  {
+    "time": 76963,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = ",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 78568,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = e",
+      "selection": {
+        "start": 52,
+        "end": 52
+      }
+    }
+  },
+  {
+    "time": 78584,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = e",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 79056,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = ec",
+      "selection": {
+        "start": 53,
+        "end": 53
+      }
+    }
+  },
+  {
+    "time": 79068,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = ec",
+      "selection": {
+        "start": 54,
+        "end": 54
+      }
+    }
+  },
+  {
+    "time": 79271,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = ech",
+      "selection": {
+        "start": 54,
+        "end": 54
+      }
+    }
+  },
+  {
+    "time": 79281,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = ech",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 79433,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo",
+      "selection": {
+        "start": 55,
+        "end": 55
+      }
+    }
+  },
+  {
+    "time": 79444,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 79836,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(",
+      "selection": {
+        "start": 56,
+        "end": 56
+      }
+    }
+  },
+  {
+    "time": 79845,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(",
+      "selection": {
+        "start": 57,
+        "end": 57
+      }
+    }
+  },
+  {
+    "time": 80621,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo()",
+      "selection": {
+        "start": 57,
+        "end": 57
+      }
+    }
+  },
+  {
+    "time": 80631,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo()",
+      "selection": {
+        "start": 58,
+        "end": 58
+      }
+    }
+  },
+  {
+    "time": 81272,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo()",
+      "selection": {
+        "start": 57,
+        "end": 57
+      }
+    }
+  },
+  {
+    "time": 86187,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(4)",
+      "selection": {
+        "start": 57,
+        "end": 57
+      }
+    }
+  },
+  {
+    "time": 86196,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(4)",
+      "selection": {
+        "start": 58,
+        "end": 58
+      }
+    }
+  },
+  {
+    "time": 86802,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 58,
+        "end": 58
+      }
+    }
+  },
+  {
+    "time": 86815,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 59,
+        "end": 59
+      }
+    }
+  },
+  {
+    "time": 91297,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 52,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 93685,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 0,
+        "end": 38
+      }
+    }
+  },
+  {
+    "time": 95932,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 97795,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 25,
+        "end": 36
+      }
+    }
+  },
+  {
+    "time": 99997,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 100187,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 14,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 103918,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 104069,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 9,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 111502,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 113351,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 47,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 114070,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 114251,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 44,
+        "end": 49
+      }
+    }
+  },
+  {
+    "time": 118819,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 123163,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\n",
+      "selection": {
+        "start": 60,
+        "end": 60
+      }
+    }
+  },
+  {
+    "time": 123171,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\n",
+      "selection": {
+        "start": 61,
+        "end": 61
+      }
+    }
+  },
+  {
+    "time": 124635,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\np",
+      "selection": {
+        "start": 61,
+        "end": 61
+      }
+    }
+  },
+  {
+    "time": 124645,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\np",
+      "selection": {
+        "start": 62,
+        "end": 62
+      }
+    }
+  },
+  {
+    "time": 124787,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\npr",
+      "selection": {
+        "start": 62,
+        "end": 62
+      }
+    }
+  },
+  {
+    "time": 124795,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\npr",
+      "selection": {
+        "start": 63,
+        "end": 63
+      }
+    }
+  },
+  {
+    "time": 124902,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\npri",
+      "selection": {
+        "start": 63,
+        "end": 63
+      }
+    }
+  },
+  {
+    "time": 124913,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\npri",
+      "selection": {
+        "start": 64,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 125003,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprin",
+      "selection": {
+        "start": 64,
+        "end": 64
+      }
+    }
+  },
+  {
+    "time": 125012,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprin",
+      "selection": {
+        "start": 65,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 125376,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint",
+      "selection": {
+        "start": 65,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 125386,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint",
+      "selection": {
+        "start": 66,
+        "end": 66
+      }
+    }
+  },
+  {
+    "time": 125822,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(",
+      "selection": {
+        "start": 66,
+        "end": 66
+      }
+    }
+  },
+  {
+    "time": 125834,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(",
+      "selection": {
+        "start": 67,
+        "end": 67
+      }
+    }
+  },
+  {
+    "time": 126216,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint()",
+      "selection": {
+        "start": 67,
+        "end": 67
+      }
+    }
+  },
+  {
+    "time": 126233,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint()",
+      "selection": {
+        "start": 68,
+        "end": 68
+      }
+    }
+  },
+  {
+    "time": 126911,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint()",
+      "selection": {
+        "start": 67,
+        "end": 67
+      }
+    }
+  },
+  {
+    "time": 129661,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(h)",
+      "selection": {
+        "start": 67,
+        "end": 67
+      }
+    }
+  },
+  {
+    "time": 129678,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(h)",
+      "selection": {
+        "start": 68,
+        "end": 68
+      }
+    }
+  },
+  {
+    "time": 129802,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(ha)",
+      "selection": {
+        "start": 68,
+        "end": 68
+      }
+    }
+  },
+  {
+    "time": 129810,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(ha)",
+      "selection": {
+        "start": 69,
+        "end": 69
+      }
+    }
+  },
+  {
+    "time": 130136,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hal)",
+      "selection": {
+        "start": 69,
+        "end": 69
+      }
+    }
+  },
+  {
+    "time": 130142,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hal)",
+      "selection": {
+        "start": 70,
+        "end": 70
+      }
+    }
+  },
+  {
+    "time": 130265,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hall)",
+      "selection": {
+        "start": 70,
+        "end": 70
+      }
+    }
+  },
+  {
+    "time": 130276,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hall)",
+      "selection": {
+        "start": 71,
+        "end": 71
+      }
+    }
+  },
+  {
+    "time": 130420,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 71,
+        "end": 71
+      }
+    }
+  },
+  {
+    "time": 130434,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 72,
+        "end": 72
+      }
+    }
+  },
+  {
+    "time": 149297,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 149464,
+    "editor": {
+      "content": "function echo(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 9,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 155867,
+    "editor": {
+      "content": "function p(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 9,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 155882,
+    "editor": {
+      "content": "function p(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 156035,
+    "editor": {
+      "content": "function pl(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 10,
+        "end": 10
+      }
+    }
+  },
+  {
+    "time": 156043,
+    "editor": {
+      "content": "function pl(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 156231,
+    "editor": {
+      "content": "function plu(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 11,
+        "end": 11
+      }
+    }
+  },
+  {
+    "time": 156243,
+    "editor": {
+      "content": "function plu(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 156329,
+    "editor": {
+      "content": "function plus(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 12,
+        "end": 12
+      }
+    }
+  },
+  {
+    "time": 156336,
+    "editor": {
+      "content": "function plus(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 157104,
+    "editor": {
+      "content": "function plusF(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 13,
+        "end": 13
+      }
+    }
+  },
+  {
+    "time": 157115,
+    "editor": {
+      "content": "function plusF(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 157610,
+    "editor": {
+      "content": "function plusFu(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 14,
+        "end": 14
+      }
+    }
+  },
+  {
+    "time": 157621,
+    "editor": {
+      "content": "function plusFu(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 157700,
+    "editor": {
+      "content": "function plusFue(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 157711,
+    "editor": {
+      "content": "function plusFue(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 158001,
+    "editor": {
+      "content": "function plusFuen(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 16,
+        "end": 16
+      }
+    }
+  },
+  {
+    "time": 158010,
+    "editor": {
+      "content": "function plusFuen(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 158422,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 17,
+        "end": 17
+      }
+    }
+  },
+  {
+    "time": 158431,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 18,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 161451,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 161753,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert \n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 41,
+        "end": 41
+      }
+    }
+  },
+  {
+    "time": 161761,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert \n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 162273,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert +\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 42,
+        "end": 42
+      }
+    }
+  },
+  {
+    "time": 162286,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert +\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 162406,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + \n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 43,
+        "end": 43
+      }
+    }
+  },
+  {
+    "time": 162417,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + \n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 162637,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 44,
+        "end": 44
+      }
+    }
+  },
+  {
+    "time": 162646,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 45,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 165265,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 37,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 172004,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 15,
+        "end": 15
+      }
+    }
+  },
+  {
+    "time": 172155,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 9,
+        "end": 18
+      }
+    }
+  },
+  {
+    "time": 174089,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 62,
+        "end": 62
+      }
+    }
+  },
+  {
+    "time": 174260,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = echo(42)\nprint(hallo)",
+      "selection": {
+        "start": 61,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 174416,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 61,
+        "end": 65
+      }
+    }
+  },
+  {
+    "time": 174428,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 70,
+        "end": 70
+      }
+    }
+  },
+  {
+    "time": 177150,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 49,
+        "end": 87
+      }
+    }
+  },
+  {
+    "time": 179300,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 73,
+        "end": 73
+      }
+    }
+  },
+  {
+    "time": 179468,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 73,
+        "end": 74
+      }
+    }
+  },
+  {
+    "time": 180208,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 72,
+        "end": 72
+      }
+    }
+  },
+  {
+    "time": 180364,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 71,
+        "end": 73
+      }
+    }
+  },
+  {
+    "time": 187534,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 27,
+        "end": 45
+      }
+    }
+  },
+  {
+    "time": 204337,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 0,
+        "end": 48
+      }
+    }
+  },
+  {
+    "time": 204931,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 27,
+        "end": 27
+      }
+    }
+  },
+  {
+    "time": 208368,
+    "editor": {
+      "content": "function plusFuenf(wert) {\n\n  return wert + 5\n}\n\nvar hallo = plusFuenf(42)\nprint(hallo)",
+      "selection": {
+        "start": 0,
+        "end": 47
+      }
+    }
+  }
+]
