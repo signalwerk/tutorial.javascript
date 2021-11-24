@@ -44,11 +44,11 @@ function Player() {
     URL.step({ chapter, step })
   );
 
-  const editorFramePosPos = editorFrames
+  const editorFrameIndex = editorFrames
     ? findLastIndex(editorFrames, (item) => item.time <= pos * 1000)
     : 0;
 
-  const editorFramePos = editorFrames ? editorFrames[editorFramePosPos] : false;
+  const editorFramePos = editorFrames ? editorFrames[editorFrameIndex] : false;
 
   return (
     <div className="player">

@@ -1,3 +1,6 @@
+// original taken from
+// https://github.com/satya164/react-simple-code-editor#readme
+
 /* @flow */
 /* global global */
 
@@ -585,7 +588,12 @@ export default class Editor extends React.Component<Props, State> {
         <pre
           className={preClassName}
           aria-hidden="true"
-          style={{ ...styles.editor, ...styles.highlight, ...contentStyle }}
+          style={{
+            ...styles.editor,
+            ...styles.highlight,
+            ...styles.noSelect,
+            ...contentStyle,
+          }}
           {...(typeof highlighted === "string"
             ? { dangerouslySetInnerHTML: { __html: highlighted + "<br />" } }
             : { children: highlighted })}
@@ -620,6 +628,8 @@ export const styles = {
   },
   highlight: {
     position: "relative",
+  },
+  noSelect: {
     pointerEvents: "none",
   },
   editor: {
